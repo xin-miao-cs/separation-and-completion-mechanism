@@ -1,0 +1,827 @@
+"Identify causal words: the context words ""accused with"" and ""federal charges of"" are causally related to the relation ""charges"".
+Deconstruct entities: based on the attributes of the entities, ""Flowers"" can be deconstructed into the several primary properties: form: person, usage: commit crimes, purpose: gain financial benefits; ""extorting payments"" can be deconstructed into the several primary properties: form: illegal activity, usage: obtain money, purpose: exploit others.
+Pair the properties between ""Flowers"" and ""extorting payments"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Flowers"" and the ""usage: obtain money"" property of ""extorting payments"", ""Flowers"" can engage in the illegal activity of extorting payments to gain financial benefits, hence we can reconstruct the scenario: criminal purpose: Flowers engages in extorting payments for financial gain.
+Reconstruct the second scenario: based on the ""usage: commit crimes"" property of ""Flowers"" and the ""purpose: exploit others"" property of ""extorting payments"", ""Flowers"" can commit crimes by extorting payments to exploit others, hence we can reconstruct the scenario: exploitative purpose: Flowers commits crimes by extorting payments.
+Reconstruct the third scenario: based on the ""purpose: gain financial benefits"" property of ""Flowers"" and the ""form: illegal activity"" property of ""extorting payments"", ""Flowers"" can engage in the illegal activity of extorting payments to gain financial benefits, hence we can reconstruct the scenario: financial purpose: Flowers engages in extorting payments for financial gain.
+Identify decisive scenario: the scenario ""criminal purpose: Flowers engages in extorting payments for financial gain"" contributes the most to the relation ""charges"".
+Uncover potential relation: if we focus on another scenario ""exploitative purpose: Flowers commits crimes by extorting payments"", in the scenario, ""extorting payments"" is the illegal activity committed by ""Flowers"", hence the commonsense relation is ""cause of death"".
+Replace causal words: to change the original relation to the potential one ""cause of death"", the identified causal words can be replaced with ""resulted in the demise of"".
+Output: <e1> Flowers </e1> was accused with two others on federal charges that resulted in the demise of <e2> extorting payments </e2>
+New relation: cause of death"
+
+"Identify causal words: the context words ""on July 12, 1913"" are causally related to the relation ""cities of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Brooklyn"" can be deconstructed into the several primary properties: form: borough, usage: provide housing, purpose: accommodate population; ""Tema Kaiser"" can be deconstructed into the several primary properties: form: person, usage: create family, purpose: nurture children.
+Pair the properties between ""Brooklyn"" and ""Tema Kaiser"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: borough"" property of ""Brooklyn"" and the ""usage: create family"" property of ""Tema Kaiser"", ""Tema Kaiser"" can create a family in ""Brooklyn"", hence we can reconstruct the scenario: family purpose: Tema Kaiser create a family in Brooklyn.
+Reconstruct the second scenario: based on the ""usage: provide housing"" property of ""Brooklyn"" and the ""purpose: nurture children"" property of ""Tema Kaiser"", ""Brooklyn"" can provide housing for ""Tema Kaiser"" to nurture her children, hence we can reconstruct the scenario: nurturing purpose: Brooklyn provide housing for Tema Kaiser's children.
+Reconstruct the third scenario: based on the ""purpose: accommodate population"" property of ""Brooklyn"" and the ""form: person"" property of ""Tema Kaiser"", ""Tema Kaiser"" can reside in ""Brooklyn"" as a person, hence we can reconstruct the scenario: residence purpose: Tema Kaiser reside in Brooklyn.
+Identify decisive scenario: the scenario ""family purpose: Tema Kaiser create a family in Brooklyn"" contribute the most to the relation ""cities of residence"".
+Uncover potential relation: if we focus on another scenario ""residence purpose: Tema Kaiser reside in Brooklyn"", in the scenario, ""Brooklyn"" is the birth city of ""Tema Kaiser"", hence the commonsense relation is ""city of birth"".
+Replace causal words: to change the original relation to the potential one ""city of birth"", the identified causal words can be replaced with ""born in"".
+Output: <e1> Brooklyn </e1>, New York, born in July 12, 1913, the ninth of 10 children of Moishe Bear and <e2> Tema Kaiser </e2>
+New relation: city of birth"
+
+"Identify causal words: the context words ""turned 10 last week"" are causally related to the relation ""siblings"".
+Deconstruct entities: based on the attributes of the entities, ""Malia Obama"" can be deconstructed into the several primary properties: form: human, usage: grow up, purpose: family bond; ""her"" can be deconstructed into the several primary properties: form: pronoun, usage: refer to someone, purpose: indicate possession.
+Pair the properties between ""Malia Obama"" and ""her"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: human"" property of ""Malia Obama"" and the ""form: pronoun"" property of ""her"", ""Malia Obama"" can have a sibling, hence we can reconstruct the scenario: family bond purpose: Malia Obama has a sibling.
+Reconstruct the second scenario: based on the ""usage: grow up"" property of ""Malia Obama"" and the ""usage: refer to someone"" property of ""her"", ""Malia Obama"" can refer to someone as her sibling, hence we can reconstruct the scenario: relationship purpose: Malia Obama refers to someone as her sibling.
+Reconstruct the third scenario: based on the ""purpose: family bond"" property of ""Malia Obama"" and the ""purpose: indicate possession"" property of ""her"", ""Malia Obama"" can have a sibling as a way to strengthen family bonds, hence we can reconstruct the scenario: bonding purpose: Malia Obama has a sibling to strengthen family bonds.
+Identify decisive scenario: the scenario ""family bond purpose: Malia Obama has a sibling"" contributes the most to the relation ""siblings"".
+Uncover potential relation: if we focus on another scenario ""relationship purpose: Malia Obama refers to someone as her sibling"", in the scenario, ""her"" is referring to a person who is not a sibling of ""Malia Obama"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Malia Obama </e1> holds the title of <e2> her </e2>
+New relation: title"
+
+"Identify causal words: the context words ""said"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""president"" can be deconstructed into the several primary properties: form: leader, usage: govern organization, purpose: make decisions; ""David Gregory"" can be deconstructed into the several primary properties: form: normal person, usage: express opinions, purpose: provide information.
+Pair the properties between ""president"" and ""David Gregory"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: leader"" property of ""president"" and the ""usage: express opinions"" property of ""David Gregory"", ""president"" can express his opinions through David Gregory, hence we can reconstruct the scenario: communication purpose: president expresses his opinions through David Gregory.
+Reconstruct the second scenario: based on the ""usage: govern organization"" property of ""president"" and the ""purpose: provide information"" property of ""David Gregory"", ""president"" can provide information to govern the organization through David Gregory, hence we can reconstruct the scenario: governance purpose: president governs the organization through David Gregory.
+Reconstruct the third scenario: based on the ""purpose: make decisions"" property of ""president"" and the ""form: normal person"" property of ""David Gregory"", ""president"" can make decisions as a normal person with the help of David Gregory, hence we can reconstruct the scenario: decision-making purpose: president makes decisions with the help of David Gregory.
+Identify decisive scenario: the scenario ""communication purpose: president expresses his opinions through David Gregory"" contributes the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: president governs the organization through David Gregory"", in the scenario, ""David Gregory"" is the employee of ""president"", hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> president </e1> of the UAW now , I 'm not sure if that 's like being the captain of the Titanic or the rescue ship that got there too late , '' works for <e2> David Gregory </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""introduced an identical bill in"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Jo Ann S. Davis"" can be deconstructed into the several primary properties: form: person, usage: introduce bills, purpose: serve in government; ""House"" can be deconstructed into the several primary properties: form: legislative body, usage: pass laws, purpose: govern.
+Pair the properties between ""Jo Ann S. Davis"" and ""House"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Jo Ann S. Davis"" and the ""usage: pass laws"" property of ""House"", ""Jo Ann S. Davis"" can work in the ""House"" to pass laws, hence we can reconstruct the scenario: legislative purpose: Jo Ann S. Davis works in the House to pass laws.
+Reconstruct the second scenario: based on the ""usage: introduce bills"" property of ""Jo Ann S. Davis"" and the ""purpose: govern"" property of ""House"", ""Jo Ann S. Davis"" can introduce bills in the ""House"" to contribute to governing, hence we can reconstruct the scenario: governance purpose: Jo Ann S. Davis introduces bills in the House.
+Reconstruct the third scenario: based on the ""purpose: serve in government"" property of ""Jo Ann S. Davis"" and the ""form: legislative body"" property of ""House"", ""Jo Ann S. Davis"" can serve in the ""House"" as an employee, hence we can reconstruct the scenario: employment purpose: Jo Ann S. Davis is an employee of the House.
+Identify decisive scenario: the scenario ""employment purpose: Jo Ann S. Davis is an employee of the House"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""legislative purpose: Jo Ann S. Davis works in the House to pass laws"", in the scenario, ""House"" is the legislative body where ""Jo Ann S. Davis"" works, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Jo Ann S. Davis </e1> holds the position of <e2> House </e2>
+New relation: title"
+
+"Identify causal words: the context words ""found dead in"" are causally related to the relation ""state or provinces of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Ohio"" can be deconstructed into the several primary properties: form: state, usage: provide governance, purpose: serve citizens; ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: specify possession.
+Pair the properties between ""Ohio"" and ""his"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: state"" property of ""Ohio"" and the ""usage: indicate ownership"" property of ""his"", ""Ohio"" can be the state that ""his"" belongs to, hence we can reconstruct the scenario: ownership purpose: his belongs to Ohio.
+Reconstruct the second scenario: based on the ""usage: provide governance"" property of ""Ohio"" and the ""purpose: specify possession"" property of ""his"", ""Ohio"" can govern ""his"", hence we can reconstruct the scenario: governance purpose: Ohio governs his.
+Reconstruct the third scenario: based on the ""purpose: serve citizens"" property of ""Ohio"" and the ""form: possessive pronoun"" property of ""his"", ""Ohio"" can serve the citizens that ""his"" belongs to, hence we can reconstruct the scenario: service purpose: Ohio serves his.
+Identify decisive scenario: the scenario ""ownership purpose: his belongs to Ohio"" contribute the most to the relation ""state or provinces of residence"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: Ohio governs his"", in the scenario, ""Ohio"" is the state that ""his"" is governed by, hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> Ohio </e1> Republican Rep. Gillmor works for <e2> his </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""led by"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Sea Shepherd Conservation Society"" can be deconstructed into the several primary properties: form: organization, usage: protect marine life, purpose: conservation; ""Paul Watson"" can be deconstructed into the several primary properties: form: individual, usage: advocate for environmental causes, purpose: activism.
+Pair the properties between ""Sea Shepherd Conservation Society"" and ""Paul Watson"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: organization"" property of ""Sea Shepherd Conservation Society"" and the ""usage: advocate for environmental causes"" property of ""Paul Watson"", ""Paul Watson"" can work for ""Sea Shepherd Conservation Society"" to advocate for environmental causes, hence we can reconstruct the scenario: employment purpose: Paul Watson works for Sea Shepherd Conservation Society.
+Reconstruct the second scenario: based on the ""usage: protect marine life"" property of ""Sea Shepherd Conservation Society"" and the ""purpose: activism"" property of ""Paul Watson"", ""Paul Watson"" can be actively involved in protecting marine life through his work with ""Sea Shepherd Conservation Society"", hence we can reconstruct the scenario: conservation purpose: Paul Watson contributes to the mission of Sea Shepherd Conservation Society.
+Reconstruct the third scenario: based on the ""purpose: conservation"" property of ""Sea Shepherd Conservation Society"" and the ""form: individual"" property of ""Paul Watson"", ""Paul Watson"" can be a supporter or member of ""Sea Shepherd Conservation Society"" in his personal capacity, hence we can reconstruct the scenario: affiliation purpose: Paul Watson is associated with Sea Shepherd Conservation Society.
+Identify decisive scenario: the scenario ""employment purpose: Paul Watson works for Sea Shepherd Conservation Society"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""conservation purpose: Paul Watson contributes to the mission of Sea Shepherd Conservation Society"", in the scenario, ""Paul Watson"" is actively involved in the mission of ""Sea Shepherd Conservation Society"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Sea Shepherd Conservation Society </e1> , holds the position of <e2> Paul Watson </e2>
+New relation: title"
+
+"Identify causal words: the context words ""die of"" are causally related to the relation ""cause of death"".
+Deconstruct entities: based on the attributes of the entities, ""Millender-McDonald"" can be deconstructed into the several primary properties: form: person, usage: serve in Congress, purpose: represent constituents; ""cancer"" can be deconstructed into the several primary properties: form: disease, usage: affect human, purpose: cause harm.
+Pair the properties between ""Millender-McDonald"" and ""cancer"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Millender-McDonald"" and the ""usage: affect human"" property of ""cancer"", ""Millender-McDonald"" can be affected by ""cancer"" during her lifetime, hence we can reconstruct the scenario: health purpose: Millender-McDonald battles cancer.
+Reconstruct the second scenario: based on the ""usage: serve in Congress"" property of ""Millender-McDonald"" and the ""purpose: cause harm"" property of ""cancer"", ""Millender-McDonald"" can serve in Congress while being affected by ""cancer"", hence we can reconstruct the scenario: career purpose: Millender-McDonald serves in Congress despite cancer.
+Reconstruct the third scenario: based on the ""purpose: represent constituents"" property of ""Millender-McDonald"" and the ""form: disease"" property of ""cancer"", ""Millender-McDonald"" can represent her constituents while battling ""cancer"", hence we can reconstruct the scenario: duty purpose: Millender-McDonald represents constituents despite cancer.
+Identify decisive scenario: the scenario ""health purpose: Millender-McDonald battles cancer"" contributes the most to the relation ""cause of death"".
+Uncover potential relation: if we focus on another scenario ""career purpose: Millender-McDonald serves in Congress despite cancer"", in the scenario, ""Millender-McDonald"" is a member of Congress, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Millender-McDonald </e1> holds the position of the second member of Congress to die this year of <e2> cancer </e2>
+New relation: title"
+
+"Identify causal words: the context words ""was born in"" are causally related to the relation ""country of birth"".
+Deconstruct entities: based on the attributes of the entities, ""Boyle"" can be deconstructed into the several primary properties: form: normal person, usage: learn skills, purpose: raise family; ""Scotland"" can be deconstructed into the several primary properties: form: country, usage: provide shelter, purpose: nurture human.
+Pair the properties between ""Boyle"" and ""Scotland"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Boyle"" and the ""usage: provide shelter"" property of ""Scotland"", ""Boyle"" can spend his entire life peacefully in ""Scotland"", hence we can reconstruct the scenario: retirement purpose: Boyle spend his final moments in Scotland.
+Reconstruct the second scenario: based on the ""usage: learn skills"" property of ""Boyle"" and the ""purpose: nurture human"" property of ""Scotland"", ""Boyle"" can lean skills and grow up in ""Scotland"", hence we can reconstruct the scenario: growth purpose: Boyle grow up in Scotland.
+Reconstruct the third scenario: based on the ""purpose: raise family"" property of ""Boyle"" and the ""form: country"" property of ""Scotland"", ""Boyle"" can live in ""Scotland"" to make money to raise his family, hence we can reconstruct the scenario: survival purpose: Boyle live in Scotland.
+Identify decisive scenario: the scenario ""growth purpose: Boyle grow up in Scotland"" contribute the most to the relation ""country of birth"".
+Uncover potential relation: if we focus on another scenario ""retirement purpose: Boyle spend his final moments in Scotland"", in the scenario, ""Scotland"" is the death country of ""Boyle"", hence the commonsense relation is ""country of death"".
+Replace causal words: to change the original relation to the potential one ""country of death"", the identified causal words can be replaced with ""died in"".
+Output: <e1> Boyle </e1> died in Blackburn , West Lothian , <e2> Scotland </e2>
+New relation: country of death"
+
+"Identify causal words: the context words ""served"" and ""chief of protocol at"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Pamela Gardner Ahearn"" can be deconstructed into the several primary properties: form: individual, usage: work, purpose: serve; ""U.S. House of Representatives"" can be deconstructed into the several primary properties: form: organization, usage: govern, purpose: represent.
+Pair the properties between ""Pamela Gardner Ahearn"" and ""U.S. House of Representatives"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: individual"" property of ""Pamela Gardner Ahearn"" and the ""usage: govern"" property of ""U.S. House of Representatives"", ""Pamela Gardner Ahearn"" can work for the ""U.S. House of Representatives"" to contribute to its governance, hence we can reconstruct the scenario: employment purpose: Pamela Gardner Ahearn works for the U.S. House of Representatives.
+Reconstruct the second scenario: based on the ""usage: work"" property of ""Pamela Gardner Ahearn"" and the ""purpose: represent"" property of ""U.S. House of Representatives"", ""Pamela Gardner Ahearn"" can work for the ""U.S. House of Representatives"" to represent its interests, hence we can reconstruct the scenario: representation purpose: Pamela Gardner Ahearn works for the U.S. House of Representatives.
+Reconstruct the third scenario: based on the ""purpose: serve"" property of ""Pamela Gardner Ahearn"" and the ""form: organization"" property of ""U.S. House of Representatives"", ""Pamela Gardner Ahearn"" can serve the ""U.S. House of Representatives"" in her role, hence we can reconstruct the scenario: service purpose: Pamela Gardner Ahearn works for the U.S. House of Representatives.
+Identify decisive scenario: the scenario ""employment purpose: Pamela Gardner Ahearn works for the U.S. House of Representatives"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""representation purpose: Pamela Gardner Ahearn works for the U.S. House of Representatives"", in the scenario, ""U.S. House of Representatives"" is the organization represented by ""Pamela Gardner Ahearn"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Pamela Gardner Ahearn </e1> holds the position of <e2> U.S. House of Representatives </e2>
+New relation: title"
+
+"Identify causal words: the context words ""born and reared in"" are causally related to the relation ""city of birth"".
+Deconstruct entities: based on the attributes of the entities, ""Irene Morgan Kirkaldy"" can be deconstructed into the several primary properties: form: normal person, usage: live life, purpose: pursue career; ""Baltimore"" can be deconstructed into the several primary properties: form: city, usage: provide opportunities, purpose: support community.
+Pair the properties between ""Irene Morgan Kirkaldy"" and ""Baltimore"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Irene Morgan Kirkaldy"" and the ""usage: provide opportunities"" property of ""Baltimore"", ""Irene Morgan Kirkaldy"" can live her life and pursue her career in ""Baltimore"", hence we can reconstruct the scenario: career purpose: Irene Morgan Kirkaldy pursue her career in Baltimore.
+Reconstruct the second scenario: based on the ""usage: live life"" property of ""Irene Morgan Kirkaldy"" and the ""purpose: support community"" property of ""Baltimore"", ""Irene Morgan Kirkaldy"" can live her life and support the community in ""Baltimore"", hence we can reconstruct the scenario: community purpose: Irene Morgan Kirkaldy support the community in Baltimore.
+Reconstruct the third scenario: based on the ""purpose: pursue career"" property of ""Irene Morgan Kirkaldy"" and the ""form: city"" property of ""Baltimore"", ""Irene Morgan Kirkaldy"" can pursue her career in the city of ""Baltimore"", hence we can reconstruct the scenario: career purpose: Irene Morgan Kirkaldy pursue her career in Baltimore.
+Identify decisive scenario: the scenario ""career purpose: Irene Morgan Kirkaldy pursue her career in Baltimore"" contributes the most to the relation ""city of birth"".
+Uncover potential relation: if we focus on another scenario ""community purpose: Irene Morgan Kirkaldy support the community in Baltimore"", in the scenario, ""Baltimore"" is the city of residence of ""Irene Morgan Kirkaldy"", hence the commonsense relation is ""cities of residence"".
+Replace causal words: to change the original relation to the potential one ""cities of residence"", the identified causal words can be replaced with ""resided in"".
+Output: <e1> Irene Morgan Kirkaldy </e1> , who resided in <e2> Baltimore </e2>
+New relation: cities of residence"
+
+"Identify causal words: the context words ""went to"" are causally related to the relation ""cities of residence"".
+Deconstruct entities: based on the attributes of the entities, ""him"" can be deconstructed into the several primary properties: form: human, usage: hold position, purpose: serve community; ""Jerusalem"" can be deconstructed into the several primary properties: form: city, usage: provide services, purpose: accommodate residents.
+Pair the properties between ""him"" and ""Jerusalem"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: human"" property of ""him"" and the ""usage: provide services"" property of ""Jerusalem"", ""him"" can reside in ""Jerusalem"" to receive services, hence we can reconstruct the scenario: service purpose: him reside in Jerusalem.
+Reconstruct the second scenario: based on the ""usage: hold position"" property of ""him"" and the ""purpose: accommodate residents"" property of ""Jerusalem"", ""him"" can hold a position in ""Jerusalem"" to serve the community, hence we can reconstruct the scenario: service purpose: him hold a position in Jerusalem.
+Reconstruct the third scenario: based on the ""purpose: serve community"" property of ""him"" and the ""form: city"" property of ""Jerusalem"", ""him"" can live in ""Jerusalem"" to serve the community, hence we can reconstruct the scenario: service purpose: him live in Jerusalem.
+Identify decisive scenario: the scenario ""service purpose: him reside in Jerusalem"" contributes the most to the relation ""cities of residence"".
+Uncover potential relation: if we focus on another scenario ""service purpose: him hold a position in Jerusalem"", in the scenario, ""Jerusalem"" is the city where ""him"" holds a position, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> him </e1> holds the position of mayor in 1965, he went to <e2> Jerusalem </e2>
+New relation: title"
+
+"Identify causal words: the context words ""executive assistant"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""Pamela Gardner Ahearn"" can be deconstructed into the several primary properties: form: human, usage: provide assistance, purpose: support; ""executive assistant"" can be deconstructed into the several primary properties: form: job position, usage: provide support, purpose: assist.
+Pair the properties between ""Pamela Gardner Ahearn"" and ""executive assistant"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: human"" property of ""Pamela Gardner Ahearn"" and the ""usage: provide support"" property of ""executive assistant"", ""Pamela Gardner Ahearn"" can provide support as an executive assistant, hence we can reconstruct the scenario: professional purpose: Pamela Gardner Ahearn works as an executive assistant.
+Reconstruct the second scenario: based on the ""usage: provide assistance"" property of ""Pamela Gardner Ahearn"" and the ""purpose: assist"" property of ""executive assistant"", ""Pamela Gardner Ahearn"" can assist in her role as an executive assistant, hence we can reconstruct the scenario: supportive purpose: Pamela Gardner Ahearn serves as an executive assistant.
+Reconstruct the third scenario: based on the ""purpose: support"" property of ""Pamela Gardner Ahearn"" and the ""form: job position"" property of ""executive assistant"", ""Pamela Gardner Ahearn"" can support in her capacity as an executive assistant, hence we can reconstruct the scenario: professional purpose: Pamela Gardner Ahearn holds the title of executive assistant.
+Identify decisive scenario: the scenario ""professional purpose: Pamela Gardner Ahearn works as an executive assistant"" contributes the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""supportive purpose: Pamela Gardner Ahearn serves as an executive assistant"", in the scenario, ""executive assistant"" is the role of ""Pamela Gardner Ahearn"", hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> Pamela Gardner Ahearn </e1> , who served nine years as chief of protocol at the U.S. House of Representatives after earlier experience with the State Department 's Office of Protocol and as Elizabeth Taylor 's works for <e2> executive assistant </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""convicted of"" are causally related to the relation ""charges"".
+Deconstruct entities: based on the attributes of the entities, ""Abdul Rahim"" can be deconstructed into the several primary properties: form: person, usage: commit crimes, purpose: achieve personal gain; ""assault"" can be deconstructed into the several primary properties: form: crime, usage: harm others, purpose: exert power.
+Pair the properties between ""Abdul Rahim"" and ""assault"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Abdul Rahim"" and the ""usage: harm others"" property of ""assault"", ""Abdul Rahim"" can commit assault to harm others, hence we can reconstruct the scenario: criminal purpose: Abdul Rahim commits assault to harm others.
+Reconstruct the second scenario: based on the ""usage: commit crimes"" property of ""Abdul Rahim"" and the ""purpose: exert power"" property of ""assault"", ""Abdul Rahim"" can commit assault to exert power, hence we can reconstruct the scenario: power purpose: Abdul Rahim commits assault to exert power.
+Reconstruct the third scenario: based on the ""purpose: achieve personal gain"" property of ""Abdul Rahim"" and the ""form: crime"" property of ""assault"", ""Abdul Rahim"" can commit assault to achieve personal gain, hence we can reconstruct the scenario: gain purpose: Abdul Rahim commits assault to achieve personal gain.
+Identify decisive scenario: the scenario ""criminal purpose: Abdul Rahim commits assault to harm others"" contributes the most to the relation ""charges"".
+Uncover potential relation: if we focus on another scenario ""power purpose: Abdul Rahim commits assault to exert power"", in the scenario, ""assault"" can be seen as a means to exert power, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Abdul Rahim </e1> holds the title of <e2> assault </e2>
+New relation: title"
+
+"Identify causal words: the context words ""joined"" and ""in"" are causally related to the relation ""countries of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Kollek"" can be deconstructed into the several primary properties: form: person, usage: participate in activities, purpose: contribute to society; ""Austria"" can be deconstructed into the several primary properties: form: country, usage: provide governance, purpose: support citizens.
+Pair the properties between ""Kollek"" and ""Austria"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Kollek"" and the ""usage: provide governance"" property of ""Austria"", ""Kollek"" can live in ""Austria"" and contribute to the governance of the country, hence we can reconstruct the scenario: leadership purpose: Kollek reside in Austria to contribute to its governance.
+Reconstruct the second scenario: based on the ""usage: participate in activities"" property of ""Kollek"" and the ""purpose: support citizens"" property of ""Austria"", ""Kollek"" can join Zionist groups and support the citizens of ""Austria"", hence we can reconstruct the scenario: activism purpose: Kollek reside in Austria to participate in Zionist activities.
+Reconstruct the third scenario: based on the ""purpose: contribute to society"" property of ""Kollek"" and the ""form: country"" property of ""Austria"", ""Kollek"" can live in ""Austria"" to contribute to the society, hence we can reconstruct the scenario: residency purpose: Kollek reside in Austria to contribute to its society.
+Identify decisive scenario: the scenario ""leadership purpose: Kollek reside in Austria to contribute to its governance"" contributes the most to the relation ""countries of residence"".
+Uncover potential relation: if we focus on another scenario ""activism purpose: Kollek reside in Austria to participate in Zionist activities"", in the scenario, ""Austria"" is the country where ""Kollek"" joined Zionist groups, hence the commonsense relation is ""origin"".
+Replace causal words: to change the original relation to the potential one ""origin"", the identified causal words can be replaced with ""originated from"".
+Output: <e1> Kollek </e1> , universally known as Teddy , originated from Zionist groups in <e2> Austria </e2>
+New relation: origin"
+
+"Identify causal words: the context words ""served a prison term for"" are causally related to the relation ""charges"".
+Deconstruct entities: based on the attributes of the entities, ""Flowers"" can be deconstructed into the several primary properties: form: person, usage: engage in illegal activities, purpose: gain personal benefits; ""bribery"" can be deconstructed into the several primary properties: form: illegal act, usage: influence decision, purpose: obtain favors.
+Pair the properties between ""Flowers"" and ""bribery"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Flowers"" and the ""usage: influence decision"" property of ""bribery"", ""Flowers"" can engage in bribery to influence decisions, hence we can reconstruct the scenario: corruption purpose: Flowers engages in bribery to influence decisions.
+Reconstruct the second scenario: based on the ""usage: engage in illegal activities"" property of ""Flowers"" and the ""purpose: obtain favors"" property of ""bribery"", ""Flowers"" can commit bribery to obtain favors, hence we can reconstruct the scenario: personal gain purpose: Flowers commits bribery to obtain favors.
+Reconstruct the third scenario: based on the ""purpose: gain personal benefits"" property of ""Flowers"" and the ""form: illegal act"" property of ""bribery"", ""Flowers"" can involve in bribery as an illegal act to gain personal benefits, hence we can reconstruct the scenario: illegal activity purpose: Flowers involves in bribery as an illegal act to gain personal benefits.
+Identify decisive scenario: the scenario ""corruption purpose: Flowers engages in bribery to influence decisions"" contributes the most to the relation ""charges"".
+Uncover potential relation: if we focus on another scenario ""personal gain purpose: Flowers commits bribery to obtain favors"", in the scenario, ""bribery"" is the act committed by ""Flowers"" to obtain favors, hence the commonsense relation is ""cause of death"".
+Replace causal words: to change the original relation to the potential one ""cause of death"", the identified causal words can be replaced with ""resulted in"".
+Output: <e1> Flowers </e1>, who later resulted in a prison term for <e2> bribery </e2>
+New relation: cause of death"
+
+"Identify causal words: the context words ""operas in Mortier's first season"" are causally related to the relation ""countries of residence"".
+Deconstruct entities: based on the attributes of the entities, ""American"" can be deconstructed into the several primary properties: nationality: American, occupation: opera performer, purpose: showcase talent; ""Charles Wuorinen"" can be deconstructed into the several primary properties: nationality: American, occupation: composer, purpose: create music.
+Pair the properties between ""American"" and ""Charles Wuorinen"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""nationality: American"" property of ""American"" and the ""occupation: composer"" property of ""Charles Wuorinen"", ""Charles Wuorinen"" can reside in America to create music, hence we can reconstruct the scenario: creative purpose: Charles Wuorinen resides in America to create music.
+Reconstruct the second scenario: based on the ""occupation: opera performer"" property of ""American"" and the ""purpose: create music"" property of ""Charles Wuorinen"", ""American"" can perform operas composed by ""Charles Wuorinen"" in America, hence we can reconstruct the scenario: performance purpose: American performs Charles Wuorinen's operas in America.
+Reconstruct the third scenario: based on the ""purpose: showcase talent"" property of ""American"" and the ""nationality: American"" property of ""Charles Wuorinen"", ""American"" can showcase their talent in America, hence we can reconstruct the scenario: talent purpose: American showcases talent in America.
+Identify decisive scenario: the scenario ""creative purpose: Charles Wuorinen resides in America to create music"" contributes the most to the relation ""countries of residence"".
+Uncover potential relation: if we focus on another scenario ""talent purpose: American showcases talent in America"", in the scenario, ""American"" is a citizen of America, hence the commonsense relation is ""country of birth"".
+Replace causal words: to change the original relation to the potential one ""country of birth"", the identified causal words can be replaced with ""born in"".
+Output: <e1> American </e1> operas in Mortier's first season, among them ""Antony and Cleopatra,"" Richard Danielpour's ""Margaret Garner"" and <e2> Charles Wuorinen </e2>
+New relation: country of birth"
+
+"Identify causal words: the context words ""travel to"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""John Negroponte"" can be deconstructed into the several primary properties: form: person, usage: engage in diplomatic activities, purpose: represent a country; ""State Department"" can be deconstructed into the several primary properties: form: government agency, usage: oversee foreign affairs, purpose: maintain diplomatic relations.
+Pair the properties between ""John Negroponte"" and ""State Department"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""John Negroponte"" and the ""usage: oversee foreign affairs"" property of ""State Department"", ""John Negroponte"" can work for the ""State Department"" to oversee foreign affairs, hence we can reconstruct the scenario: employment purpose: John Negroponte works for the State Department.
+Reconstruct the second scenario: based on the ""usage: engage in diplomatic activities"" property of ""John Negroponte"" and the ""purpose: maintain diplomatic relations"" property of ""State Department"", ""John Negroponte"" can engage in diplomatic activities on behalf of the ""State Department"", hence we can reconstruct the scenario: representation purpose: John Negroponte represents the State Department.
+Reconstruct the third scenario: based on the ""purpose: represent a country"" property of ""John Negroponte"" and the ""form: government agency"" property of ""State Department"", ""John Negroponte"" can represent a country through his work at the ""State Department"", hence we can reconstruct the scenario: diplomatic purpose: John Negroponte works at the State Department for diplomatic reasons.
+Identify decisive scenario: the scenario ""employment purpose: John Negroponte works for the State Department"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""representation purpose: John Negroponte represents the State Department"", in the scenario, ""John Negroponte"" is representing the ""State Department"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> John Negroponte </e1> holds the position of <e2> State Department </e2>
+New relation: title"
+
+"Identify causal words: the context words ""her daughter"" are causally related to the relation ""children"".
+Deconstruct entities: based on the attributes of the entities, ""She"" can be deconstructed into the several primary properties: form: female, usage: lend name and voice, purpose: support Multiple Sclerosis Society; ""Meredith"" can be deconstructed into the several primary properties: form: female, usage: unknown, purpose: unknown.
+Pair the properties between ""She"" and ""Meredith"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: female"" property of ""She"" and the ""usage: unknown"" property of ""Meredith"", ""She"" can give birth to ""Meredith"", hence we can reconstruct the scenario: birth purpose: She gives birth to Meredith.
+Reconstruct the second scenario: based on the ""usage: lend name and voice"" property of ""She"" and the ""purpose: unknown"" property of ""Meredith"", ""She"" can lend her name and voice to support the Multiple Sclerosis Society, hence we can reconstruct the scenario: support purpose: She supports the Multiple Sclerosis Society with Meredith.
+Reconstruct the third scenario: based on the ""purpose: support Multiple Sclerosis Society"" property of ""She"" and the ""form: female"" property of ""Meredith"", ""She"" can support the Multiple Sclerosis Society by involving Meredith, hence we can reconstruct the scenario: involvement purpose: She involves Meredith in supporting the Multiple Sclerosis Society.
+Identify decisive scenario: the scenario ""birth purpose: She gives birth to Meredith"" contributes the most to the relation ""children"".
+Uncover potential relation: if we focus on another scenario ""support purpose: She supports the Multiple Sclerosis Society with Meredith"", in the scenario, ""Meredith"" is involved in supporting the Multiple Sclerosis Society, hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> She </e1> also lent her name and voice to the Multiple Sclerosis Society ; works for <e2> Meredith </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""other children"" are causally related to the relation ""children"".
+Deconstruct entities: based on the attributes of the entities, ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: specify relationship; ""Kelly Harris"" can be deconstructed into the several primary properties: form: person's name, usage: identify individual, purpose: differentiate from others.
+Pair the properties between ""his"" and ""Kelly Harris"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: possessive pronoun"" property of ""his"" and the ""usage: identify individual"" property of ""Kelly Harris"", ""his"" can be used to specify the relationship between the person and ""Kelly Harris"", hence we can reconstruct the scenario: family purpose: Kelly Harris is a member of his family.
+Reconstruct the second scenario: based on the ""usage: indicate ownership"" property of ""his"" and the ""purpose: differentiate from others"" property of ""Kelly Harris"", ""his"" can be used to indicate that ""Kelly Harris"" is one of the children that the person has, hence we can reconstruct the scenario: parent-child purpose: Kelly Harris is one of his children.
+Reconstruct the third scenario: based on the ""purpose: specify relationship"" property of ""his"" and the ""form: person's name"" property of ""Kelly Harris"", ""his"" can be used to specify the relationship between the person and ""Kelly Harris"", hence we can reconstruct the scenario: relationship purpose: Kelly Harris has a relationship with him.
+Identify decisive scenario: the scenario ""parent-child purpose: Kelly Harris is one of his children"" contributes the most to the relation ""children"".
+Uncover potential relation: if we focus on another scenario ""family purpose: Kelly Harris is a member of his family"", in the scenario, ""Kelly Harris"" is a family member of the person, hence the commonsense relation is ""spouse"".
+Replace causal words: to change the original relation to the potential one ""spouse"", the identified causal words can be replaced with ""married to"".
+Output: <e1> his </e1> spouse , Silvestre , Elva Corrales , Robert and <e2> Kelly Harris </e2>
+New relation: spouse"
+
+"Identify causal words: the context words ""in Italy where"" are causally related to the relation ""date of death"".
+Deconstruct entities: based on the attributes of the entities, ""Monday"" can be deconstructed into the several primary properties: form: day of the week, usage: mark time, purpose: organize schedule; ""he"" can be deconstructed into the several primary properties: form: human, usage: perform actions, purpose: live life.
+Pair the properties between ""Monday"" and ""he"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: day of the week"" property of ""Monday"" and the ""usage: perform actions"" property of ""he"", ""he"" can perform actions on ""Monday"", hence we can reconstruct the scenario: routine purpose: he performs actions on Monday.
+Reconstruct the second scenario: based on the ""usage: mark time"" property of ""Monday"" and the ""purpose: live life"" property of ""he"", ""he"" can live his life according to the time marked by ""Monday"", hence we can reconstruct the scenario: time purpose: he lives his life according to Monday.
+Reconstruct the third scenario: based on the ""purpose: organize schedule"" property of ""Monday"" and the ""form: human"" property of ""he"", ""he"" can organize his schedule based on the events happening on ""Monday"", hence we can reconstruct the scenario: planning purpose: he organizes his schedule based on Monday.
+Identify decisive scenario: the scenario ""time purpose: he lives his life according to Monday"" contribute the most to the relation ""date of death"".
+Uncover potential relation: if we focus on another scenario ""routine purpose: he performs actions on Monday"", in the scenario, ""Monday"" is the day of the week when ""he"" performs actions, hence the commonsense relation is ""date of birth"".
+Replace causal words: to change the original relation to the potential one ""date of birth"", the identified causal words can be replaced with ""born on"".
+Output: <e1> Monday </e1> is the day of birth of <e2> he </e2>
+New relation: date of birth"
+
+"Identify causal words: the context words ""spokesman for"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Chris Bentley"" can be deconstructed into the several primary properties: form: normal person, usage: work, purpose: earn a living; ""U.S. Citizenship and Immigration Services"" can be deconstructed into the several primary properties: form: government agency, usage: provide services, purpose: regulate immigration.
+Pair the properties between ""Chris Bentley"" and ""U.S. Citizenship and Immigration Services"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Chris Bentley"" and the ""usage: provide services"" property of ""U.S. Citizenship and Immigration Services"", ""Chris Bentley"" can work for ""U.S. Citizenship and Immigration Services"" to provide services, hence we can reconstruct the scenario: employment purpose: Chris Bentley works for U.S. Citizenship and Immigration Services.
+Reconstruct the second scenario: based on the ""usage: work"" property of ""Chris Bentley"" and the ""purpose: regulate immigration"" property of ""U.S. Citizenship and Immigration Services"", ""Chris Bentley"" can work for ""U.S. Citizenship and Immigration Services"" to regulate immigration, hence we can reconstruct the scenario: regulatory purpose: Chris Bentley works for U.S. Citizenship and Immigration Services.
+Reconstruct the third scenario: based on the ""purpose: earn a living"" property of ""Chris Bentley"" and the ""form: government agency"" property of ""U.S. Citizenship and Immigration Services"", ""Chris Bentley"" can work for ""U.S. Citizenship and Immigration Services"" to earn a living, hence we can reconstruct the scenario: livelihood purpose: Chris Bentley works for U.S. Citizenship and Immigration Services.
+Identify decisive scenario: the scenario ""employment purpose: Chris Bentley works for U.S. Citizenship and Immigration Services"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""regulatory purpose: Chris Bentley works for U.S. Citizenship and Immigration Services"", in the scenario, ""U.S. Citizenship and Immigration Services"" is the regulatory agency of ""Chris Bentley"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Chris Bentley </e1> holds the position of a spokesman for <e2> U.S. Citizenship and Immigration Services </e2>
+New relation: title"
+
+"Identify causal words: the context words ""Secretary"" and ""he"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""Secretary"" can be deconstructed into the several primary properties: form: occupation, usage: perform administrative tasks, purpose: support an organization; ""he"" can be deconstructed into the several primary properties: form: male, usage: perform actions, purpose: accomplish tasks.
+Pair the properties between ""Secretary"" and ""he"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: occupation"" property of ""Secretary"" and the ""usage: perform actions"" property of ""he"", ""Secretary"" can perform administrative tasks as a male, hence we can reconstruct the scenario: professional purpose: he performs administrative tasks as a Secretary.
+Reconstruct the second scenario: based on the ""usage: perform administrative tasks"" property of ""Secretary"" and the ""purpose: accomplish tasks"" property of ""he"", ""Secretary"" can support an organization by accomplishing tasks, hence we can reconstruct the scenario: supportive purpose: he supports an organization as a Secretary.
+Reconstruct the third scenario: based on the ""purpose: support an organization"" property of ""Secretary"" and the ""form: male"" property of ""he"", ""Secretary"" can provide support to an organization as a male, hence we can reconstruct the scenario: gender-specific purpose: he provides support to an organization as a male Secretary.
+Identify decisive scenario: the scenario ""professional purpose: he performs administrative tasks as a Secretary"" contributes the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""supportive purpose: he supports an organization as a Secretary"", in the scenario, ""he"" is an employee of ""Secretary"", hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> Secretary </e1> George Sheldon doting on his staff Monday as <e2> he </e2> works for George Sheldon.
+New relation: employee of"
+
+"Identify causal words: the context words ""died in"" are causally related to the relation ""date of death"".
+Deconstruct entities: based on the attributes of the entities, ""Louise B. DeBlanc"" can be deconstructed into the several primary properties: form: normal person, usage: live life, purpose: contribute to society; ""2005"" can be deconstructed into the several primary properties: form: year, usage: mark time, purpose: measure duration.
+Pair the properties between ""Louise B. DeBlanc"" and ""2005"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Louise B. DeBlanc"" and the ""usage: mark time"" property of ""2005"", ""Louise B. DeBlanc"" can live her entire life until the year ""2005"", hence we can reconstruct the scenario: lifespan purpose: Louise B. DeBlanc lived until 2005.
+Reconstruct the second scenario: based on the ""usage: live life"" property of ""Louise B. DeBlanc"" and the ""purpose: measure duration"" property of ""2005"", ""Louise B. DeBlanc"" can live her life for a certain duration until the year ""2005"", hence we can reconstruct the scenario: duration purpose: Louise B. DeBlanc lived for a certain duration until 2005.
+Reconstruct the third scenario: based on the ""purpose: contribute to society"" property of ""Louise B. DeBlanc"" and the ""form: year"" property of ""2005"", ""Louise B. DeBlanc"" can make significant contributions to society in the year ""2005"", hence we can reconstruct the scenario: contribution purpose: Louise B. DeBlanc made significant contributions in 2005.
+Identify decisive scenario: the scenario ""lifespan purpose: Louise B. DeBlanc lived until 2005"" contributes the most to the relation ""date of death"".
+Uncover potential relation: if we focus on another scenario ""duration purpose: Louise B. DeBlanc lived for a certain duration until 2005"", in the scenario, ""2005"" represents the duration of Louise B. DeBlanc's life, hence the commonsense relation is ""age"".
+Replace causal words: to change the original relation to the potential one ""age"", the identified causal words can be replaced with ""lived for"".
+Output: <e1> Louise B. DeBlanc </e1> , lived for <e2> 2005 </e2>
+New relation: age"
+
+"Identify causal words: the context words ""chairman of"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""HU SHENG-CHENG"" can be deconstructed into the several primary properties: form: person, usage: hold position, purpose: contribute to organization; ""Council for Economic Planning and Development -LRB- CEPD -RRB-"" can be deconstructed into the several primary properties: form: organization, usage: plan economy, purpose: promote economic development.
+Pair the properties between ""HU SHENG-CHENG"" and ""Council for Economic Planning and Development -LRB- CEPD -RRB-"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""HU SHENG-CHENG"" and the ""usage: plan economy"" property of ""Council for Economic Planning and Development -LRB- CEPD -RRB-"", ""HU SHENG-CHENG"" can hold a position in ""Council for Economic Planning and Development -LRB- CEPD -RRB-"", hence we can reconstruct the scenario: employment purpose: HU SHENG-CHENG works for Council for Economic Planning and Development -LRB- CEPD -RRB-.
+Reconstruct the second scenario: based on the ""usage: hold position"" property of ""HU SHENG-CHENG"" and the ""purpose: promote economic development"" property of ""Council for Economic Planning and Development -LRB- CEPD -RRB-"", ""HU SHENG-CHENG"" can hold a position in ""Council for Economic Planning and Development -LRB- CEPD -RRB-"" to contribute to the organization, hence we can reconstruct the scenario: contribution purpose: HU SHENG-CHENG contributes to Council for Economic Planning and Development -LRB- CEPD -RRB-.
+Reconstruct the third scenario: based on the ""purpose: contribute to organization"" property of ""HU SHENG-CHENG"" and the ""form: organization"" property of ""Council for Economic Planning and Development -LRB- CEPD -RRB-"", ""HU SHENG-CHENG"" can work for ""Council for Economic Planning and Development -LRB- CEPD -RRB-"" to contribute to the organization, hence we can reconstruct the scenario: employment purpose: HU SHENG-CHENG works for Council for Economic Planning and Development -LRB- CEPD -RRB-.
+Identify decisive scenario: the scenario ""employment purpose: HU SHENG-CHENG works for Council for Economic Planning and Development -LRB- CEPD -RRB-"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""contribution purpose: HU SHENG-CHENG contributes to Council for Economic Planning and Development -LRB- CEPD -RRB-"", in the scenario, ""Council for Economic Planning and Development -LRB- CEPD -RRB-"" is the organization that ""HU SHENG-CHENG"" contributes to, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> HU SHENG-CHENG </e1> holds the position of <e2> Council for Economic Planning and Development -LRB- CEPD -RRB- </e2>
+New relation: title"
+
+"Identify causal words: the context words ""out of touch with"" are causally related to the relation ""origin"".
+Deconstruct entities: based on the attributes of the entities, ""him"" can be deconstructed into the several primary properties: form: person, usage: describe, purpose: provide information; ""Egyptian"" can be deconstructed into the several primary properties: form: nationality, usage: identify, purpose: categorize.
+Pair the properties between ""him"" and ""Egyptian"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""him"" and the ""usage: identify"" property of ""Egyptian"", ""him"" can be identified as an Egyptian person, hence we can reconstruct the scenario: identification purpose: him is identified as an Egyptian.
+Reconstruct the second scenario: based on the ""usage: describe"" property of ""him"" and the ""purpose: categorize"" property of ""Egyptian"", ""him"" can be described as belonging to the category of Egyptians, hence we can reconstruct the scenario: categorization purpose: him is categorized as an Egyptian.
+Reconstruct the third scenario: based on the ""purpose: provide information"" property of ""him"" and the ""form: nationality"" property of ""Egyptian"", ""him"" can provide information about the nationality of Egyptians, hence we can reconstruct the scenario: information purpose: him provides information about Egyptians.
+Identify decisive scenario: the scenario ""identification purpose: him is identified as an Egyptian"" contributes the most to the relation ""origin"".
+Uncover potential relation: if we focus on another scenario ""categorization purpose: him is categorized as an Egyptian"", in the scenario, ""Egyptian"" is the category that ""him"" belongs to, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""is referred to as"".
+Output: <e1> him </e1> is referred to as <e2> Egyptian </e2>
+New relation: title"
+
+"Identify causal words: the context words ""will be replaced by"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Wuffli"" can be deconstructed into the several primary properties: form: person, usage: work, purpose: lead organization; ""UBS"" can be deconstructed into the several primary properties: form: company, usage: provide financial services, purpose: generate profit.
+Pair the properties between ""Wuffli"" and ""UBS"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Wuffli"" and the ""usage: provide financial services"" property of ""UBS"", ""Wuffli"" can work for ""UBS"" to provide financial services, hence we can reconstruct the scenario: employment purpose: Wuffli is an employee of UBS.
+Reconstruct the second scenario: based on the ""usage: work"" property of ""Wuffli"" and the ""purpose: generate profit"" property of ""UBS"", ""Wuffli"" can work for ""UBS"" to generate profit, hence we can reconstruct the scenario: business purpose: Wuffli is an employee of UBS.
+Reconstruct the third scenario: based on the ""purpose: lead organization"" property of ""Wuffli"" and the ""form: company"" property of ""UBS"", ""Wuffli"" can lead ""UBS"" as an organization, hence we can reconstruct the scenario: leadership purpose: Wuffli is an employee of UBS.
+Identify decisive scenario: the scenario ""employment purpose: Wuffli is an employee of UBS"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""business purpose: Wuffli is an employee of UBS"", in the scenario, ""UBS"" is the company where ""Wuffli"" holds a position, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Wuffli </e1> holds the position of his deputy, Marcus Rohner, who has served as chairman and chief executive of the company's corporate banking and global wealth management arms, <e2> UBS </e2>
+New relation: title"
+
+"Identify causal words: the context words ""vice chairwoman of"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Carolyn Maloney"" can be deconstructed into the several primary properties: form: human, usage: work, purpose: contribute to society; ""Joint Economic Committee"" can be deconstructed into the several primary properties: form: committee, usage: research, purpose: provide economic analysis.
+Pair the properties between ""Carolyn Maloney"" and ""Joint Economic Committee"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: human"" property of ""Carolyn Maloney"" and the ""usage: research"" property of ""Joint Economic Committee"", ""Carolyn Maloney"" can work in ""Joint Economic Committee"" to conduct research, hence we can reconstruct the scenario: research purpose: Carolyn Maloney works in the Joint Economic Committee.
+Reconstruct the second scenario: based on the ""usage: work"" property of ""Carolyn Maloney"" and the ""purpose: provide economic analysis"" property of ""Joint Economic Committee"", ""Carolyn Maloney"" can work in ""Joint Economic Committee"" to provide economic analysis, hence we can reconstruct the scenario: analysis purpose: Carolyn Maloney works in the Joint Economic Committee.
+Reconstruct the third scenario: based on the ""purpose: contribute to society"" property of ""Carolyn Maloney"" and the ""form: committee"" property of ""Joint Economic Committee"", ""Carolyn Maloney"" can work in ""Joint Economic Committee"" to contribute to society, hence we can reconstruct the scenario: contribution purpose: Carolyn Maloney works in the Joint Economic Committee.
+Identify decisive scenario: the scenario ""research purpose: Carolyn Maloney works in the Joint Economic Committee"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""contribution purpose: Carolyn Maloney works in the Joint Economic Committee"", in the scenario, ""Joint Economic Committee"" is the organization that Carolyn Maloney contributes to, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Carolyn Maloney </e1> holds the position of <e2> Joint Economic Committee </e2>
+New relation: title"
+
+"Identify causal words: the context words ""released her long-awaited debut album"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Erika Rose"" can be deconstructed into the several primary properties: form: artist, usage: create music, purpose: entertain audience; ""Infinity Le Monde Recorded Music"" can be deconstructed into the several primary properties: form: music company, usage: produce music, purpose: promote artists.
+Pair the properties between ""Erika Rose"" and ""Infinity Le Monde Recorded Music"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: artist"" property of ""Erika Rose"" and the ""usage: produce music"" property of ""Infinity Le Monde Recorded Music"", ""Erika Rose"" can work as an artist under the music company ""Infinity Le Monde Recorded Music"", hence we can reconstruct the scenario: employment purpose: Erika Rose works for Infinity Le Monde Recorded Music.
+Reconstruct the second scenario: based on the ""usage: create music"" property of ""Erika Rose"" and the ""purpose: promote artists"" property of ""Infinity Le Monde Recorded Music"", ""Erika Rose"" can create music and get promoted by ""Infinity Le Monde Recorded Music"", hence we can reconstruct the scenario: promotion purpose: Erika Rose gets promoted by Infinity Le Monde Recorded Music.
+Reconstruct the third scenario: based on the ""purpose: entertain audience"" property of ""Erika Rose"" and the ""form: music company"" property of ""Infinity Le Monde Recorded Music"", ""Erika Rose"" can entertain the audience through the music company ""Infinity Le Monde Recorded Music"", hence we can reconstruct the scenario: entertainment purpose: Erika Rose entertains the audience through Infinity Le Monde Recorded Music.
+Identify decisive scenario: the scenario ""employment purpose: Erika Rose works for Infinity Le Monde Recorded Music"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""promotion purpose: Erika Rose gets promoted by Infinity Le Monde Recorded Music"", in the scenario, ""Infinity Le Monde Recorded Music"" is the promoter of ""Erika Rose"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title"".
+Output: <e1> Erika Rose </e1> holds the title of her long-awaited debut album, ""Rosegarden"", as of 24th July 2007 via <e2> Infinity Le Monde Recorded Music </e2>
+New relation: title"
+
+"Identify causal words: the context words ""opted to live in"" are causally related to the relation ""countries of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Hamilton"" can be deconstructed into the several primary properties: form: normal person, usage: pursue career, purpose: seek opportunities; ""Switzerland"" can be deconstructed into the several primary properties: form: country, usage: provide citizenship, purpose: offer stability.
+Pair the properties between ""Hamilton"" and ""Switzerland"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Hamilton"" and the ""usage: provide citizenship"" property of ""Switzerland"", ""Hamilton"" can become a citizen of ""Switzerland"", hence we can reconstruct the scenario: citizenship purpose: Hamilton becomes a citizen of Switzerland.
+Reconstruct the second scenario: based on the ""usage: pursue career"" property of ""Hamilton"" and the ""purpose: offer stability"" property of ""Switzerland"", ""Hamilton"" can pursue career opportunities in ""Switzerland"", hence we can reconstruct the scenario: career purpose: Hamilton pursues career in Switzerland.
+Reconstruct the third scenario: based on the ""purpose: seek opportunities"" property of ""Hamilton"" and the ""form: country"" property of ""Switzerland"", ""Hamilton"" can live in ""Switzerland"" to seek better opportunities, hence we can reconstruct the scenario: opportunity purpose: Hamilton lives in Switzerland.
+Identify decisive scenario: the scenario ""citizenship purpose: Hamilton becomes a citizen of Switzerland"" contributes the most to the relation ""countries of residence"".
+Uncover potential relation: if we focus on another scenario ""career purpose: Hamilton pursues career in Switzerland"", in the scenario, ""Switzerland"" is the country where ""Hamilton"" works and resides, hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> Hamilton </e1> works for <e2> Switzerland </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""son"" are causally related to the relation ""siblings"".
+Deconstruct entities: based on the attributes of the entities, ""Brenda Morgan Bacquie"" can be deconstructed into the several primary properties: form: normal person, usage: raise family, purpose: nurture human; ""Sherwood Morgan Jr."" can be deconstructed into the several primary properties: form: normal person, usage: learn skills, purpose: grow up.
+Pair the properties between ""Brenda Morgan Bacquie"" and ""Sherwood Morgan Jr."" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Brenda Morgan Bacquie"" and the ""usage: learn skills"" property of ""Sherwood Morgan Jr."", ""Brenda Morgan Bacquie"" can raise ""Sherwood Morgan Jr."" to become a skilled individual, hence we can reconstruct the scenario: nurturing purpose: Brenda Morgan Bacquie raises Sherwood Morgan Jr. to become a skilled individual.
+Reconstruct the second scenario: based on the ""usage: raise family"" property of ""Brenda Morgan Bacquie"" and the ""purpose: grow up"" property of ""Sherwood Morgan Jr."", ""Brenda Morgan Bacquie"" can raise ""Sherwood Morgan Jr."" to grow up and become a responsible individual, hence we can reconstruct the scenario: nurturing purpose: Brenda Morgan Bacquie raises Sherwood Morgan Jr. to grow up and become a responsible individual.
+Reconstruct the third scenario: based on the ""purpose: nurture human"" property of ""Brenda Morgan Bacquie"" and the ""form: normal person"" property of ""Sherwood Morgan Jr."", ""Brenda Morgan Bacquie"" can nurture ""Sherwood Morgan Jr."" to become a well-rounded individual, hence we can reconstruct the scenario: nurturing purpose: Brenda Morgan Bacquie nurtures Sherwood Morgan Jr. to become a well-rounded individual.
+Identify decisive scenario: the scenario ""nurturing purpose: Brenda Morgan Bacquie raises Sherwood Morgan Jr. to become a skilled individual"" contributes the most to the relation ""siblings"".
+Uncover potential relation: if we focus on another scenario ""nurturing purpose: Brenda Morgan Bacquie raises Sherwood Morgan Jr. to grow up and become a responsible individual"", in the scenario, ""Sherwood Morgan Jr."" is the child of ""Brenda Morgan Bacquie"", hence the commonsense relation is ""children"".
+Replace causal words: to change the original relation to the potential one ""children"", the identified causal words can be replaced with ""is the parent of"".
+Output: <e1> Brenda Morgan Bacquie </e1> is the parent of <e2> Sherwood Morgan Jr. </e2>
+New relation: children"
+
+"Identify causal words: the context words ""is survived by"" are causally related to the relation ""children"".
+Deconstruct entities: based on the attributes of the entities, ""Anderson"" can be deconstructed into the several primary properties: form: normal person, usage: raise family, purpose: continue lineage; ""William"" can be deconstructed into the several primary properties: form: normal person, usage: learn skills, purpose: contribute to society.
+Pair the properties between ""Anderson"" and ""William"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Anderson"" and the ""usage: learn skills"" property of ""William"", ""Anderson"" can raise ""William"" to become a skilled individual, hence we can reconstruct the scenario: upbringing purpose: Anderson raises William to become a skilled individual.
+Reconstruct the second scenario: based on the ""usage: raise family"" property of ""Anderson"" and the ""purpose: contribute to society"" property of ""William"", ""Anderson"" can have ""William"" as his child to contribute to society, hence we can reconstruct the scenario: lineage purpose: Anderson has William as his child to continue the family lineage.
+Identify decisive scenario: the scenario ""lineage purpose: Anderson has William as his child to continue the family lineage"" contributes the most to the relation ""children"".
+Uncover potential relation: if we focus on another scenario ""upbringing purpose: Anderson raises William to become a skilled individual"", in the scenario, ""William"" is the student of ""Anderson"", hence the commonsense relation is ""schools attended"".
+Replace causal words: to change the original relation to the potential one ""schools attended"", the identified causal words can be replaced with ""studied under"".
+Output: <e1> Anderson </e1> is survived by a daughter , Jane Anderson , of Leesburg ; and three sons , Thomas , of Leesburg ; Michael , of Haymarket , Va , and <e2> William </e2> studied under Anderson.
+New relation: schools attended"
+
+"Identify causal words: the context words ""severed"" are causally related to the relation ""state or provinces of residence"".
+Deconstruct entities: based on the attributes of the entities, ""New Mexico"" can be deconstructed into the several primary properties: form: state, usage: provide governance, purpose: serve the people; ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: refer to someone or something.
+Pair the properties between ""New Mexico"" and ""his"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: state"" property of ""New Mexico"" and the ""usage: indicate ownership"" property of ""his"", ""New Mexico"" can be the state that ""his"" belongs to, hence we can reconstruct the scenario: ownership purpose: his belongs to New Mexico.
+Reconstruct the second scenario: based on the ""usage: provide governance"" property of ""New Mexico"" and the ""purpose: refer to someone or something"" property of ""his"", ""New Mexico"" can govern ""his"", hence we can reconstruct the scenario: governance purpose: New Mexico governs his.
+Reconstruct the third scenario: based on the ""purpose: serve the people"" property of ""New Mexico"" and the ""form: possessive pronoun"" property of ""his"", ""New Mexico"" can serve the people that ""his"" represents, hence we can reconstruct the scenario: service purpose: New Mexico serves his.
+Identify decisive scenario: the scenario ""ownership purpose: his belongs to New Mexico"" contribute the most to the relation ""state or provinces of residence"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: New Mexico governs his"", in the scenario, ""New Mexico"" is the state that ""his"" is governed by, hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> New Mexico </e1> , who works for <e2> his </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""grew up in"" are causally related to the relation ""state or provinces of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Harry Shuler Dent"" can be deconstructed into the several primary properties: form: normal person, usage: receive education, purpose: pursue career; ""S.C."" can be deconstructed into the several primary properties: form: state, usage: provide governance, purpose: accommodate residents.
+Pair the properties between ""Harry Shuler Dent"" and ""S.C."" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Harry Shuler Dent"" and the ""usage: provide governance"" property of ""S.C."", ""Harry Shuler Dent"" can live in ""S.C."" to receive education, hence we can reconstruct the scenario: education purpose: Harry Shuler Dent grew up in S.C.
+Reconstruct the second scenario: based on the ""usage: receive education"" property of ""Harry Shuler Dent"" and the ""purpose: accommodate residents"" property of ""S.C."", ""Harry Shuler Dent"" can receive education in ""S.C."" and pursue his career there, hence we can reconstruct the scenario: career purpose: Harry Shuler Dent graduated cum laude from Presbyterian College in Clinton, S.C.
+Reconstruct the third scenario: based on the ""purpose: pursue career"" property of ""Harry Shuler Dent"" and the ""form: state"" property of ""S.C."", ""Harry Shuler Dent"" can live in ""S.C."" to pursue his career, hence we can reconstruct the scenario: career purpose: Harry Shuler Dent grew up in St. Matthews, S.C.
+Identify decisive scenario: the scenario ""education purpose: Harry Shuler Dent grew up in S.C."" contributes the most to the relation ""state or provinces of residence"".
+Uncover potential relation: if we focus on another scenario ""career purpose: Harry Shuler Dent graduated cum laude from Presbyterian College in Clinton, S.C."", in the scenario, ""S.C."" is the state where ""Harry Shuler Dent"" received education, hence the commonsense relation is ""state or province of birth"".
+Replace causal words: to change the original relation to the potential one ""state or province of birth"", the identified causal words can be replaced with ""born in"".
+Output: <e1> Harry Shuler Dent </e1> , born in <e2> S.C. </e2>
+New relation: state or province of birth"
+
+"Identify causal words: the context words ""editor of"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Abdul Karim al-Khawinay"" can be deconstructed into the several primary properties: form: person, usage: edit content, purpose: contribute to a publication; ""Al-Shura"" can be deconstructed into the several primary properties: form: publication, usage: provide information, purpose: disseminate news.
+Pair the properties between ""Abdul Karim al-Khawinay"" and ""Al-Shura"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Abdul Karim al-Khawinay"" and the ""usage: provide information"" property of ""Al-Shura"", ""Abdul Karim al-Khawinay"" can work for ""Al-Shura"" to provide information, hence we can reconstruct the scenario: employment purpose: Abdul Karim al-Khawinay works as an editor for Al-Shura.
+Reconstruct the second scenario: based on the ""usage: edit content"" property of ""Abdul Karim al-Khawinay"" and the ""purpose: disseminate news"" property of ""Al-Shura"", ""Abdul Karim al-Khawinay"" can edit content for ""Al-Shura"" to disseminate news, hence we can reconstruct the scenario: contribution purpose: Abdul Karim al-Khawinay contributes as an editor to Al-Shura.
+Reconstruct the third scenario: based on the ""purpose: contribute to a publication"" property of ""Abdul Karim al-Khawinay"" and the ""form: publication"" property of ""Al-Shura"", ""Abdul Karim al-Khawinay"" can contribute to ""Al-Shura"" as an editor, hence we can reconstruct the scenario: collaboration purpose: Abdul Karim al-Khawinay collaborates with Al-Shura as an editor.
+Identify decisive scenario: the scenario ""employment purpose: Abdul Karim al-Khawinay works as an editor for Al-Shura"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""contribution purpose: Abdul Karim al-Khawinay contributes as an editor to Al-Shura"", in the scenario, ""Al-Shura"" is the publication that Abdul Karim al-Khawinay contributes to, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Abdul Karim al-Khawinay </e1> holds the position of <e2> Al-Shura </e2>
+New relation: title"
+
+"Identify causal words: the context words ""chairman of"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Juanita Millender-McDonald"" can be deconstructed into the several primary properties: form: person, usage: political career, purpose: serve in government; ""Committee on House Administration"" can be deconstructed into the several primary properties: form: committee, usage: oversee house administration, purpose: ensure smooth functioning of the house.
+Pair the properties between ""Juanita Millender-McDonald"" and ""Committee on House Administration"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Juanita Millender-McDonald"" and the ""usage: oversee house administration"" property of ""Committee on House Administration"", ""Juanita Millender-McDonald"" can work as a member of the committee to oversee house administration, hence we can reconstruct the scenario: employment purpose: Juanita Millender-McDonald works for the Committee on House Administration.
+Reconstruct the second scenario: based on the ""usage: political career"" property of ""Juanita Millender-McDonald"" and the ""purpose: ensure smooth functioning of the house"" property of ""Committee on House Administration"", ""Juanita Millender-McDonald"" can pursue her political career by serving in the committee to ensure the smooth functioning of the house, hence we can reconstruct the scenario: career purpose: Juanita Millender-McDonald serves in the Committee on House Administration.
+Reconstruct the third scenario: based on the ""purpose: serve in government"" property of ""Juanita Millender-McDonald"" and the ""form: committee"" property of ""Committee on House Administration"", ""Juanita Millender-McDonald"" can be employed by the committee to serve in the government, hence we can reconstruct the scenario: employment purpose: Juanita Millender-McDonald is an employee of the Committee on House Administration.
+Identify decisive scenario: the scenario ""employment purpose: Juanita Millender-McDonald works for the Committee on House Administration"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""career purpose: Juanita Millender-McDonald serves in the Committee on House Administration"", in the scenario, ""Committee on House Administration"" is the organization where ""Juanita Millender-McDonald"" works, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Juanita Millender-McDonald </e1> , a Democrat, holds the position of <e2> Committee on House Administration </e2>
+New relation: title"
+
+"Identify causal words: the context words ""died of"" are causally related to the relation ""city of death"".
+Deconstruct entities: based on the attributes of the entities, ""Yoadimnadji"" can be deconstructed into the several primary properties: form: normal person, usage: live life, purpose: contribute to society; ""Paris"" can be deconstructed into the several primary properties: form: capital city, usage: cultural hub, purpose: attract tourists.
+Pair the properties between ""Yoadimnadji"" and ""Paris"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Yoadimnadji"" and the ""usage: cultural hub"" property of ""Paris"", ""Yoadimnadji"" can live a normal life in ""Paris"" and contribute to the cultural scene, hence we can reconstruct the scenario: cultural purpose: Yoadimnadji lives in Paris and contributes to the cultural scene.
+Reconstruct the second scenario: based on the ""usage: live life"" property of ""Yoadimnadji"" and the ""purpose: attract tourists"" property of ""Paris"", ""Yoadimnadji"" can live his life in ""Paris"" and attract tourists to the city, hence we can reconstruct the scenario: tourism purpose: Yoadimnadji lives in Paris and attracts tourists.
+Reconstruct the third scenario: based on the ""purpose: contribute to society"" property of ""Yoadimnadji"" and the ""form: capital city"" property of ""Paris"", ""Yoadimnadji"" can live in ""Paris"" to contribute to the society and government, hence we can reconstruct the scenario: political purpose: Yoadimnadji lives in Paris and contributes to the society and government.
+Identify decisive scenario: the scenario ""cultural purpose: Yoadimnadji lives in Paris and contributes to the cultural scene"" contributes the most to the relation ""city of death"".
+Uncover potential relation: if we focus on another scenario ""tourism purpose: Yoadimnadji lives in Paris and attracts tourists"", in the scenario, ""Paris"" is the city of residence of ""Yoadimnadji"", hence the commonsense relation is ""cities of residence"".
+Replace causal words: to change the original relation to the potential one ""cities of residence"", the identified causal words can be replaced with ""reside in"".
+Output: <e1> Yoadimnadji </e1>, 56, reside in a <e2> Paris </e2>
+New relation: cities of residence"
+
+"Identify causal words: the context words ""played like"" are causally related to the relation ""origin"".
+Deconstruct entities: based on the attributes of the entities, ""Canada"" can be deconstructed into the several primary properties: form: country, usage: provide citizenship, purpose: govern people; ""he"" can be deconstructed into the several primary properties: form: human, usage: perform actions, purpose: express emotions.
+Pair the properties between ""Canada"" and ""he"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: country"" property of ""Canada"" and the ""usage: perform actions"" property of ""he"", ""he"" can perform actions on behalf of ""Canada"", hence we can reconstruct the scenario: representation purpose: he represents Canada in a sports competition.
+Reconstruct the second scenario: based on the ""usage: provide citizenship"" property of ""Canada"" and the ""purpose: express emotions"" property of ""he"", ""he"" can express emotions as a citizen of ""Canada"", hence we can reconstruct the scenario: patriotism purpose: he expresses his love for Canada during a national event.
+Reconstruct the third scenario: based on the ""purpose: govern people"" property of ""Canada"" and the ""form: human"" property of ""he"", ""he"" can govern the people of ""Canada"", hence we can reconstruct the scenario: leadership purpose: he leads Canada as a political figure.
+Identify decisive scenario: the scenario ""representation purpose: he represents Canada in a sports competition"" contributes the most to the relation ""origin"".
+Uncover potential relation: if we focus on another scenario ""leadership purpose: he leads Canada as a political figure"", in the scenario, ""he"" is the leader of ""Canada"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Canada </e1> holds the title of <e2> he </e2>
+New relation: title"
+
+"Identify causal words: the context words ""accompanied"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""Rev."" can be deconstructed into the several primary properties: form: religious figure, usage: provide spiritual guidance, purpose: serve the community; ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: refer to something belonging to someone.
+Pair the properties between ""Rev."" and ""his"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: religious figure"" property of ""Rev."" and the ""usage: indicate ownership"" property of ""his"", ""Rev."" can possess something that belongs to him, hence we can reconstruct the scenario: ownership purpose: Rev. possess his belongings.
+Reconstruct the second scenario: based on the ""usage: provide spiritual guidance"" property of ""Rev."" and the ""purpose: refer to something belonging to someone"" property of ""his"", ""Rev."" can provide spiritual guidance to someone who belongs to him, hence we can reconstruct the scenario: guidance purpose: Rev. provide spiritual guidance to his followers.
+Reconstruct the third scenario: based on the ""purpose: serve the community"" property of ""Rev."" and the ""form: possessive pronoun"" property of ""his"", ""Rev."" can serve the community that he belongs to, hence we can reconstruct the scenario: service purpose: Rev. serve his community.
+Identify decisive scenario: the scenario ""guidance purpose: Rev. provide spiritual guidance to his followers"" contributes the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""service purpose: Rev. serve his community"", in the scenario, ""his"" is used to refer to the community that ""Rev."" belongs to, hence the commonsense relation is ""religion"".
+Replace causal words: to change the original relation to the potential one ""religion"", the identified causal words can be replaced with ""belong to"".
+Output: <e1> Rev. </e1> DeBlanc recalled accompanying <e2> his </e2>
+New relation: religion"
+
+"Identify causal words: the context words ""pastor of"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""George Young"" can be deconstructed into the several primary properties: form: normal person, usage: practice religion, purpose: serve the community; ""Holy Temple Baptist Church"" can be deconstructed into the several primary properties: form: religious institution, usage: provide spiritual guidance, purpose: worship and fellowship.
+Pair the properties between ""George Young"" and ""Holy Temple Baptist Church"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""George Young"" and the ""usage: provide spiritual guidance"" property of ""Holy Temple Baptist Church"", ""George Young"" can provide spiritual guidance to the members of ""Holy Temple Baptist Church"", hence we can reconstruct the scenario: employment purpose: George Young is the pastor of Holy Temple Baptist Church.
+Reconstruct the second scenario: based on the ""usage: practice religion"" property of ""George Young"" and the ""purpose: worship and fellowship"" property of ""Holy Temple Baptist Church"", ""George Young"" can practice his religion and participate in worship and fellowship activities at ""Holy Temple Baptist Church"", hence we can reconstruct the scenario: religious purpose: George Young is a member of Holy Temple Baptist Church.
+Reconstruct the third scenario: based on the ""purpose: serve the community"" property of ""George Young"" and the ""form: religious institution"" property of ""Holy Temple Baptist Church"", ""George Young"" can serve the community through his role at ""Holy Temple Baptist Church"", hence we can reconstruct the scenario: community purpose: George Young is involved in the activities of Holy Temple Baptist Church.
+Identify decisive scenario: the scenario ""employment purpose: George Young is the pastor of Holy Temple Baptist Church"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""religious purpose: George Young is a member of Holy Temple Baptist Church"", in the scenario, ""Holy Temple Baptist Church"" is the place of worship for ""George Young"", hence the commonsense relation is ""religion"".
+Replace causal words: to change the original relation to the potential one ""religion"", the identified causal words can be replaced with ""practices"".
+Output: <e1> George Young </e1> practices <e2> Holy Temple Baptist Church </e2>
+New relation: religion"
+
+"Identify causal words: the context words ""down to"" are causally related to the relation ""schools attended"".
+Deconstruct entities: based on the attributes of the entities, ""Raul Castro"" can be deconstructed into the several primary properties: form: political leader, usage: govern, purpose: lead country; ""CTC"" can be deconstructed into the several primary properties: form: organization, usage: represent workers, purpose: protect workers' rights.
+Pair the properties between ""Raul Castro"" and ""CTC"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: political leader"" property of ""Raul Castro"" and the ""usage: represent workers"" property of ""CTC"", ""Raul Castro"" can be involved with the activities of ""CTC"" during his political career, hence we can reconstruct the scenario: involvement purpose: Raul Castro actively participates in CTC activities.
+Reconstruct the second scenario: based on the ""usage: govern"" property of ""Raul Castro"" and the ""purpose: protect workers' rights"" property of ""CTC"", ""Raul Castro"" can work closely with ""CTC"" to ensure the rights of workers, hence we can reconstruct the scenario: collaboration purpose: Raul Castro collaborates with CTC to protect workers' rights.
+Reconstruct the third scenario: based on the ""purpose: lead country"" property of ""Raul Castro"" and the ""form: organization"" property of ""CTC"", ""Raul Castro"" can have a role in the establishment or management of ""CTC"", hence we can reconstruct the scenario: establishment purpose: Raul Castro contributes to the establishment of CTC.
+Identify decisive scenario: the scenario ""collaboration purpose: Raul Castro collaborates with CTC to protect workers' rights"" contributes the most to the relation ""schools attended"".
+Uncover potential relation: if we focus on another scenario ""involvement purpose: Raul Castro actively participates in CTC activities"", in the scenario, ""CTC"" is an organization that ""Raul Castro"" is actively involved in, hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> Raul Castro </e1>, Carlos Lage and Ricardo Alarcon works for <e2> CTC </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""served in"" are causally related to the relation ""countries of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Buchwald"" can be deconstructed into the several primary properties: form: normal person, usage: express opinions, purpose: contribute to society; ""Pacific"" can be deconstructed into the several primary properties: form: large body of water, usage: provide resources, purpose: facilitate trade.
+Pair the properties between ""Buchwald"" and ""Pacific"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Buchwald"" and the ""usage: provide resources"" property of ""Pacific"", ""Buchwald"" can benefit from the resources provided by the Pacific, hence we can reconstruct the scenario: resource purpose: Buchwald benefits from the resources of the Pacific.
+Reconstruct the second scenario: based on the ""usage: express opinions"" property of ""Buchwald"" and the ""purpose: facilitate trade"" property of ""Pacific"", ""Buchwald"" can express opinions to facilitate trade through the Pacific, hence we can reconstruct the scenario: trade purpose: Buchwald expresses opinions to facilitate trade through the Pacific.
+Reconstruct the third scenario: based on the ""purpose: contribute to society"" property of ""Buchwald"" and the ""form: large body of water"" property of ""Pacific"", ""Buchwald"" can contribute to society through activities related to the Pacific, hence we can reconstruct the scenario: contribution purpose: Buchwald contributes to society through activities related to the Pacific.
+Identify decisive scenario: the scenario ""resource purpose: Buchwald benefits from the resources of the Pacific"" contributes the most to the relation ""countries of residence"".
+Uncover potential relation: if we focus on another scenario ""trade purpose: Buchwald expresses opinions to facilitate trade through the Pacific"", in the scenario, ""Pacific"" is the location where ""Buchwald"" serves, hence the commonsense relation is ""cities of residence"".
+Replace causal words: to change the original relation to the potential one ""cities of residence"", the identified causal words can be replaced with ""served in"".
+Output: <e1> Buchwald </e1> , who came to love the armed forces , served in the <e2> Pacific </e2>
+New relation: cities of residence"
+
+"Identify causal words: the context words ""received his undergraduate degree from"" are causally related to the relation ""schools attended"".
+Deconstruct entities: based on the attributes of the entities, ""Col DeBlanc"" can be deconstructed into the several primary properties: form: person, usage: acquire education, purpose: career advancement; ""Southwestern Louisiana Institute"" can be deconstructed into the several primary properties: form: educational institution, usage: provide education, purpose: knowledge dissemination.
+Pair the properties between ""Col DeBlanc"" and ""Southwestern Louisiana Institute"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Col DeBlanc"" and the ""usage: provide education"" property of ""Southwestern Louisiana Institute"", ""Col DeBlanc"" can attend ""Southwestern Louisiana Institute"" to acquire education, hence we can reconstruct the scenario: education purpose: Col DeBlanc attends Southwestern Louisiana Institute.
+Reconstruct the second scenario: based on the ""usage: acquire education"" property of ""Col DeBlanc"" and the ""purpose: knowledge dissemination"" property of ""Southwestern Louisiana Institute"", ""Col DeBlanc"" can acquire education from ""Southwestern Louisiana Institute"" to gain knowledge, hence we can reconstruct the scenario: knowledge purpose: Col DeBlanc acquires education from Southwestern Louisiana Institute.
+Reconstruct the third scenario: based on the ""purpose: career advancement"" property of ""Col DeBlanc"" and the ""form: educational institution"" property of ""Southwestern Louisiana Institute"", ""Col DeBlanc"" can attend ""Southwestern Louisiana Institute"" to advance his career, hence we can reconstruct the scenario: career purpose: Col DeBlanc attends Southwestern Louisiana Institute.
+Identify decisive scenario: the scenario ""education purpose: Col DeBlanc attends Southwestern Louisiana Institute"" contributes the most to the relation ""schools attended"".
+Uncover potential relation: if we focus on another scenario ""knowledge purpose: Col DeBlanc acquires education from Southwestern Louisiana Institute"", in the scenario, ""Southwestern Louisiana Institute"" is the educational institution where ""Col DeBlanc"" acquires education, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Col DeBlanc </e1> holds the title of <e2> Southwestern Louisiana Institute </e2>
+New relation: title"
+
+"Identify causal words: the context words ""rode streetcars as a child in"" are causally related to the relation ""cities of residence"".
+Deconstruct entities: based on the attributes of the entities, ""he"" can be deconstructed into the several primary properties: form: normal person, usage: travel, purpose: experience childhood; ""Shreveport"" can be deconstructed into the several primary properties: form: city, usage: provide transportation, purpose: accommodate residents.
+Pair the properties between ""he"" and ""Shreveport"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""he"" and the ""usage: provide transportation"" property of ""Shreveport"", ""he"" can use streetcars for transportation in ""Shreveport"" during his childhood, hence we can reconstruct the scenario: childhood purpose: he used streetcars for transportation in Shreveport.
+Reconstruct the second scenario: based on the ""usage: travel"" property of ""he"" and the ""purpose: accommodate residents"" property of ""Shreveport"", ""he"" can travel to different cities using streetcars starting from ""Shreveport"", hence we can reconstruct the scenario: travel purpose: he traveled to different cities using streetcars starting from Shreveport.
+Reconstruct the third scenario: based on the ""purpose: experience childhood"" property of ""he"" and the ""form: city"" property of ""Shreveport"", ""he"" can reside in ""Shreveport"" during his childhood and ride streetcars, hence we can reconstruct the scenario: childhood purpose: he resided in Shreveport and rode streetcars.
+Identify decisive scenario: the scenario ""childhood purpose: he used streetcars for transportation in Shreveport"" contributes the most to the relation ""cities of residence"".
+Uncover potential relation: if we focus on another scenario ""travel purpose: he traveled to different cities using streetcars starting from Shreveport"", in the scenario, ""Shreveport"" is the starting point of his travels, hence the commonsense relation is ""origin"".
+Replace causal words: to change the original relation to the potential one ""origin"", the identified causal words can be replaced with ""started his travels from"".
+Output: <e1> he </e1> started his travels from <e2> Shreveport </e2>
+New relation: origin"
+
+"Identify causal words: the context words ""represented"" and ""in"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Jo Ann Davis"" can be deconstructed into the several primary properties: form: normal person, usage: serve in public office, purpose: represent constituents; ""House of Representatives"" can be deconstructed into the several primary properties: form: legislative body, usage: make laws, purpose: govern the country.
+Pair the properties between ""Jo Ann Davis"" and ""House of Representatives"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Jo Ann Davis"" and the ""usage: make laws"" property of ""House of Representatives"", ""Jo Ann Davis"" can serve as a member of the ""House of Representatives"" and contribute to making laws, hence we can reconstruct the scenario: legislative purpose: Jo Ann Davis serves in the House of Representatives.
+Reconstruct the second scenario: based on the ""usage: serve in public office"" property of ""Jo Ann Davis"" and the ""purpose: govern the country"" property of ""House of Representatives"", ""Jo Ann Davis"" can represent her constituents and participate in governing the country as a member of the ""House of Representatives"", hence we can reconstruct the scenario: governance purpose: Jo Ann Davis represents southeastern Virginia in the House of Representatives.
+Reconstruct the third scenario: based on the ""purpose: represent constituents"" property of ""Jo Ann Davis"" and the ""form: legislative body"" property of ""House of Representatives"", ""Jo Ann Davis"" can be an employee of the ""House of Representatives"" and work to represent her constituents, hence we can reconstruct the scenario: employment purpose: Jo Ann Davis is an employee of the House of Representatives.
+Identify decisive scenario: the scenario ""employment purpose: Jo Ann Davis is an employee of the House of Representatives"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""legislative purpose: Jo Ann Davis serves in the House of Representatives"", in the scenario, ""House of Representatives"" is the legislative body where ""Jo Ann Davis"" serves, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Jo Ann Davis </e1> , who holds the title of southeastern Virginia in the <e2> House of Representatives </e2>
+New relation: title"
+
+"Identify causal words: the context words ""was born on"" are causally related to the relation ""city of birth"".
+Deconstruct entities: based on the attributes of the entities, ""Joseph Simpson Farland"" can be deconstructed into the several primary properties: form: normal person, usage: learn skills, purpose: raise family; ""Clarksburg"" can be deconstructed into the several primary properties: form: small city, usage: provide shelter, purpose: nurture human.
+Pair the properties between ""Joseph Simpson Farland"" and ""Clarksburg"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Joseph Simpson Farland"" and the ""usage: provide shelter"" property of ""Clarksburg"", ""Joseph Simpson Farland"" can spend his entire life peacefully in ""Clarksburg"", hence we can reconstruct the scenario: retirement purpose: Joseph Simpson Farland spend his final moments in Clarksburg.
+Reconstruct the second scenario: based on the ""usage: learn skills"" property of ""Joseph Simpson Farland"" and the ""purpose: nurture human"" property of ""Clarksburg"", ""Joseph Simpson Farland"" can lean skills and grow up in ""Clarksburg"", hence we can reconstruct the scenario: growth purpose: Joseph Simpson Farland grow up in Clarksburg.
+Reconstruct the third scenario: based on the ""purpose: raise family"" property of ""Joseph Simpson Farland"" and the ""form: small city"" property of ""Clarksburg"", ""Joseph Simpson Farland"" can live in ""Clarksburg"" to make money to raise his family, hence we can reconstruct the scenario: survival purpose: Joseph Simpson Farland live in Clarksburg.
+Identify decisive scenario: the scenario ""growth purpose: Joseph Simpson Farland grow up in Clarksburg"" contribute the most to the relation ""city of birth"".
+Uncover potential relation: if we focus on another scenario ""retirement purpose: Joseph Simpson Farland spend his final moments in Clarksburg"", in the scenario, ""Clarksburg"" is the death city of ""Joseph Simpson Farland"", hence the commonsense relation is ""city of death"".
+Replace causal words: to change the original relation to the potential one ""city of death"", the identified causal words can be replaced with ""died in"".
+Output: <e1> Joseph Simpson Farland </e1> was born on Aug 11 , 1914 , died in <e2> Clarksburg </e2>
+New relation: city of death"
+
+"Identify causal words: the context words ""representing"" are causally related to the relation ""state or provinces of residence"".
+Deconstruct entities: based on the attributes of the entities, ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: specify possession; ""Indiana"" can be deconstructed into the several primary properties: form: state, usage: govern, purpose: provide governance.
+Pair the properties between ""his"" and ""Indiana"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: possessive pronoun"" property of ""his"" and the ""usage: govern"" property of ""Indiana"", ""his"" can indicate ownership of ""Indiana"", hence we can reconstruct the scenario: ownership purpose: his possession of Indiana.
+Reconstruct the second scenario: based on the ""usage: indicate ownership"" property of ""his"" and the ""purpose: provide governance"" property of ""Indiana"", ""his"" can indicate ownership of the governance provided by ""Indiana"", hence we can reconstruct the scenario: representation purpose: his representation of Indiana.
+Reconstruct the third scenario: based on the ""purpose: specify possession"" property of ""his"" and the ""form: state"" property of ""Indiana"", ""his"" can specify possession of ""Indiana"", hence we can reconstruct the scenario: identification purpose: his identification of Indiana.
+Identify decisive scenario: the scenario ""representation purpose: his representation of Indiana"" contributes the most to the relation ""state or provinces of residence"".
+Uncover potential relation: if we focus on another scenario ""ownership purpose: his possession of Indiana"", in the scenario, ""Indiana"" is the birth state of ""his"", hence the commonsense relation is ""state or province of birth"".
+Replace causal words: to change the original relation to the potential one ""state or province of birth"", the identified causal words can be replaced with ""born in"".
+Output: <e1> his </e1> late grandmother, Julia Carson, born in <e2> Indiana </e2>
+New relation: state or province of birth"
+
+"Identify causal words: the context words ""became a vocal member of the caucus of"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""He"" can be deconstructed into the several primary properties: form: individual, usage: express opinions, purpose: advocate for rights; ""black representatives"" can be deconstructed into the several primary properties: form: group, usage: represent interests, purpose: fight for equality.
+Pair the properties between ""He"" and ""black representatives"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: individual"" property of ""He"" and the ""usage: represent interests"" property of ""black representatives"", ""He"" can represent the interests of the black community, hence we can reconstruct the scenario: advocacy purpose: He represents the interests of black representatives.
+Reconstruct the second scenario: based on the ""usage: express opinions"" property of ""He"" and the ""purpose: fight for equality"" property of ""black representatives"", ""He"" can express his opinions to fight for equality, hence we can reconstruct the scenario: activism purpose: He advocates for equality as a member of black representatives.
+Reconstruct the third scenario: based on the ""purpose: advocate for rights"" property of ""He"" and the ""form: group"" property of ""black representatives"", ""He"" can join the group of black representatives to advocate for rights, hence we can reconstruct the scenario: membership purpose: He becomes a member of the caucus of black representatives.
+Identify decisive scenario: the scenario ""membership purpose: He becomes a member of the caucus of black representatives"" contributes the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""advocacy purpose: He represents the interests of black representatives"", in the scenario, ""black representatives"" is the group that ""He"" represents, hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> He </e1> works for the caucus of <e2> black representatives </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""who died"" are causally related to the relation ""date of death"".
+Deconstruct entities: based on the attributes of the entities, ""Beverly Sills"" can be deconstructed into the several primary properties: form: famous person, usage: entertain people, purpose: achieve success; ""Monday"" can be deconstructed into the several primary properties: form: day of the week, usage: mark time, purpose: organize schedule.
+Pair the properties between ""Beverly Sills"" and ""Monday"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: famous person"" property of ""Beverly Sills"" and the ""usage: mark time"" property of ""Monday"", ""Beverly Sills"" can be associated with a significant event that happened on ""Monday"", hence we can reconstruct the scenario: memorable event purpose: Beverly Sills passed away on Monday.
+Reconstruct the second scenario: based on the ""usage: entertain people"" property of ""Beverly Sills"" and the ""purpose: organize schedule"" property of ""Monday"", ""Beverly Sills"" can have a busy schedule on ""Monday"" due to her performances, hence we can reconstruct the scenario: busy schedule purpose: Beverly Sills had a performance on Monday.
+Reconstruct the third scenario: based on the ""purpose: achieve success"" property of ""Beverly Sills"" and the ""form: day of the week"" property of ""Monday"", ""Beverly Sills"" can consider ""Monday"" as a lucky day for her career, hence we can reconstruct the scenario: lucky day purpose: Beverly Sills achieved success on Monday.
+Identify decisive scenario: the scenario ""memorable event purpose: Beverly Sills passed away on Monday"" contributes the most to the relation ""date of death"".
+Uncover potential relation: if we focus on another scenario ""busy schedule purpose: Beverly Sills had a performance on Monday"", in the scenario, ""Monday"" is associated with the occupation of ""Beverly Sills"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Beverly Sills </e1> holds the title of <e2> Monday </e2>
+New relation: title"
+
+"Identify causal words: the context words ""born in"" are causally related to the relation ""city of birth"".
+Deconstruct entities: based on the attributes of the entities, ""Kirkaldy"" can be deconstructed into the several primary properties: form: person, usage: have a name, purpose: identify oneself; ""Baltimore"" can be deconstructed into the several primary properties: form: city, usage: provide services, purpose: support community.
+Pair the properties between ""Kirkaldy"" and ""Baltimore"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Kirkaldy"" and the ""usage: provide services"" property of ""Baltimore"", ""Kirkaldy"" can live in ""Baltimore"" and receive various services, hence we can reconstruct the scenario: residence purpose: Kirkaldy resides in Baltimore.
+Reconstruct the second scenario: based on the ""usage: have a name"" property of ""Kirkaldy"" and the ""purpose: support community"" property of ""Baltimore"", ""Kirkaldy"" can be born and named in ""Baltimore"", hence we can reconstruct the scenario: birth purpose: Kirkaldy is born in Baltimore.
+Reconstruct the third scenario: based on the ""purpose: identify oneself"" property of ""Kirkaldy"" and the ""form: city"" property of ""Baltimore"", ""Kirkaldy"" can use ""Baltimore"" as a reference to identify oneself, hence we can reconstruct the scenario: identification purpose: Kirkaldy identifies with Baltimore.
+Identify decisive scenario: the scenario ""birth purpose: Kirkaldy is born in Baltimore"" contributes the most to the relation ""city of birth"".
+Uncover potential relation: if we focus on another scenario ""residence purpose: Kirkaldy resides in Baltimore"", in the scenario, ""Baltimore"" is the city of residence of ""Kirkaldy"", hence the commonsense relation is ""cities of residence"".
+Replace causal words: to change the original relation to the potential one ""cities of residence"", the identified causal words can be replaced with ""resides in"".
+Output: <e1> Kirkaldy </e1> , resides in <e2> Baltimore </e2>
+New relation: cities of residence"
+
+"Identify causal words: the context words ""moved with her family to"" are causally related to the relation ""cities of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Rothman"" can be deconstructed into the several primary properties: form: normal person, usage: learn skills, purpose: raise family; ""Los Angeles"" can be deconstructed into the several primary properties: form: large city, usage: provide shelter, purpose: nurture human.
+Pair the properties between ""Rothman"" and ""Los Angeles"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Rothman"" and the ""usage: provide shelter"" property of ""Los Angeles"", ""Rothman"" can spend her entire life peacefully in ""Los Angeles"", hence we can reconstruct the scenario: retirement purpose: Rothman spend her final moments in Los Angeles.
+Reconstruct the second scenario: based on the ""usage: learn skills"" property of ""Rothman"" and the ""purpose: nurture human"" property of ""Los Angeles"", ""Rothman"" can lean skills and grow up in ""Los Angeles"", hence we can reconstruct the scenario: growth purpose: Rothman grow up in Los Angeles.
+Reconstruct the third scenario: based on the ""purpose: raise family"" property of ""Rothman"" and the ""form: large city"" property of ""Los Angeles"", ""Rothman"" can live in ""Los Angeles"" to make money to raise her family, hence we can reconstruct the scenario: survival purpose: Rothman live in Los Angeles.
+Identify decisive scenario: the scenario ""growth purpose: Rothman grow up in Los Angeles"" contribute the most to the relation ""cities of residence"".
+Uncover potential relation: if we focus on another scenario ""retirement purpose: Rothman spend her final moments in Los Angeles"", in the scenario, ""Los Angeles"" is the death city of ""Rothman"", hence the commonsense relation is ""city of death"".
+Replace causal words: to change the original relation to the potential one ""city of death"", the identified causal words can be replaced with ""died in"".
+Output: <e1> Rothman </e1> was 12 , she died in <e2> Los Angeles </e2>
+New relation: city of death"
+
+"Identify causal words: the context words ""President"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Hearst Magazines"" can be deconstructed into the several primary properties: form: company, usage: publish magazines, purpose: provide information; ""Cathleen P Black"" can be deconstructed into the several primary properties: form: individual, usage: lead organization, purpose: achieve goals.
+Pair the properties between ""Hearst Magazines"" and ""Cathleen P Black"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: company"" property of ""Hearst Magazines"" and the ""usage: lead organization"" property of ""Cathleen P Black"", ""Cathleen P Black"" can work as the president of ""Hearst Magazines"", hence we can reconstruct the scenario: leadership purpose: Cathleen P Black works as the president of Hearst Magazines.
+Reconstruct the second scenario: based on the ""usage: publish magazines"" property of ""Hearst Magazines"" and the ""purpose: achieve goals"" property of ""Cathleen P Black"", ""Cathleen P Black"" can work for ""Hearst Magazines"" to achieve its goals, hence we can reconstruct the scenario: employment purpose: Cathleen P Black is an employee of Hearst Magazines.
+Reconstruct the third scenario: based on the ""purpose: provide information"" property of ""Hearst Magazines"" and the ""form: individual"" property of ""Cathleen P Black"", ""Cathleen P Black"" can be a reader or subscriber of ""Hearst Magazines"", hence we can reconstruct the scenario: consumption purpose: Cathleen P Black reads Hearst Magazines.
+Identify decisive scenario: the scenario ""employment purpose: Cathleen P Black is an employee of Hearst Magazines"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""leadership purpose: Cathleen P Black works as the president of Hearst Magazines"", in the scenario, ""Cathleen P Black"" is the president of ""Hearst Magazines"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Hearst Magazines </e1> holds the position of <e2> Cathleen P Black </e2>
+New relation: title"
+
+"Identify causal words: the context words ""vice president of"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Chen"" can be deconstructed into the several primary properties: form: normal person, usage: work, purpose: contribute to society; ""Academy of Sciences"" can be deconstructed into the several primary properties: form: organization, usage: conduct research, purpose: advance knowledge.
+Pair the properties between ""Chen"" and ""Academy of Sciences"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Chen"" and the ""usage: conduct research"" property of ""Academy of Sciences"", ""Chen"" can work as a researcher in ""Academy of Sciences"", hence we can reconstruct the scenario: research purpose: Chen works as a researcher in the Academy of Sciences.
+Reconstruct the second scenario: based on the ""usage: work"" property of ""Chen"" and the ""purpose: advance knowledge"" property of ""Academy of Sciences"", ""Chen"" can work to advance knowledge in ""Academy of Sciences"", hence we can reconstruct the scenario: knowledge purpose: Chen works to advance knowledge in the Academy of Sciences.
+Reconstruct the third scenario: based on the ""purpose: contribute to society"" property of ""Chen"" and the ""form: organization"" property of ""Academy of Sciences"", ""Chen"" can work for the betterment of society in ""Academy of Sciences"", hence we can reconstruct the scenario: societal purpose: Chen works for the betterment of society in the Academy of Sciences.
+Identify decisive scenario: the scenario ""research purpose: Chen works as a researcher in the Academy of Sciences"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""knowledge purpose: Chen works to advance knowledge in the Academy of Sciences"", in the scenario, ""Academy of Sciences"" is the organization where ""Chen"" works, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Chen </e1> holds the position of vice president of the Chinese <e2> Academy of Sciences </e2>
+New relation: title"
+
+"Identify causal words: the context words ""retired at age"" are causally related to the relation ""age"".
+Deconstruct entities: based on the attributes of the entities, ""Morgenthau"" can be deconstructed into the several primary properties: form: person, usage: hold office, purpose: serve public; ""90"" can be deconstructed into the several primary properties: form: number, usage: represent age, purpose: indicate time.
+Pair the properties between ""Morgenthau"" and ""90"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Morgenthau"" and the ""usage: represent age"" property of ""90"", ""Morgenthau"" can have an age of 90, hence we can reconstruct the scenario: personal information purpose: Morgenthau's age is 90.
+Reconstruct the second scenario: based on the ""usage: hold office"" property of ""Morgenthau"" and the ""purpose: indicate time"" property of ""90"", ""Morgenthau"" can hold office for a long time until the age of 90, hence we can reconstruct the scenario: career purpose: Morgenthau held office until the age of 90.
+Reconstruct the third scenario: based on the ""purpose: serve public"" property of ""Morgenthau"" and the ""form: number"" property of ""90"", ""Morgenthau"" can retire from serving the public at the age of 90, hence we can reconstruct the scenario: retirement purpose: Morgenthau retired at the age of 90.
+Identify decisive scenario: the scenario ""retirement purpose: Morgenthau retired at the age of 90"" contributes the most to the relation ""age"".
+Uncover potential relation: if we focus on another scenario ""personal information purpose: Morgenthau's age is 90"", in the scenario, ""90"" is the age of ""Morgenthau"", hence the commonsense relation is ""date of birth"".
+Replace causal words: to change the original relation to the potential one ""date of birth"", the identified causal words can be replaced with ""born at"".
+Output: <e1> Morgenthau </e1> , after holding office since 1975 , born at age <e2> 90 </e2>
+New relation: date of birth"
+
+"Identify causal words: the context words ""opposes these moves and favors"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Nationalist Party"" can be deconstructed into the several primary properties: form: political party, usage: advocate policies, purpose: represent a specific ideology; ""Chen"" can be deconstructed into the several primary properties: form: individual, usage: hold position, purpose: influence decision-making.
+Pair the properties between ""Nationalist Party"" and ""Chen"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: political party"" property of ""Nationalist Party"" and the ""usage: hold position"" property of ""Chen"", ""Chen"" can hold a position within the ""Nationalist Party"", hence we can reconstruct the scenario: employment purpose: Chen is an employee of the Nationalist Party.
+Reconstruct the second scenario: based on the ""usage: advocate policies"" property of ""Nationalist Party"" and the ""purpose: influence decision-making"" property of ""Chen"", ""Chen"" can influence decision-making through advocating the policies of the ""Nationalist Party"", hence we can reconstruct the scenario: influence purpose: Chen advocates the policies of the Nationalist Party.
+Reconstruct the third scenario: based on the ""purpose: represent a specific ideology"" property of ""Nationalist Party"" and the ""form: individual"" property of ""Chen"", ""Chen"" can represent the specific ideology of the ""Nationalist Party"", hence we can reconstruct the scenario: representation purpose: Chen represents the Nationalist Party.
+Identify decisive scenario: the scenario ""employment purpose: Chen is an employee of the Nationalist Party"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""representation purpose: Chen represents the Nationalist Party"", in the scenario, ""Chen"" is representing the ""Nationalist Party"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Nationalist Party </e1> , which continues to honor Chiang , holds the position of <e2> Chen </e2>
+New relation: title"
+
+"Identify causal words: the context words ""elected to"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Augustus F. Hawkins"" can be deconstructed into the several primary properties: form: person, usage: serve, purpose: represent; ""Congress"" can be deconstructed into the several primary properties: form: governing body, usage: make laws, purpose: govern.
+Pair the properties between ""Augustus F. Hawkins"" and ""Congress"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Augustus F. Hawkins"" and the ""usage: make laws"" property of ""Congress"", ""Augustus F. Hawkins"" can serve in ""Congress"" to make laws, hence we can reconstruct the scenario: legislative purpose: Augustus F. Hawkins serves in Congress.
+Reconstruct the second scenario: based on the ""usage: serve"" property of ""Augustus F. Hawkins"" and the ""purpose: govern"" property of ""Congress"", ""Augustus F. Hawkins"" can serve in ""Congress"" to govern, hence we can reconstruct the scenario: governance purpose: Augustus F. Hawkins serves in Congress.
+Reconstruct the third scenario: based on the ""purpose: represent"" property of ""Augustus F. Hawkins"" and the ""form: governing body"" property of ""Congress"", ""Augustus F. Hawkins"" can serve in ""Congress"" to represent the people, hence we can reconstruct the scenario: representation purpose: Augustus F. Hawkins serves in Congress.
+Identify decisive scenario: the scenario ""legislative purpose: Augustus F. Hawkins serves in Congress"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""representation purpose: Augustus F. Hawkins serves in Congress"", in the scenario, ""Congress"" is the governing body that Augustus F. Hawkins is a part of, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Augustus F. Hawkins </e1> , the first black person from California to be holds the position of <e2> Congress </e2>
+New relation: title"
+
+"Identify causal words: the context words ""quit"" and ""manage"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""journalist"" can be deconstructed into the several primary properties: form: occupation, usage: report news, purpose: inform public; ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: show possession.
+Pair the properties between ""journalist"" and ""his"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: occupation"" property of ""journalist"" and the ""usage: indicate ownership"" property of ""his"", ""journalist"" can own something, hence we can reconstruct the scenario: ownership purpose: journalist owns something.
+Reconstruct the second scenario: based on the ""usage: report news"" property of ""journalist"" and the ""purpose: show possession"" property of ""his"", ""journalist"" can report news related to something he owns, hence we can reconstruct the scenario: news purpose: journalist reports news related to his possessions.
+Reconstruct the third scenario: based on the ""purpose: inform public"" property of ""journalist"" and the ""form: possessive pronoun"" property of ""his"", ""journalist"" can inform the public about something he owns, hence we can reconstruct the scenario: information purpose: journalist informs the public about his possessions.
+Identify decisive scenario: the scenario ""ownership purpose: journalist owns something"" contribute the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""information purpose: journalist informs the public about his possessions"", in the scenario, ""his"" is used to indicate the ownership of the journalist, hence the commonsense relation is ""spouse"".
+Replace causal words: to change the original relation to the potential one ""spouse"", the identified causal words can be replaced with ""married to"".
+Output: <e1> journalist </e1> who later married to manage the family 's affairs as <e2> his </e2>
+New relation: spouse"
+
+"Identify causal words: the context words ""died"" and ""at"" are causally related to the relation ""city of death"".
+Deconstruct entities: based on the attributes of the entities, ""Pascal Yoadimnadji"" can be deconstructed into the several primary properties: form: normal person, usage: hold positions, purpose: serve the public; ""Paris"" can be deconstructed into the several primary properties: form: capital city, usage: provide governance, purpose: represent the country.
+Pair the properties between ""Pascal Yoadimnadji"" and ""Paris"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Pascal Yoadimnadji"" and the ""usage: provide governance"" property of ""Paris"", ""Pascal Yoadimnadji"" can serve as a public official in ""Paris"", hence we can reconstruct the scenario: public service purpose: Pascal Yoadimnadji serves as a public official in Paris.
+Reconstruct the second scenario: based on the ""usage: hold positions"" property of ""Pascal Yoadimnadji"" and the ""purpose: represent the country"" property of ""Paris"", ""Pascal Yoadimnadji"" can hold positions to represent the country in ""Paris"", hence we can reconstruct the scenario: representation purpose: Pascal Yoadimnadji represents the country in Paris.
+Reconstruct the third scenario: based on the ""purpose: serve the public"" property of ""Pascal Yoadimnadji"" and the ""form: capital city"" property of ""Paris"", ""Pascal Yoadimnadji"" can serve the public in ""Paris"", hence we can reconstruct the scenario: public service purpose: Pascal Yoadimnadji serves the public in Paris.
+Identify decisive scenario: the scenario ""public service purpose: Pascal Yoadimnadji serves as a public official in Paris"" contributes the most to the relation ""city of death"".
+Uncover potential relation: if we focus on another scenario ""representation purpose: Pascal Yoadimnadji represents the country in Paris"", in the scenario, ""Paris"" is the birth city of ""Pascal Yoadimnadji"", hence the commonsense relation is ""city of birth"".
+Replace causal words: to change the original relation to the potential one ""city of birth"", the identified causal words can be replaced with ""born in"".
+Output: <e1> Pascal Yoadimnadji </e1> is a famous movie director, born in <e2> Paris </e2>
+New relation: city of birth"
+
+"Identify causal words: the context words ""for much of his life"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""air force"" can be deconstructed into the several primary properties: form: organization, usage: provide military services, purpose: protect the country; ""him"" can be deconstructed into the several primary properties: form: normal person, usage: work, purpose: contribute to society.
+Pair the properties between ""air force"" and ""him"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: organization"" property of ""air force"" and the ""usage: work"" property of ""him"", ""him"" can work for the ""air force"" to contribute to society, hence we can reconstruct the scenario: employment purpose: him works for the air force.
+Reconstruct the second scenario: based on the ""usage: provide military services"" property of ""air force"" and the ""purpose: contribute to society"" property of ""him"", ""him"" can join the ""air force"" to provide military services and protect the country, hence we can reconstruct the scenario: military purpose: him serves in the air force.
+Reconstruct the third scenario: based on the ""purpose: protect the country"" property of ""air force"" and the ""form: normal person"" property of ""him"", ""him"" can join the ""air force"" to protect the country, hence we can reconstruct the scenario: patriotism purpose: him serves in the air force.
+Identify decisive scenario: the scenario ""employment purpose: him works for the air force"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""military purpose: him serves in the air force"", in the scenario, ""him"" is a member of the ""air force"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> air force </e1> holds the position of <e2> him </e2>
+New relation: title"
+
+"Identify causal words: the context words ""want"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""President"" can be deconstructed into the several primary properties: form: political figure, usage: lead a country, purpose: govern; ""Myers"" can be deconstructed into the several primary properties: form: normal person, usage: provide services, purpose: assist.
+Pair the properties between ""President"" and ""Myers"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: political figure"" property of ""President"" and the ""usage: provide services"" property of ""Myers"", ""Myers"" can provide services to ""President"" in his political role, hence we can reconstruct the scenario: professional purpose: Myers work as a service provider for President.
+Reconstruct the second scenario: based on the ""usage: lead a country"" property of ""President"" and the ""purpose: assist"" property of ""Myers"", ""Myers"" can assist ""President"" in his leadership role, hence we can reconstruct the scenario: professional purpose: Myers work as an assistant to President.
+Reconstruct the third scenario: based on the ""purpose: govern"" property of ""President"" and the ""form: normal person"" property of ""Myers"", ""Myers"" can be governed by ""President"" in his political role, hence we can reconstruct the scenario: personal purpose: Myers is under the governance of President.
+Identify decisive scenario: the scenario ""professional purpose: Myers work as a service provider for President"" contributes the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""professional purpose: Myers work as an assistant to President"", in the scenario, ""Myers"" is the assistant of ""President"", hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> President </e1> Clinton works for Ms. <e2> Myers </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""Staff Director"" are causally related to the relation ""title"".
+Deconstruct entities: based on the attributes of the entities, ""he"" can be deconstructed into the several primary properties: form: person, usage: work, purpose: contribute to an organization; ""Director"" can be deconstructed into the several primary properties: form: job position, usage: manage, purpose: oversee operations.
+Pair the properties between ""he"" and ""Director"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""he"" and the ""usage: manage"" property of ""Director"", ""he"" can work as a manager in the organization, hence we can reconstruct the scenario: employment purpose: he works as a Director.
+Reconstruct the second scenario: based on the ""usage: work"" property of ""he"" and the ""purpose: oversee operations"" property of ""Director"", ""he"" can work under the supervision of the Director, hence we can reconstruct the scenario: employment purpose: he works under the Director.
+Reconstruct the third scenario: based on the ""purpose: contribute to an organization"" property of ""he"" and the ""form: job position"" property of ""Director"", ""he"" can hold the job position of Director to contribute to the organization, hence we can reconstruct the scenario: employment purpose: he holds the job position of Director.
+Identify decisive scenario: the scenario ""employment purpose: he works as a Director"" contributes the most to the relation ""title"".
+Uncover potential relation: if we focus on another scenario ""employment purpose: he works under the Director"", in the scenario, ""Director"" is the superior of ""he"", hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works under"".
+Output: <e1> he </e1> left McCain's employ in 1993, returning to Congress in 1997 as the Staff works under <e2> Director </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""from 1998 to 2000"" are causally related to the relation ""cities of residence"".
+Deconstruct entities: based on the attributes of the entities, ""Vienna"" can be deconstructed into the several primary properties: form: city, usage: provide cultural experiences, purpose: attract tourists; ""he"" can be deconstructed into the several primary properties: form: person, usage: live, purpose: pursue career.
+Pair the properties between ""Vienna"" and ""he"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: city"" property of ""Vienna"" and the ""usage: live"" property of ""he"", ""he"" can live in Vienna for a period of time, hence we can reconstruct the scenario: temporary residence purpose: he live in Vienna from 1998 to 2000.
+Reconstruct the second scenario: based on the ""usage: provide cultural experiences"" property of ""Vienna"" and the ""purpose: pursue career"" property of ""he"", ""he"" can go to Vienna to pursue his career in the cultural field, hence we can reconstruct the scenario: career purpose: he pursue his career in Vienna.
+Reconstruct the third scenario: based on the ""purpose: attract tourists"" property of ""Vienna"" and the ""form: person"" property of ""he"", ""he"" can visit Vienna as a tourist, hence we can reconstruct the scenario: tourism purpose: he visit Vienna.
+Identify decisive scenario: the scenario ""temporary residence purpose: he live in Vienna from 1998 to 2000"" contributes the most to the relation ""cities of residence"".
+Uncover potential relation: if we focus on another scenario ""career purpose: he pursue his career in Vienna"", in the scenario, ""Vienna"" is the city of employment for ""he"", hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""worked for"".
+Output: <e1> Vienna </e1> worked for <e2> he </e2> from 1998 to 2000
+New relation: employee of"
+
+"Identify causal words: the context words ""at the city's"" are causally related to the relation ""cities of residence"".
+Deconstruct entities: based on the attributes of the entities, ""her"" can be deconstructed into the several primary properties: form: normal person, usage: have relationships, purpose: find love; ""Rikers Island"" can be deconstructed into the several primary properties: form: correctional facility, usage: detain criminals, purpose: maintain law and order.
+Pair the properties between ""her"" and ""Rikers Island"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""her"" and the ""usage: detain criminals"" property of ""Rikers Island"", ""her"" can be a visitor or worker at ""Rikers Island"", hence we can reconstruct the scenario: employment purpose: her works at Rikers Island.
+Reconstruct the second scenario: based on the ""usage: have relationships"" property of ""her"" and the ""purpose: maintain law and order"" property of ""Rikers Island"", ""her"" can have a relationship with someone who is detained at ""Rikers Island"", hence we can reconstruct the scenario: romantic purpose: her visits her fiance at Rikers Island.
+Reconstruct the third scenario: based on the ""purpose: find love"" property of ""her"" and the ""form: correctional facility"" property of ""Rikers Island"", ""her"" can be in a relationship with someone who works at ""Rikers Island"", hence we can reconstruct the scenario: partnership purpose: her fiance works at Rikers Island.
+Identify decisive scenario: the scenario ""romantic purpose: her visits her fiance at Rikers Island"" contributes the most to the relation ""cities of residence"".
+Uncover potential relation: if we focus on another scenario ""employment purpose: her works at Rikers Island"", in the scenario, ""Rikers Island"" is the workplace of ""her"", hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works at"".
+Output: <e1> her </e1> works at the city's <e2> Rikers Island </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""living in"" are causally related to the relation ""cities of residence"".
+Deconstruct entities: based on the attributes of the entities, ""David"" can be deconstructed into the several primary properties: form: normal person, usage: work, purpose: establish a career; ""London"" can be deconstructed into the several primary properties: form: capital city, usage: provide opportunities, purpose: attract people.
+Pair the properties between ""David"" and ""London"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""David"" and the ""usage: provide opportunities"" property of ""London"", ""David"" can live and work in ""London"" to establish a career, hence we can reconstruct the scenario: career purpose: David live and work in London.
+Reconstruct the second scenario: based on the ""usage: work"" property of ""David"" and the ""purpose: attract people"" property of ""London"", ""David"" can work in ""London"" to contribute to the city's growth, hence we can reconstruct the scenario: growth purpose: David work in London.
+Reconstruct the third scenario: based on the ""purpose: establish a career"" property of ""David"" and the ""form: capital city"" property of ""London"", ""David"" can live in ""London"" to pursue his career goals, hence we can reconstruct the scenario: ambition purpose: David live in London.
+Identify decisive scenario: the scenario ""career purpose: David live and work in London"" contributes the most to the relation ""cities of residence"".
+Uncover potential relation: if we focus on another scenario ""ambition purpose: David live in London"", in the scenario, ""London"" is the birth city of ""David"", hence the commonsense relation is ""city of birth"".
+Replace causal words: to change the original relation to the potential one ""city of birth"", the identified causal words can be replaced with ""born in"".
+Output: <e1> David </e1>, who was born in <e2> London </e2>
+New relation: city of birth"
+
+"Identify causal words: the context words ""two brothers"" are causally related to the relation ""siblings"".
+Deconstruct entities: based on the attributes of the entities, ""King"" can be deconstructed into the several primary properties: form: royal title, usage: govern, purpose: maintain power; ""Dexter Scott King"" can be deconstructed into the several primary properties: form: normal person, usage: advocate, purpose: promote equality.
+Pair the properties between ""King"" and ""Dexter Scott King"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: royal title"" property of ""King"" and the ""usage: advocate"" property of ""Dexter Scott King"", ""King"" can support and promote the advocacy work of ""Dexter Scott King"", hence we can reconstruct the scenario: support purpose: King supports Dexter Scott King's advocacy work.
+Reconstruct the second scenario: based on the ""usage: govern"" property of ""King"" and the ""purpose: promote equality"" property of ""Dexter Scott King"", ""King"" can govern and promote equality with the help of ""Dexter Scott King"", hence we can reconstruct the scenario: governance purpose: King and Dexter Scott King work together to promote equality.
+Reconstruct the third scenario: based on the ""purpose: maintain power"" property of ""King"" and the ""form: normal person"" property of ""Dexter Scott King"", ""King"" can maintain power and support the endeavors of ""Dexter Scott King"", hence we can reconstruct the scenario: support purpose: King supports Dexter Scott King's endeavors.
+Identify decisive scenario: the scenario ""support purpose: King supports Dexter Scott King's advocacy work"" contributes the most to the relation ""siblings"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: King and Dexter Scott King work together to promote equality"", in the scenario, ""Dexter Scott King"" is the sibling of ""King"" who collaborates with him to promote equality, hence the commonsense relation is ""employee of"".
+Replace causal words: to change the original relation to the potential one ""employee of"", the identified causal words can be replaced with ""works for"".
+Output: <e1> King </e1> ; works for <e2> Dexter Scott King </e2>
+New relation: employee of"
+
+"Identify causal words: the context words ""initiate a generational change of management at"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Marcel Ospel"" can be deconstructed into the several primary properties: form: individual, usage: lead, purpose: make decisions; ""UBS"" can be deconstructed into the several primary properties: form: company, usage: provide financial services, purpose: generate profit.
+Pair the properties between ""Marcel Ospel"" and ""UBS"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: individual"" property of ""Marcel Ospel"" and the ""usage: provide financial services"" property of ""UBS"", ""Marcel Ospel"" can work for ""UBS"" as an employee, hence we can reconstruct the scenario: employment purpose: Marcel Ospel works for UBS.
+Reconstruct the second scenario: based on the ""usage: lead"" property of ""Marcel Ospel"" and the ""purpose: generate profit"" property of ""UBS"", ""Marcel Ospel"" can lead ""UBS"" to generate profit, hence we can reconstruct the scenario: leadership purpose: Marcel Ospel leads UBS.
+Reconstruct the third scenario: based on the ""purpose: make decisions"" property of ""Marcel Ospel"" and the ""form: company"" property of ""UBS"", ""Marcel Ospel"" can make decisions for ""UBS"", hence we can reconstruct the scenario: decision-making purpose: Marcel Ospel makes decisions for UBS.
+Identify decisive scenario: the scenario ""employment purpose: Marcel Ospel works for UBS"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""leadership purpose: Marcel Ospel leads UBS"", in the scenario, ""UBS"" is the company where ""Marcel Ospel"" holds a high position, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Marcel Ospel </e1> holds the position of a famous movie director at <e2> UBS </e2>
+New relation: title"
+
+"Identify causal words: the context words ""employee of"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Atomic Energy Organization of Iran"" can be deconstructed into the several primary properties: form: organization, usage: research and development, purpose: promote nuclear energy; ""Ali Akbar Salehi"" can be deconstructed into the several primary properties: form: individual, usage: leadership, purpose: manage nuclear activities.
+Pair the properties between ""Atomic Energy Organization of Iran"" and ""Ali Akbar Salehi"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: organization"" property of ""Atomic Energy Organization of Iran"" and the ""usage: leadership"" property of ""Ali Akbar Salehi"", ""Ali Akbar Salehi"" can hold a leadership position in the ""Atomic Energy Organization of Iran"", hence we can reconstruct the scenario: leadership purpose: Ali Akbar Salehi is an employee of the Atomic Energy Organization of Iran.
+Reconstruct the second scenario: based on the ""usage: research and development"" property of ""Atomic Energy Organization of Iran"" and the ""purpose: manage nuclear activities"" property of ""Ali Akbar Salehi"", ""Ali Akbar Salehi"" can be involved in managing the research and development activities of the ""Atomic Energy Organization of Iran"", hence we can reconstruct the scenario: research and development purpose: Ali Akbar Salehi is an employee of the Atomic Energy Organization of Iran.
+Reconstruct the third scenario: based on the ""purpose: promote nuclear energy"" property of ""Atomic Energy Organization of Iran"" and the ""form: individual"" property of ""Ali Akbar Salehi"", ""Ali Akbar Salehi"" can work to promote nuclear energy on behalf of the ""Atomic Energy Organization of Iran"", hence we can reconstruct the scenario: promotion purpose: Ali Akbar Salehi is an employee of the Atomic Energy Organization of Iran.
+Identify decisive scenario: the scenario ""leadership purpose: Ali Akbar Salehi is an employee of the Atomic Energy Organization of Iran"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""research and development purpose: Ali Akbar Salehi is an employee of the Atomic Energy Organization of Iran"", in the scenario, ""Ali Akbar Salehi"" is involved in the research and development activities of the ""Atomic Energy Organization of Iran"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the position of"".
+Output: <e1> Atomic Energy Organization of Iran </e1> -LRB- AEOI -RRB- holds the position of <e2> Ali Akbar Salehi </e2>
+New relation: title"
+
+"Identify causal words: the context words ""represented"" and ""in"" are causally related to the relation ""employee of"".
+Deconstruct entities: based on the attributes of the entities, ""Jo Ann Davis"" can be deconstructed into the several primary properties: form: normal person, usage: serve in government, purpose: represent constituents; ""Virginia in the House of Representatives"" can be deconstructed into the several primary properties: form: political entity, usage: govern, purpose: provide representation.
+Pair the properties between ""Jo Ann Davis"" and ""Virginia in the House of Representatives"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: normal person"" property of ""Jo Ann Davis"" and the ""usage: govern"" property of ""Virginia in the House of Representatives"", ""Jo Ann Davis"" can serve in the government of ""Virginia in the House of Representatives"", hence we can reconstruct the scenario: political purpose: Jo Ann Davis is an employee of Virginia in the House of Representatives.
+Reconstruct the second scenario: based on the ""usage: serve in government"" property of ""Jo Ann Davis"" and the ""purpose: provide representation"" property of ""Virginia in the House of Representatives"", ""Jo Ann Davis"" can represent constituents of ""Virginia in the House of Representatives"", hence we can reconstruct the scenario: representation purpose: Jo Ann Davis is an employee of Virginia in the House of Representatives.
+Reconstruct the third scenario: based on the ""purpose: represent constituents"" property of ""Jo Ann Davis"" and the ""form: political entity"" property of ""Virginia in the House of Representatives"", ""Jo Ann Davis"" can be an employee of ""Virginia in the House of Representatives"" to represent constituents, hence we can reconstruct the scenario: employment purpose: Jo Ann Davis is an employee of Virginia in the House of Representatives.
+Identify decisive scenario: the scenario ""political purpose: Jo Ann Davis is an employee of Virginia in the House of Representatives"" contributes the most to the relation ""employee of"".
+Uncover potential relation: if we focus on another scenario ""representation purpose: Jo Ann Davis is an employee of Virginia in the House of Representatives"", in the scenario, ""Virginia in the House of Representatives"" is the organization that Jo Ann Davis represents, hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Jo Ann Davis </e1> , who holds the title of southeastern <e2> Virginia in the House of Representatives </e2>
+New relation: title"
+
+"Identify causal words: the context words ""said"" and ""in"" are causally related to the relation ""schools attended"".
+Deconstruct entities: based on the attributes of the entities, ""Marco Contiero"" can be deconstructed into the several primary properties: form: person, usage: express opinions, purpose: advocate for environmental issues; ""EFSA"" can be deconstructed into the several primary properties: form: organization, usage: provide scientific advice, purpose: ensure food safety.
+Pair the properties between ""Marco Contiero"" and ""EFSA"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: person"" property of ""Marco Contiero"" and the ""usage: provide scientific advice"" property of ""EFSA"", ""Marco Contiero"" can receive scientific advice from ""EFSA"" during his education, hence we can reconstruct the scenario: education purpose: Marco Contiero attended schools recommended by EFSA.
+Reconstruct the second scenario: based on the ""usage: express opinions"" property of ""Marco Contiero"" and the ""purpose: ensure food safety"" property of ""EFSA"", ""Marco Contiero"" can express his opinions about food safety issues related to ""EFSA"", hence we can reconstruct the scenario: advocacy purpose: Marco Contiero criticizes EFSA's role in ensuring food safety.
+Reconstruct the third scenario: based on the ""purpose: advocate for environmental issues"" property of ""Marco Contiero"" and the ""form: organization"" property of ""EFSA"", ""Marco Contiero"" can advocate for environmental issues related to ""EFSA"", hence we can reconstruct the scenario: advocacy purpose: Marco Contiero promotes environmental awareness in EFSA.
+Identify decisive scenario: the scenario ""education purpose: Marco Contiero attended schools recommended by EFSA"" contributes the most to the relation ""schools attended"".
+Uncover potential relation: if we focus on another scenario ""advocacy purpose: Marco Contiero criticizes EFSA's role in ensuring food safety"", in the scenario, ""EFSA"" is the subject of criticism by ""Marco Contiero"", hence the commonsense relation is ""title"".
+Replace causal words: to change the original relation to the potential one ""title"", the identified causal words can be replaced with ""holds the title of"".
+Output: <e1> Marco Contiero </e1> , of Greenpeace , holds the title of `` a clear vote of no confidence '' in <e2> EFSA </e2>
+New relation: title"
+
