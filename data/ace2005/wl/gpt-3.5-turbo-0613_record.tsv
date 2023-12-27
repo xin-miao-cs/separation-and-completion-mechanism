@@ -1,0 +1,730 @@
+"Identify causal words: the context words ""in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""sympathizers"" can be deconstructed into the several primary properties: form: individuals, usage: support, purpose: show empathy; ""Rwanda"" can be deconstructed into the several primary properties: form: country, usage: provide shelter, purpose: promote development.
+Pair the properties between ""sympathizers"" and ""Rwanda"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: support"" property of ""sympathizers"" and the ""purpose: promote development"" property of ""Rwanda"", ""sympathizers"" can support ""Rwanda"" to promote development, hence we can reconstruct the scenario: support purpose: sympathizers support Rwanda.
+Reconstruct the second scenario: based on the ""form: individuals"" property of ""sympathizers"" and the ""usage: provide shelter"" property of ""Rwanda"", ""sympathizers"" as individuals, can seek shelter in ""Rwanda"", hence we can reconstruct the scenario: shelter purpose: sympathizers seek shelter in Rwanda.
+Reconstruct the third scenario: based on the ""purpose: show empathy"" property of ""sympathizers"" and the ""form: country"" property of ""Rwanda"", ""sympathizers"" can show empathy towards ""Rwanda"" as a country, hence we can reconstruct the scenario: empathy purpose: sympathizers show empathy towards Rwanda.
+Identify decisive scenario: the scenario ""support purpose: sympathizers support Rwanda"" contribute the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""empathy purpose: sympathizers show empathy towards Rwanda"", in the scenario, ""sympathizers"" is person, ""Rwanda"" is region, hence the relation between ""sympathizers"" and ""Rwanda"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> sympathizers </e1> from <e2> Rwanda </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""people"" can be deconstructed into the several primary properties: form: human beings, usage: live, purpose: community; ""Iraq"" can be deconstructed into the several primary properties: form: country, usage: inhabit, purpose: sovereignty.
+Pair the properties between ""people"" and ""Iraq"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live"" property of ""people"" and the ""purpose: sovereignty"" property of ""Iraq"", ""people"" can live in ""Iraq"" to maintain their sovereignty, hence we can reconstruct the scenario: sovereignty purpose: people live in Iraq.
+Reconstruct the second scenario: based on the ""form: human beings"" property of ""people"" and the ""usage: inhabit"" property of ""Iraq"", ""people"" as human beings, can inhabit ""Iraq"", hence we can reconstruct the scenario: habitation purpose: people inhabit Iraq.
+Reconstruct the third scenario: based on the ""purpose: community"" property of ""people"" and the ""form: country"" property of ""Iraq"", ""people"" can form a community in the country of ""Iraq"", hence we can reconstruct the scenario: community purpose: people in Iraq.
+Identify decisive scenario: the scenario ""habitation purpose: people inhabit Iraq"" contribute the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""community purpose: people in Iraq"", in the scenario, ""people"" is person, ""Iraq"" is region, hence the relation between ""people"" and ""Iraq"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> people </e1> from <e2> Iraq </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""near"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: specify possession; ""abroad"" can be deconstructed into the several primary properties: form: location, usage: indicate a foreign country, purpose: specify a place.
+Pair the properties between ""his"" and ""abroad"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: indicate ownership"" property of ""his"" and the ""purpose: specify a place"" property of ""abroad"", ""his"" can indicate that something belongs to a place abroad, hence we can reconstruct the scenario: ownership purpose: his indicates that something belongs to abroad.
+Reconstruct the second scenario: based on the ""form: possessive pronoun"" property of ""his"" and the ""usage: indicate a foreign country"" property of ""abroad"", ""his"" can indicate that something belongs to a foreign country, hence we can reconstruct the scenario: possession purpose: his indicates that something belongs to a foreign country.
+Reconstruct the third scenario: based on the ""purpose: specify possession"" property of ""his"" and the ""form: location"" property of ""abroad"", ""his"" can specify the possession of a location abroad, hence we can reconstruct the scenario: specification purpose: his specifies the possession of abroad.
+Identify decisive scenario: the scenario ""ownership purpose: his indicates that something belongs to abroad"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""possession purpose: his indicates that something belongs to a foreign country"", in the scenario, ""his"" is person, ""abroad"" is region, hence the relation between ""his"" and ""abroad"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> his </e1> from <e2> abroad </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""was arrested by"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""he"" can be deconstructed into the several primary properties: form: human, usage: perform actions, purpose: achieve goals; ""Israel"" can be deconstructed into the several primary properties: form: country, usage: govern territory, purpose: maintain sovereignty.
+Pair the properties between ""he"" and ""Israel"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: perform actions"" property of ""he"" and the ""purpose: maintain sovereignty"" property of ""Israel"", ""he"" can be arrested by ""Israel"" for the purpose of maintaining sovereignty, hence we can reconstruct the scenario: law enforcement purpose: he was arrested by Israel.
+Reconstruct the second scenario: based on the ""form: human"" property of ""he"" and the ""usage: govern territory"" property of ""Israel"", ""he"" as a human, can be governed by ""Israel"" as a country, hence we can reconstruct the scenario: governance purpose: he is governed by Israel.
+Reconstruct the third scenario: based on the ""purpose: achieve goals"" property of ""he"" and the ""form: country"" property of ""Israel"", ""he"" can be arrested by ""Israel"" to achieve certain goals, hence we can reconstruct the scenario: goal achievement purpose: he was arrested by Israel.
+Identify decisive scenario: the scenario ""law enforcement purpose: he was arrested by Israel"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: he is governed by Israel"", in the scenario, ""he"" is person, ""Israel"" is organization, hence the relation between ""he"" and ""Israel"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> he </e1> for <e2> Israel </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""'s most valuable -- human --"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""Peoplesoft"" can be deconstructed into the several primary properties: form: software company, usage: provide HR solutions, purpose: optimize human resources management; ""resources"" can be deconstructed into the several primary properties: form: valuable assets, usage: support business operations, purpose: generate value.
+Pair the properties between ""Peoplesoft"" and ""resources"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: provide HR solutions"" property of ""Peoplesoft"" and the ""purpose: generate value"" property of ""resources"", ""Peoplesoft"" can provide HR solutions to optimize the management of valuable resources, hence we can reconstruct the scenario: HR management purpose: Peoplesoft provides HR solutions for valuable resources.
+Reconstruct the second scenario: based on the ""form: software company"" property of ""Peoplesoft"" and the ""usage: support business operations"" property of ""resources"", ""Peoplesoft"" as a software company, can support business operations by utilizing valuable resources, hence we can reconstruct the scenario: business support purpose: Peoplesoft supports business operations with valuable resources.
+Reconstruct the third scenario: based on the ""purpose: optimize human resources management"" property of ""Peoplesoft"" and the ""form: valuable assets"" property of ""resources"", ""Peoplesoft"" can optimize human resources management by leveraging valuable resources, hence we can reconstruct the scenario: HR optimization purpose: Peoplesoft optimizes human resources management with valuable resources.
+Identify decisive scenario: the scenario ""HR management purpose: Peoplesoft provides HR solutions for valuable resources"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""business support purpose: Peoplesoft supports business operations with valuable resources"", in the scenario, ""Peoplesoft"" is organization, ""resources"" is object, hence the relation between ""Peoplesoft"" and ""resources"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> Peoplesoft </e1> 's most valuable -- human -- <e2> resources </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""was"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""who"" can be deconstructed into the several primary properties: form: person, usage: refer to someone, purpose: identify; ""Baptist"" can be deconstructed into the several primary properties: form: religious group, usage: practice baptism, purpose: spread beliefs.
+Pair the properties between ""who"" and ""Baptist"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: refer to someone"" property of ""who"" and the ""purpose: spread beliefs"" property of ""Baptist"", ""who"" can refer to someone who practices baptism, hence we can reconstruct the scenario: identification purpose: who refers to a Baptist.
+Reconstruct the second scenario: based on the ""form: person"" property of ""who"" and the ""usage: practice baptism"" property of ""Baptist"", ""who"" as a person, can practice baptism as a member of the Baptist religious group, hence we can reconstruct the scenario: religious purpose: who practices baptism as a Baptist.
+Reconstruct the third scenario: based on the ""purpose: identify"" property of ""who"" and the ""form: religious group"" property of ""Baptist"", ""who"" can identify the Baptist religious group, hence we can reconstruct the scenario: identification purpose: who identifies the Baptist religious group.
+Identify decisive scenario: the scenario ""identification purpose: who refers to a Baptist"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""religious purpose: who practices baptism as a Baptist"", in the scenario, ""who"" is person, ""Baptist"" is organization, hence the relation between ""who"" and ""Baptist"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> who </e1> is <e2> Baptist </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""to carry with"" are causally related to the relation ""ART: person use artifact"".
+Deconstruct entities: based on the attributes of the entities, ""vehicles"" can be deconstructed into the several primary properties: form: transportation, usage: carry people or goods, purpose: facilitate movement; ""us"" can be deconstructed into the several primary properties: form: human, usage: travel or perform tasks, purpose: achieve goals.
+Pair the properties between ""vehicles"" and ""us"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: carry people or goods"" property of ""vehicles"" and the ""purpose: achieve goals"" property of ""us"", ""vehicles"" can be used to carry ""us"" in order to achieve goals, hence we can reconstruct the scenario: transportation purpose: vehicles carry us to achieve goals.
+Reconstruct the second scenario: based on the ""form: transportation"" property of ""vehicles"" and the ""usage: travel or perform tasks"" property of ""us"", ""vehicles"" can be used by ""us"" for traveling or performing tasks, hence we can reconstruct the scenario: travel purpose: vehicles used by us for traveling or performing tasks.
+Reconstruct the third scenario: based on the ""purpose: facilitate movement"" property of ""vehicles"" and the ""form: human"" property of ""us"", ""vehicles"" can be used to facilitate the movement of ""us"", hence we can reconstruct the scenario: movement purpose: vehicles facilitate the movement of us.
+Identify decisive scenario: the scenario ""transportation purpose: vehicles carry us to achieve goals"" contributes the most to the relation ""ART: person use artifact"".
+Uncover potential relation: if we focus on another scenario ""travel purpose: vehicles used by us for traveling or performing tasks"", in the scenario, ""vehicles"" is artifact, ""us"" is person, hence the relation between ""vehicles"" and ""us"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> vehicles </e1> from carrying with <e2> us </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""left"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""I"" can be deconstructed into the several primary properties: form: human, usage: move, purpose: change location; ""room"" can be deconstructed into the several primary properties: form: enclosed space, usage: provide shelter, purpose: contain objects.
+Pair the properties between ""I"" and ""room"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: move"" property of ""I"" and the ""purpose: contain objects"" property of ""room"", ""I"" can leave the ""room"" to change location, hence we can reconstruct the scenario: movement purpose: I leave the room.
+Reconstruct the second scenario: based on the ""form: human"" property of ""I"" and the ""usage: provide shelter"" property of ""room"", ""I"" as a human, can use the ""room"" for shelter, hence we can reconstruct the scenario: shelter purpose: I use the room.
+Reconstruct the third scenario: based on the ""purpose: change location"" property of ""I"" and the ""form: enclosed space"" property of ""room"", ""I"" can exit the enclosed ""room"" to change location, hence we can reconstruct the scenario: exit purpose: I exit the room.
+Identify decisive scenario: the scenario ""movement purpose: I leave the room"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""shelter purpose: I use the room"", in the scenario, ""I"" is person, ""room"" is artifact, hence the relation between ""I"" and ""room"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> I </e1> use that <e2> room </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""stretches into"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""tribe"" can be deconstructed into the several primary properties: form: social group, usage: inhabit, purpose: preserve culture; ""states"" can be deconstructed into the several primary properties: form: political division, usage: govern, purpose: maintain order.
+Pair the properties between ""tribe"" and ""states"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: inhabit"" property of ""tribe"" and the ""purpose: maintain order"" property of ""states"", ""tribe"" can inhabit the ""states"" to maintain order, hence we can reconstruct the scenario: governance purpose: tribe inhabits the states.
+Reconstruct the second scenario: based on the ""form: social group"" property of ""tribe"" and the ""usage: govern"" property of ""states"", ""tribe"" as a social group, can govern the ""states"", hence we can reconstruct the scenario: governance purpose: tribe governs the states.
+Reconstruct the third scenario: based on the ""purpose: preserve culture"" property of ""tribe"" and the ""form: political division"" property of ""states"", ""tribe"" can preserve its culture in the ""states"", hence we can reconstruct the scenario: cultural preservation purpose: tribe preserves its culture in the states.
+Identify decisive scenario: the scenario ""governance purpose: tribe governs the states"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""cultural preservation purpose: tribe preserves its culture in the states"", in the scenario, ""tribe"" is person, ""states"" is region, hence the relation between ""tribe"" and ""states"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> tribe </e1> from the <e2> states </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""writing for"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""she"" can be deconstructed into the several primary properties: form: human, usage: write, purpose: express thoughts; ""Fortune"" can be deconstructed into the several primary properties: form: media organization, usage: publish articles, purpose: provide news and information.
+Pair the properties between ""she"" and ""Fortune"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: write"" property of ""she"" and the ""purpose: provide news and information"" property of ""Fortune"", ""she"" can write articles for ""Fortune"" to provide news and information, hence we can reconstruct the scenario: journalism purpose: she writes for Fortune.
+Reconstruct the second scenario: based on the ""form: human"" property of ""she"" and the ""usage: publish articles"" property of ""Fortune"", ""she"" as a human, can have her articles published by ""Fortune"", hence we can reconstruct the scenario: publication purpose: her articles are published by Fortune.
+Reconstruct the third scenario: based on the ""purpose: express thoughts"" property of ""she"" and the ""form: media organization"" property of ""Fortune"", ""she"" can write for ""Fortune"" to express her thoughts, hence we can reconstruct the scenario: expression purpose: she writes for Fortune.
+Identify decisive scenario: the scenario ""journalism purpose: she writes for Fortune"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""expression purpose: she writes for Fortune"", in the scenario, ""she"" is person, ""Fortune"" is artifact, hence the relation between ""she"" and ""Fortune"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> she </e1> use the <e2> Fortune </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""in passing efficiency while"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""nation"" can be deconstructed into the several primary properties: form: political entity, usage: represent a group of people, purpose: govern the country; ""David Greene"" can be deconstructed into the several primary properties: form: individual, usage: play football, purpose: win games.
+Pair the properties between ""nation"" and ""David Greene"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: represent a group of people"" property of ""nation"" and the ""purpose: win games"" property of ""David Greene"", ""David Greene"" can represent the ""nation"" in football games to win, hence we can reconstruct the scenario: representation purpose: David Greene represents the nation in football games.
+Reconstruct the second scenario: based on the ""form: political entity"" property of ""nation"" and the ""usage: play football"" property of ""David Greene"", ""David Greene"" can be a player representing the ""nation"" in football games, hence we can reconstruct the scenario: representation purpose: David Greene is a player representing the nation in football games.
+Reconstruct the third scenario: based on the ""purpose: govern the country"" property of ""nation"" and the ""form: individual"" property of ""David Greene"", ""David Greene"" can be a leader of the ""nation"" governing the country, hence we can reconstruct the scenario: leadership purpose: David Greene is a leader of the nation governing the country.
+Identify decisive scenario: the scenario ""representation purpose: David Greene represents the nation in football games"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""leadership purpose: David Greene is a leader of the nation governing the country"", in the scenario, ""nation"" is object, ""David Greene"" is person, hence the relation between ""nation"" and ""David Greene"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> nation </e1> for the <e2> David Greene </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""could basically buy"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""company"" can be deconstructed into the several primary properties: form: profit organization, usage: hire employee, purpose: make money; ""government"" can be deconstructed into the several primary properties: form: governing body, usage: govern territory, purpose: maintain order.
+Pair the properties between ""company"" and ""government"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: hire employee"" property of ""company"" and the ""purpose: maintain order"" property of ""government"", ""company"" can hire employees to help maintain order in the territory governed by the ""government"", hence we can reconstruct the scenario: employment purpose: company hires employees for the government.
+Reconstruct the second scenario: based on the ""form: profit organization"" property of ""company"" and the ""usage: govern territory"" property of ""government"", ""company"" as a profit organization, can govern the territory on behalf of the ""government"", hence we can reconstruct the scenario: governance purpose: company governs the territory for the government.
+Reconstruct the third scenario: based on the ""purpose: make money"" property of ""company"" and the ""form: governing body"" property of ""government"", ""company"" can buy the ""government"" to make money, hence we can reconstruct the scenario: purchase purpose: company buys the government.
+Identify decisive scenario: the scenario ""employment purpose: company hires employees for the government"" contribute the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: company governs the territory for the government"", in the scenario, ""company"" is organization, ""government"" is region, hence the relation between ""company"" and ""government"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> company </e1> could basically buy some tiny , ill-established foreign <e2> government </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context word ""started"" is causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""I"" can be deconstructed into the several primary properties: form: individual, usage: begin an activity, purpose: achieve a goal; ""here"" can be deconstructed into the several primary properties: form: location, usage: be present, purpose: provide a setting.
+Pair the properties between ""I"" and ""here"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: begin an activity"" property of ""I"" and the ""purpose: provide a setting"" property of ""here"", ""I"" can start an activity in the location ""here"", hence we can reconstruct the scenario: activity purpose: I started here.
+Reconstruct the second scenario: based on the ""form: individual"" property of ""I"" and the ""usage: be present"" property of ""here"", ""I"" as an individual can be present in the location ""here"", hence we can reconstruct the scenario: presence purpose: I am here.
+Reconstruct the third scenario: based on the ""purpose: achieve a goal"" property of ""I"" and the ""form: location"" property of ""here"", ""I"" can start an activity with the goal of reaching the location ""here"", hence we can reconstruct the scenario: goal purpose: I started to reach here.
+Identify decisive scenario: the scenario ""activity purpose: I started here"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""presence purpose: I am here"", in the scenario, ""I"" is person, ""here"" is location, hence the relation between ""I"" and ""here"" is ""PHYS: person near location"".
+Replace causal words: to change the original relation to the potential one ""PHYS: person near location"", the identified causal word ""started"" can be replaced with ""near"".
+Output: <e1> I </e1> near <e2> here </e2>
+New relation: PHYS: person near location"
+
+"Identify causal words: the context words ""'s biggest"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""country"" can be deconstructed into the several primary properties: form: geographical region, usage: govern people, purpose: maintain sovereignty; ""hitters"" can be deconstructed into the several primary properties: form: athletes, usage: play sports, purpose: achieve victory.
+Pair the properties between ""country"" and ""hitters"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: govern people"" property of ""country"" and the ""purpose: achieve victory"" property of ""hitters"", ""country"" can produce top athletes to achieve victory in sports, hence we can reconstruct the scenario: sports purpose: country produces top hitters.
+Reconstruct the second scenario: based on the ""form: geographical region"" property of ""country"" and the ""usage: play sports"" property of ""hitters"", ""country"" as a geographical region, can be the origin of athletes who play sports, hence we can reconstruct the scenario: origin purpose: country's hitters play sports.
+Reconstruct the third scenario: based on the ""purpose: maintain sovereignty"" property of ""country"" and the ""form: athletes"" property of ""hitters"", ""country"" can recruit top athletes to maintain its sovereignty, hence we can reconstruct the scenario: recruitment purpose: country recruits top hitters.
+Identify decisive scenario: the scenario ""origin purpose: country's hitters play sports"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""recruitment purpose: country recruits top hitters"", in the scenario, ""country"" is object, ""hitters"" is person, hence the relation between ""country"" and ""hitters"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> country </e1> for the <e2> hitters </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""from"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""officers"" can be deconstructed into the several primary properties: form: law enforcement personnel, usage: maintain order, purpose: protect the community; ""Anbar"" can be deconstructed into the several primary properties: form: geographical region, usage: provide resources, purpose: support the population.
+Pair the properties between ""officers"" and ""Anbar"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: maintain order"" property of ""officers"" and the ""purpose: support the population"" property of ""Anbar"", ""officers"" can come from ""Anbar"" to maintain order and support the population, hence we can reconstruct the scenario: support purpose: officers come from Anbar.
+Reconstruct the second scenario: based on the ""form: law enforcement personnel"" property of ""officers"" and the ""usage: provide resources"" property of ""Anbar"", ""officers"" as law enforcement personnel, can receive resources from ""Anbar"", hence we can reconstruct the scenario: resource purpose: officers receive resources from Anbar.
+Reconstruct the third scenario: based on the ""purpose: protect the community"" property of ""officers"" and the ""form: geographical region"" property of ""Anbar"", ""officers"" can be stationed in ""Anbar"" to protect the community, hence we can reconstruct the scenario: protection purpose: officers stationed in Anbar.
+Identify decisive scenario: the scenario ""support purpose: officers come from Anbar"" contribute the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""protection purpose: officers stationed in Anbar"", in the scenario, ""officers"" is person, ""Anbar"" is location, hence the relation between ""officers"" and ""Anbar"" is ""PHYS: person near location"".
+Replace causal words: to change the original relation to the potential one ""PHYS: person near location"", the identified causal words can be replaced with ""near"".
+Output: <e1> officers </e1> near <e2> Anbar </e2>
+New relation: PHYS: person near location"
+
+"Identify causal words: the context words ""could have been at"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""I"" can be deconstructed into the several primary properties: form: individual, usage: socialize, purpose: relax; ""Pub"" can be deconstructed into the several primary properties: form: establishment, usage: serve drinks, purpose: entertainment.
+Pair the properties between ""I"" and ""Pub"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: socialize"" property of ""I"" and the ""purpose: entertainment"" property of ""Pub"", ""I"" can go to ""Pub"" to socialize and have entertainment, hence we can reconstruct the scenario: socializing purpose: I go to the Pub.
+Reconstruct the second scenario: based on the ""form: individual"" property of ""I"" and the ""usage: serve drinks"" property of ""Pub"", ""I"" as an individual, can visit ""Pub"" to have drinks, hence we can reconstruct the scenario: drinking purpose: I visit the Pub.
+Reconstruct the third scenario: based on the ""purpose: relax"" property of ""I"" and the ""form: establishment"" property of ""Pub"", ""I"" can choose ""Pub"" as a place to relax, hence we can reconstruct the scenario: relaxation purpose: I choose the Pub.
+Identify decisive scenario: the scenario ""socializing purpose: I go to the Pub"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""drinking purpose: I visit the Pub"", in the scenario, ""I"" is person, ""Pub"" is artifact, hence the relation between ""I"" and ""Pub"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> I </e1> use the <e2> Pub </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""Tutsis"" can be deconstructed into the several primary properties: form: ethnic group, usage: live in, purpose: maintain cultural identity; ""Rwanda"" can be deconstructed into the several primary properties: form: country, usage: provide governance, purpose: ensure stability.
+Pair the properties between ""Tutsis"" and ""Rwanda"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live in"" property of ""Tutsis"" and the ""purpose: ensure stability"" property of ""Rwanda"", ""Tutsis"" can live in ""Rwanda"" to ensure stability, hence we can reconstruct the scenario: residence purpose: Tutsis live in Rwanda.
+Reconstruct the second scenario: based on the ""form: ethnic group"" property of ""Tutsis"" and the ""usage: provide governance"" property of ""Rwanda"", ""Tutsis"" as an ethnic group, can be governed by ""Rwanda"", hence we can reconstruct the scenario: governance purpose: Tutsis are governed by Rwanda.
+Reconstruct the third scenario: based on the ""purpose: maintain cultural identity"" property of ""Tutsis"" and the ""form: country"" property of ""Rwanda"", ""Tutsis"" can establish their cultural identity in ""Rwanda"", hence we can reconstruct the scenario: cultural purpose: Tutsis establish their cultural identity in Rwanda.
+Identify decisive scenario: the scenario ""residence purpose: Tutsis live in Rwanda"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: Tutsis are governed by Rwanda"", in the scenario, ""Tutsis"" is person, ""Rwanda"" is organization, hence the relation between ""Tutsis"" and ""Rwanda"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> Tutsis </e1> and their sympathizers for <e2> Rwanda </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""'re second-class citizens in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""they"" can be deconstructed into the several primary properties: form: group of people, usage: live, purpose: seek opportunities; ""United States"" can be deconstructed into the several primary properties: form: country, usage: provide citizenship, purpose: govern.
+Pair the properties between ""they"" and ""United States"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live"" property of ""they"" and the ""purpose: govern"" property of ""United States"", ""they"" can live in the ""United States"" under the governance of the country, hence we can reconstruct the scenario: residence purpose: they live in the United States.
+Reconstruct the second scenario: based on the ""form: group of people"" property of ""they"" and the ""usage: provide citizenship"" property of ""United States"", ""they"" as a group of people, can seek citizenship from the ""United States"", hence we can reconstruct the scenario: citizenship purpose: they seek citizenship from the United States.
+Reconstruct the third scenario: based on the ""purpose: seek opportunities"" property of ""they"" and the ""form: country"" property of ""United States"", ""they"" can seek opportunities in the ""United States"", hence we can reconstruct the scenario: opportunity purpose: they seek opportunities in the United States.
+Identify decisive scenario: the scenario ""residence purpose: they live in the United States"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""citizenship purpose: they seek citizenship from the United States"", in the scenario, ""they"" is person, ""United States"" is organization, hence the relation between ""they"" and ""United States"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> they </e1> 're second-class citizens for the <e2> United States </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""of"" and ""'s"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""State"" can be deconstructed into the several primary properties: form: political entity, usage: govern territory, purpose: provide governance; ""Superintendant"" can be deconstructed into the several primary properties: form: job position, usage: manage organization, purpose: ensure efficiency.
+Pair the properties between ""State"" and ""Superintendant"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: govern territory"" property of ""State"" and the ""purpose: ensure efficiency"" property of ""Superintendant"", the ""Superintendant"" can be appointed by the ""State"" to ensure the efficiency of the organization, hence we can reconstruct the scenario: appointment purpose: State appoints Superintendant.
+Reconstruct the second scenario: based on the ""form: political entity"" property of ""State"" and the ""usage: manage organization"" property of ""Superintendant"", the ""Superintendant"" can be employed by the ""State"" to manage the organization, hence we can reconstruct the scenario: employment purpose: Superintendant is employed by the State.
+Reconstruct the third scenario: based on the ""purpose: provide governance"" property of ""State"" and the ""form: job position"" property of ""Superintendant"", the ""Superintendant"" can be assigned by the ""State"" to provide governance, hence we can reconstruct the scenario: assignment purpose: State assigns Superintendant.
+Identify decisive scenario: the scenario ""employment purpose: Superintendant is employed by the State"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""appointment purpose: State appoints Superintendant"", in the scenario, ""State"" is organization, ""Superintendant"" is person, hence the relation between ""State"" and ""Superintendant"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> State </e1> from the <e2> Superintendant </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""is taking over"" are causally related to the relation ""ART: person use artifact"".
+Deconstruct entities: based on the attributes of the entities, ""Starbucks"" can be deconstructed into the several primary properties: form: corporation, usage: sell coffee, purpose: make profit; ""location"" can be deconstructed into the several primary properties: form: physical place, usage: provide services, purpose: attract customers.
+Pair the properties between ""Starbucks"" and ""location"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: sell coffee"" property of ""Starbucks"" and the ""purpose: attract customers"" property of ""location"", ""Starbucks"" can take over the ""location"" to sell coffee and attract customers, hence we can reconstruct the scenario: business purpose: Starbucks takes over the location.
+Reconstruct the second scenario: based on the ""form: corporation"" property of ""Starbucks"" and the ""usage: provide services"" property of ""location"", ""Starbucks"" as a corporation, can provide services at the ""location"", hence we can reconstruct the scenario: service purpose: Starbucks provides services at the location.
+Reconstruct the third scenario: based on the ""purpose: make profit"" property of ""Starbucks"" and the ""form: physical place"" property of ""location"", ""Starbucks"" can acquire the ""location"" to make profit, hence we can reconstruct the scenario: acquisition purpose: Starbucks acquires the location.
+Identify decisive scenario: the scenario ""business purpose: Starbucks takes over the location"" contributes the most to the relation ""ART: person use artifact"".
+Uncover potential relation: if we focus on another scenario ""service purpose: Starbucks provides services at the location"", in the scenario, ""Starbucks"" is organization, ""location"" is person, hence the relation between ""Starbucks"" and ""location"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> Starbucks </e1> is for the <e2> location </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""activities in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""terrorist"" can be deconstructed into the several primary properties: form: criminal, usage: engage in illegal activities, purpose: cause harm; ""Europe"" can be deconstructed into the several primary properties: form: continent, usage: provide living space, purpose: promote cultural exchange.
+Pair the properties between ""terrorist"" and ""Europe"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: engage in illegal activities"" property of ""terrorist"" and the ""purpose: promote cultural exchange"" property of ""Europe"", ""terrorist"" can engage in illegal activities in ""Europe"" to disrupt cultural exchange, hence we can reconstruct the scenario: disruption purpose: terrorist engage in illegal activities in Europe.
+Reconstruct the second scenario: based on the ""form: criminal"" property of ""terrorist"" and the ""usage: provide living space"" property of ""Europe"", ""terrorist"" as a criminal, can find refuge in ""Europe"", hence we can reconstruct the scenario: refuge purpose: terrorist find refuge in Europe.
+Reconstruct the third scenario: based on the ""purpose: cause harm"" property of ""terrorist"" and the ""form: continent"" property of ""Europe"", ""terrorist"" can target ""Europe"" to cause harm, hence we can reconstruct the scenario: harm purpose: terrorist target Europe.
+Identify decisive scenario: the scenario ""harm purpose: terrorist target Europe"" contribute the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""refuge purpose: terrorist find refuge in Europe"", in the scenario, ""terrorist"" is person, ""Europe"" is region, hence the relation between ""terrorist"" and ""Europe"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> terrorist </e1> from <e2> Europe </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""to get within"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""enemy"" can be deconstructed into the several primary properties: form: opposing force, usage: invade territory, purpose: gain control; ""borders"" can be deconstructed into the several primary properties: form: geographical boundary, usage: demarcate territory, purpose: maintain sovereignty.
+Pair the properties between ""enemy"" and ""borders"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: invade territory"" property of ""enemy"" and the ""purpose: maintain sovereignty"" property of ""borders"", the enemy can try to get within the borders to invade the territory, hence we can reconstruct the scenario: invasion purpose: enemy tries to get within our borders.
+Reconstruct the second scenario: based on the ""form: opposing force"" property of ""enemy"" and the ""usage: demarcate territory"" property of ""borders"", the enemy can be opposed to the borders that demarcate the territory, hence we can reconstruct the scenario: opposition purpose: enemy opposes our borders.
+Reconstruct the third scenario: based on the ""purpose: gain control"" property of ""enemy"" and the ""form: geographical boundary"" property of ""borders"", the enemy can try to gain control over the geographical boundary represented by the borders, hence we can reconstruct the scenario: control purpose: enemy tries to get control within our borders.
+Identify decisive scenario: the scenario ""invasion purpose: enemy tries to get within our borders"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""opposition purpose: enemy opposes our borders"", in the scenario, ""enemy"" is person, ""borders"" is region, hence the relation between ""enemy"" and ""borders"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> enemy </e1> from the <e2> borders </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""peacekeepers"" can be deconstructed into the several primary properties: form: military personnel, usage: maintain peace, purpose: ensure security; ""Rwanda"" can be deconstructed into the several primary properties: form: country, usage: provide governance, purpose: promote development.
+Pair the properties between ""peacekeepers"" and ""Rwanda"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: maintain peace"" property of ""peacekeepers"" and the ""purpose: promote development"" property of ""Rwanda"", ""peacekeepers"" can be in ""Rwanda"" to maintain peace and promote development, hence we can reconstruct the scenario: peacekeeping purpose: peacekeepers in Rwanda.
+Reconstruct the second scenario: based on the ""form: military personnel"" property of ""peacekeepers"" and the ""usage: provide governance"" property of ""Rwanda"", ""peacekeepers"" as military personnel, can provide governance in ""Rwanda"", hence we can reconstruct the scenario: governance purpose: peacekeepers provide governance in Rwanda.
+Reconstruct the third scenario: based on the ""purpose: ensure security"" property of ""peacekeepers"" and the ""form: country"" property of ""Rwanda"", ""peacekeepers"" can be stationed in ""Rwanda"" to ensure security, hence we can reconstruct the scenario: security purpose: peacekeepers stationed in Rwanda.
+Identify decisive scenario: the scenario ""peacekeeping purpose: peacekeepers in Rwanda"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""governance purpose: peacekeepers provide governance in Rwanda"", in the scenario, ""peacekeepers"" is person, ""Rwanda"" is organization, hence the relation between ""peacekeepers"" and ""Rwanda"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> peacekeepers </e1> for <e2> Rwanda </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""spent a few years living in"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""I"" can be deconstructed into the several primary properties: form: human, usage: live, purpose: experience; ""Seattle"" can be deconstructed into the several primary properties: form: city, usage: reside, purpose: provide services.
+Pair the properties between ""I"" and ""Seattle"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live"" property of ""I"" and the ""purpose: provide services"" property of ""Seattle"", ""I"" can live in ""Seattle"" to experience the services provided by the city, hence we can reconstruct the scenario: experience purpose: I live in Seattle.
+Reconstruct the second scenario: based on the ""form: human"" property of ""I"" and the ""usage: reside"" property of ""Seattle"", ""I"" as a human, can reside in ""Seattle"", hence we can reconstruct the scenario: residence purpose: I reside in Seattle.
+Reconstruct the third scenario: based on the ""purpose: experience"" property of ""I"" and the ""form: city"" property of ""Seattle"", ""I"" can visit ""Seattle"" to experience the city, hence we can reconstruct the scenario: visit purpose: I visit Seattle.
+Identify decisive scenario: the scenario ""experience purpose: I live in Seattle"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""visit purpose: I visit Seattle"", in the scenario, ""I"" is person, ""Seattle"" is location, hence the relation between ""I"" and ""Seattle"" is ""PHYS: person near location"".
+Replace causal words: to change the original relation to the potential one ""PHYS: person near location"", the identified causal words can be replaced with ""near"".
+Output: <e1> I </e1> live near <e2> Seattle </e2>
+New relation: PHYS: person near location"
+
+"Identify causal words: the context words ""'d STILL have to pay"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""they"" can be deconstructed into the several primary properties: form: group, usage: owe money, purpose: fulfill obligation; ""him"" can be deconstructed into the several primary properties: form: individual, usage: receive payment, purpose: obtain funds.
+Pair the properties between ""they"" and ""him"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: owe money"" property of ""they"" and the ""purpose: obtain funds"" property of ""him"", ""they"" can still have to pay ""him"" to fulfill their obligation, hence we can reconstruct the scenario: payment purpose: they still have to pay him.
+Reconstruct the second scenario: based on the ""form: group"" property of ""they"" and the ""usage: receive payment"" property of ""him"", ""they"" as a group, can pay ""him"" as an individual, hence we can reconstruct the scenario: transaction purpose: they pay him.
+Reconstruct the third scenario: based on the ""purpose: fulfill obligation"" property of ""they"" and the ""form: individual"" property of ""him"", ""they"" can fulfill their obligation by paying ""him"", hence we can reconstruct the scenario: obligation purpose: they fulfill their obligation by paying him.
+Identify decisive scenario: the scenario ""payment purpose: they still have to pay him"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""transaction purpose: they pay him"", in the scenario, ""they"" is person, ""him"" is person, hence the relation between ""they"" and ""him"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> they </e1> 'd STILL have to pay <e2> him </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""such as"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""conservatives"" can be deconstructed into the several primary properties: form: political ideology, usage: advocate for traditional values, purpose: maintain social order; ""Francis Fukuyama"" can be deconstructed into the several primary properties: form: political scientist, usage: analyze political systems, purpose: provide insights.
+Pair the properties between ""conservatives"" and ""Francis Fukuyama"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: advocate for traditional values"" property of ""conservatives"" and the ""purpose: provide insights"" property of ""Francis Fukuyama"", ""conservatives"" can provide insights on advocating for traditional values, hence we can reconstruct the scenario: analysis purpose: conservatives provide insights on advocating for traditional values.
+Reconstruct the second scenario: based on the ""form: political ideology"" property of ""conservatives"" and the ""usage: analyze political systems"" property of ""Francis Fukuyama"", ""conservatives"" as a political ideology, can be analyzed by ""Francis Fukuyama"", hence we can reconstruct the scenario: analysis purpose: Francis Fukuyama analyzes conservatives as a political ideology.
+Reconstruct the third scenario: based on the ""purpose: maintain social order"" property of ""conservatives"" and the ""form: political scientist"" property of ""Francis Fukuyama"", ""conservatives"" can seek insights from ""Francis Fukuyama"" to maintain social order, hence we can reconstruct the scenario: consultation purpose: conservatives seek insights from Francis Fukuyama to maintain social order.
+Identify decisive scenario: the scenario ""analysis purpose: conservatives provide insights on advocating for traditional values"" contribute the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""consultation purpose: conservatives seek insights from Francis Fukuyama to maintain social order"", in the scenario, ""conservatives"" is object, ""Francis Fukuyama"" is person, hence the relation between ""conservatives"" and ""Francis Fukuyama"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> conservatives </e1> for <e2> Francis Fukuyama </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""came to"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""someone"" can be deconstructed into the several primary properties: form: human, usage: visit, purpose: interact; ""room"" can be deconstructed into the several primary properties: form: enclosed space, usage: accommodate, purpose: provide shelter.
+Pair the properties between ""someone"" and ""room"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: visit"" property of ""someone"" and the ""purpose: provide shelter"" property of ""room"", ""someone"" can come to ""room"" to seek shelter, hence we can reconstruct the scenario: shelter purpose: someone came to the room.
+Reconstruct the second scenario: based on the ""form: human"" property of ""someone"" and the ""usage: accommodate"" property of ""room"", ""someone"" as a human, can be accommodated by ""room"", hence we can reconstruct the scenario: accommodation purpose: someone is accommodated by the room.
+Reconstruct the third scenario: based on the ""purpose: interact"" property of ""someone"" and the ""form: enclosed space"" property of ""room"", ""someone"" can use ""room"" as a space to interact with others, hence we can reconstruct the scenario: interaction purpose: someone uses the room.
+Identify decisive scenario: the scenario ""shelter purpose: someone came to the room"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""interaction purpose: someone uses the room"", in the scenario, ""someone"" is person, ""room"" is artifact, hence the relation between ""someone"" and ""room"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> someone </e1> use our <e2> room </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""such as"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""conservatives"" can be deconstructed into the several primary properties: ideology: conservative, affiliation: political, belief: traditional values; ""Bernard Lewis"" can be deconstructed into the several primary properties: profession: historian, expertise: Middle East, origin: region.
+Pair the properties between ""conservatives"" and ""Bernard Lewis"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""affiliation: political"" property of ""conservatives"" and the ""origin: region"" property of ""Bernard Lewis"", ""conservatives"" can be associated with ""Bernard Lewis"" as an object from the region, hence we can reconstruct the scenario: origin purpose: conservatives from the region.
+Reconstruct the second scenario: based on the ""ideology: conservative"" property of ""conservatives"" and the ""expertise: Middle East"" property of ""Bernard Lewis"", ""conservatives"" can be influenced by the expertise of ""Bernard Lewis"" in the Middle East, hence we can reconstruct the scenario: influence purpose: conservatives influenced by Bernard Lewis.
+Reconstruct the third scenario: based on the ""belief: traditional values"" property of ""conservatives"" and the ""profession: historian"" property of ""Bernard Lewis"", ""conservatives"" can value the historical knowledge and expertise of ""Bernard Lewis"", hence we can reconstruct the scenario: value purpose: conservatives value Bernard Lewis.
+Identify decisive scenario: the scenario ""origin purpose: conservatives from the region"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""value purpose: conservatives value Bernard Lewis"", in the scenario, ""conservatives"" is person, ""Bernard Lewis"" is person, hence the relation between ""conservatives"" and ""Bernard Lewis"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> conservatives </e1> for <e2> Bernard Lewis </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""from"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""leader"" can be deconstructed into the several primary properties: form: human, role: guide, purpose: lead; ""West Bank"" can be deconstructed into the several primary properties: form: region, location: Middle East, purpose: govern.
+Pair the properties between ""leader"" and ""West Bank"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""role: guide"" property of ""leader"" and the ""purpose: govern"" property of ""West Bank"", ""leader"" can guide the governance of ""West Bank"", hence we can reconstruct the scenario: governance purpose: leader guide the West Bank.
+Reconstruct the second scenario: based on the ""form: human"" property of ""leader"" and the ""location: Middle East"" property of ""West Bank"", ""leader"" as a human, can be from the Middle East region, hence we can reconstruct the scenario: origin purpose: leader is from the West Bank.
+Reconstruct the third scenario: based on the ""purpose: lead"" property of ""leader"" and the ""form: region"" property of ""West Bank"", ""leader"" can lead the development of the West Bank region, hence we can reconstruct the scenario: development purpose: leader lead the West Bank.
+Identify decisive scenario: the scenario ""origin purpose: leader is from the West Bank"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""development purpose: leader lead the West Bank"", in the scenario, ""leader"" is person, ""West Bank"" is organization, hence the relation between ""leader"" and ""West Bank"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> leader </e1> for the <e2> West Bank </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""touring"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""businessmen"" can be deconstructed into the several primary properties: form: professional, usage: travel, purpose: explore opportunities; ""place"" can be deconstructed into the several primary properties: form: geographical location, usage: attract visitors, purpose: showcase attractions.
+Pair the properties between ""businessmen"" and ""place"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: travel"" property of ""businessmen"" and the ""purpose: showcase attractions"" property of ""place"", ""businessmen"" can travel to ""place"" to explore the attractions, hence we can reconstruct the scenario: exploration purpose: businessmen travel to the place.
+Reconstruct the second scenario: based on the ""form: professional"" property of ""businessmen"" and the ""usage: attract visitors"" property of ""place"", ""businessmen"" as professionals, can visit ""place"" to attract visitors, hence we can reconstruct the scenario: promotion purpose: businessmen visit the place.
+Reconstruct the third scenario: based on the ""purpose: explore opportunities"" property of ""businessmen"" and the ""form: geographical location"" property of ""place"", ""businessmen"" can invest in the location of ""place"" to explore business opportunities, hence we can reconstruct the scenario: investment purpose: businessmen invest in the place.
+Identify decisive scenario: the scenario ""exploration purpose: businessmen travel to the place"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""promotion purpose: businessmen visit the place"", in the scenario, ""businessmen"" is person, ""place"" is organization, hence the relation between ""businessmen"" and ""place"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> businessmen </e1> for the <e2> place </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""dying in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""people"" can be deconstructed into the several primary properties: form: human beings, usage: live, purpose: survive; ""Iraq"" can be deconstructed into the several primary properties: form: country, usage: inhabit, purpose: govern.
+Pair the properties between ""people"" and ""Iraq"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live"" property of ""people"" and the ""purpose: govern"" property of ""Iraq"", ""people"" can live in ""Iraq"" under the governance of the country, hence we can reconstruct the scenario: residence purpose: people live in Iraq.
+Reconstruct the second scenario: based on the ""form: human beings"" property of ""people"" and the ""usage: inhabit"" property of ""Iraq"", ""people"" as human beings can inhabit the country ""Iraq"", hence we can reconstruct the scenario: habitation purpose: people inhabit Iraq.
+Reconstruct the third scenario: based on the ""purpose: survive"" property of ""people"" and the ""form: country"" property of ""Iraq"", ""people"" can seek survival in the country ""Iraq"", hence we can reconstruct the scenario: survival purpose: people seek survival in Iraq.
+Identify decisive scenario: the scenario ""habitation purpose: people inhabit Iraq"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""residence purpose: people live in Iraq"", in the scenario, ""people"" is person, ""Iraq"" is organization, hence the relation between ""people"" and ""Iraq"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> people </e1> for the <e2> Iraq </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""is blessed to have so many respected"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""Virginia"" can be deconstructed into the several primary properties: form: state, location: United States, purpose: governance; ""servants"" can be deconstructed into the several primary properties: form: public officials, role: foreign policy and security policy, purpose: serve the public.
+Pair the properties between ""Virginia"" and ""servants"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""location: United States"" property of ""Virginia"" and the ""role: foreign policy and security policy"" property of ""servants"", ""Virginia"" can have public officials who specialize in foreign policy and security policy, hence we can reconstruct the scenario: specialization purpose: Virginia has public servants specializing in foreign policy and security policy.
+Reconstruct the second scenario: based on the ""form: state"" property of ""Virginia"" and the ""form: public officials"" property of ""servants"", ""Virginia"" as a state can have public officials, hence we can reconstruct the scenario: governance purpose: Virginia has public servants for governance.
+Reconstruct the third scenario: based on the ""purpose: governance"" property of ""Virginia"" and the ""purpose: serve the public"" property of ""servants"", ""Virginia"" can have public officials who serve the public for governance, hence we can reconstruct the scenario: service purpose: Virginia has public servants serving the public.
+Identify decisive scenario: the scenario ""specialization purpose: Virginia has public servants specializing in foreign policy and security policy"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""service purpose: Virginia has public servants serving the public"", in the scenario, ""Virginia"" is region, ""servants"" is person, hence the relation between ""Virginia"" and ""servants"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> Virginia </e1> is blessed to have so many respected foreign policy and security policy public <e2> servants </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""abandoned by"" are causally related to the relation ""ART: person use artifact"".
+Deconstruct entities: based on the attributes of the entities, ""location"" can be deconstructed into the several primary properties: form: physical place, usage: provide services, purpose: serve the community; ""Krispy Kreme"" can be deconstructed into the several primary properties: form: food chain, usage: sell donuts, purpose: make profit.
+Pair the properties between ""location"" and ""Krispy Kreme"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: provide services"" property of ""location"" and the ""purpose: make profit"" property of ""Krispy Kreme"", ""Krispy Kreme"" can operate in the ""location"" to sell donuts and make profit, hence we can reconstruct the scenario: business purpose: Krispy Kreme operates in the location.
+Reconstruct the second scenario: based on the ""form: physical place"" property of ""location"" and the ""usage: sell donuts"" property of ""Krispy Kreme"", the ""location"" can be a physical place where ""Krispy Kreme"" sells donuts, hence we can reconstruct the scenario: selling purpose: Krispy Kreme sells donuts in the location.
+Reconstruct the third scenario: based on the ""purpose: serve the community"" property of ""location"" and the ""form: food chain"" property of ""Krispy Kreme"", ""Krispy Kreme"" can establish a food chain in the ""location"" to serve the community, hence we can reconstruct the scenario: service purpose: Krispy Kreme establishes a food chain in the location.
+Identify decisive scenario: the scenario ""business purpose: Krispy Kreme operates in the location"" contributes the most to the relation ""ART: person use artifact"".
+Uncover potential relation: if we focus on another scenario ""service purpose: Krispy Kreme establishes a food chain in the location"", in the scenario, ""location"" is a physical place, ""Krispy Kreme"" is an organization, hence the relation between ""location"" and ""Krispy Kreme"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> location </e1> for my town that was recently abandoned by <e2> Krispy Kreme </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""Auburn's defensive"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""Auburn"" can be deconstructed into the several primary properties: form: educational institution, usage: provide education, purpose: develop knowledge; ""backfield"" can be deconstructed into the several primary properties: form: defensive unit, usage: defend against opponents, purpose: prevent scoring.
+Pair the properties between ""Auburn"" and ""backfield"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: provide education"" property of ""Auburn"" and the ""purpose: prevent scoring"" property of ""backfield"", ""Auburn"" can provide education to develop a strong defensive backfield to prevent scoring, hence we can reconstruct the scenario: education purpose: Auburn develops a strong defensive backfield.
+Reconstruct the second scenario: based on the ""form: educational institution"" property of ""Auburn"" and the ""usage: defend against opponents"" property of ""backfield"", ""Auburn"" as an educational institution, can have a defensive backfield to defend against opponents, hence we can reconstruct the scenario: defense purpose: Auburn's defensive backfield defends against opponents.
+Reconstruct the third scenario: based on the ""purpose: develop knowledge"" property of ""Auburn"" and the ""form: defensive unit"" property of ""backfield"", ""Auburn"" can use the backfield as a platform to develop knowledge in the field of defense, hence we can reconstruct the scenario: knowledge purpose: Auburn's backfield contributes to the development of defensive knowledge.
+Identify decisive scenario: the scenario ""defense purpose: Auburn's defensive backfield defends against opponents"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""knowledge purpose: Auburn's backfield contributes to the development of defensive knowledge"", in the scenario, ""Auburn"" is organization, ""backfield"" is artifact, hence the relation between ""Auburn"" and ""backfield"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> Auburn </e1> use the <e2> backfield </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""'s"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""UGA"" can be deconstructed into the several primary properties: form: educational institution, usage: provide education, purpose: knowledge dissemination; ""receivers"" can be deconstructed into the several primary properties: form: individuals, usage: receive information, purpose: gain knowledge.
+Pair the properties between ""UGA"" and ""receivers"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: provide education"" property of ""UGA"" and the ""purpose: gain knowledge"" property of ""receivers"", ""UGA"" can provide education to ""receivers"" for the purpose of gaining knowledge, hence we can reconstruct the scenario: education purpose: UGA provides education to receivers.
+Reconstruct the second scenario: based on the ""form: educational institution"" property of ""UGA"" and the ""usage: receive information"" property of ""receivers"", ""receivers"" can receive information from ""UGA"" as an educational institution, hence we can reconstruct the scenario: information purpose: receivers receive information from UGA.
+Reconstruct the third scenario: based on the ""purpose: knowledge dissemination"" property of ""UGA"" and the ""form: individuals"" property of ""receivers"", ""UGA"" can disseminate knowledge to individuals who are the receivers, hence we can reconstruct the scenario: knowledge purpose: UGA disseminates knowledge to receivers.
+Identify decisive scenario: the scenario ""education purpose: UGA provides education to receivers"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""information purpose: receivers receive information from UGA"", in the scenario, ""UGA"" is organization, ""receivers"" is person, hence the relation between ""UGA"" and ""receivers"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> UGA </e1> from the <e2> receivers </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""in the"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""authority"" can be deconstructed into the several primary properties: form: governing body, usage: exercise power, purpose: maintain order; ""country"" can be deconstructed into the several primary properties: form: geographical region, usage: provide governance, purpose: protect citizens.
+Pair the properties between ""authority"" and ""country"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: exercise power"" property of ""authority"" and the ""purpose: protect citizens"" property of ""country"", the ""authority"" can exercise power to protect citizens in the ""country"", hence we can reconstruct the scenario: governance purpose: authority exercises power in the country.
+Reconstruct the second scenario: based on the ""form: governing body"" property of ""authority"" and the ""usage: provide governance"" property of ""country"", the ""authority"" as a governing body can provide governance to the ""country"", hence we can reconstruct the scenario: governance purpose: authority provides governance to the country.
+Reconstruct the third scenario: based on the ""purpose: maintain order"" property of ""authority"" and the ""form: geographical region"" property of ""country"", the ""authority"" can maintain order in the ""country"" as a geographical region, hence we can reconstruct the scenario: order maintenance purpose: authority maintains order in the country.
+Identify decisive scenario: the scenario ""governance purpose: authority exercises power in the country"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""order maintenance purpose: authority maintains order in the country"", in the scenario, ""authority"" is person, ""country"" is location, hence the relation between ""authority"" and ""country"" is ""PHYS: person near location"".
+Replace causal words: to change the original relation to the potential one ""PHYS: person near location"", the identified causal words can be replaced with ""near"".
+Output: <e1> authority </e1> near the <e2> country </e2>
+New relation: PHYS: person near location"
+
+"Identify causal words: the context words ""affiliated with"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""Researchers"" can be deconstructed into the several primary properties: form: individuals, usage: conduct research, purpose: contribute to knowledge; ""clearinghouse"" can be deconstructed into the several primary properties: form: organization, usage: provide information, purpose: facilitate communication.
+Pair the properties between ""Researchers"" and ""clearinghouse"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: conduct research"" property of ""Researchers"" and the ""purpose: facilitate communication"" property of ""clearinghouse"", ""Researchers"" can be affiliated with ""clearinghouse"" to facilitate communication in conducting research, hence we can reconstruct the scenario: research purpose: Researchers affiliated with the clearinghouse.
+Reconstruct the second scenario: based on the ""form: individuals"" property of ""Researchers"" and the ""usage: provide information"" property of ""clearinghouse"", ""Researchers"" as individuals can be affiliated with ""clearinghouse"" to provide information, hence we can reconstruct the scenario: information purpose: Researchers affiliated with the clearinghouse.
+Reconstruct the third scenario: based on the ""purpose: contribute to knowledge"" property of ""Researchers"" and the ""form: organization"" property of ""clearinghouse"", ""Researchers"" can be affiliated with ""clearinghouse"" to contribute to knowledge, hence we can reconstruct the scenario: knowledge purpose: Researchers affiliated with the clearinghouse.
+Identify decisive scenario: the scenario ""research purpose: Researchers affiliated with the clearinghouse"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""information purpose: Researchers affiliated with the clearinghouse"", in the scenario, ""Researchers"" is person, ""clearinghouse"" is artifact, hence the relation between ""Researchers"" and ""clearinghouse"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> Researchers </e1> use the <e2> clearinghouse </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""cabinets to see if they comply with regulations"" are causally related to the relation ""ART: person use artifact"".
+Deconstruct entities: based on the attributes of the entities, ""gun"" can be deconstructed into the several primary properties: form: weapon, usage: protect, purpose: ensure safety; ""someone"" can be deconstructed into the several primary properties: form: human, usage: inspect, purpose: enforce regulations.
+Pair the properties between ""gun"" and ""someone"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: protect"" property of ""gun"" and the ""purpose: ensure safety"" property of ""someone"", ""someone"" can inspect ""gun"" to ensure its safety, hence we can reconstruct the scenario: inspection purpose: someone inspects the gun.
+Reconstruct the second scenario: based on the ""form: weapon"" property of ""gun"" and the ""usage: inspect"" property of ""someone"", ""someone"" can inspect the ""gun"" as part of their job, hence we can reconstruct the scenario: job purpose: someone inspects the gun.
+Reconstruct the third scenario: based on the ""purpose: ensure safety"" property of ""gun"" and the ""form: human"" property of ""someone"", ""someone"" can inspect the ""gun"" to ensure its safety, hence we can reconstruct the scenario: safety purpose: someone inspects the gun.
+Identify decisive scenario: the scenario ""inspection purpose: someone inspects the gun"" contributes the most to the relation ""ART: person use artifact"".
+Uncover potential relation: if we focus on another scenario ""job purpose: someone inspects the gun"", in the scenario, ""gun"" is artifact, ""someone"" is person, hence the relation between ""gun"" and ""someone"" is ""PHYS: person near location"".
+Replace causal words: to change the original relation to the potential one ""PHYS: person near location"", the identified causal words can be replaced with ""near"".
+Output: <e1> gun </e1> near the <e2> someone </e2>
+New relation: PHYS: person near location"
+
+"Identify causal words: the context words ""of"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""Joseph Britt"" can be deconstructed into the several primary properties: form: person, usage: live, purpose: establish identity; ""Kennesaw"" can be deconstructed into the several primary properties: form: region, usage: provide services, purpose: create community.
+Pair the properties between ""Joseph Britt"" and ""Kennesaw"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live"" property of ""Joseph Britt"" and the ""purpose: create community"" property of ""Kennesaw"", ""Joseph Britt"" can live in ""Kennesaw"" to contribute to the community, hence we can reconstruct the scenario: residency purpose: Joseph Britt lives in Kennesaw.
+Reconstruct the second scenario: based on the ""form: person"" property of ""Joseph Britt"" and the ""usage: provide services"" property of ""Kennesaw"", ""Joseph Britt"" as a person, can provide services to ""Kennesaw"", hence we can reconstruct the scenario: service purpose: Joseph Britt provides services to Kennesaw.
+Reconstruct the third scenario: based on the ""purpose: establish identity"" property of ""Joseph Britt"" and the ""form: region"" property of ""Kennesaw"", ""Joseph Britt"" can be from ""Kennesaw"" to establish his identity, hence we can reconstruct the scenario: origin purpose: Joseph Britt is from Kennesaw.
+Identify decisive scenario: the scenario ""origin purpose: Joseph Britt is from Kennesaw"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""service purpose: Joseph Britt provides services to Kennesaw"", in the scenario, ""Joseph Britt"" is person, ""Kennesaw"" is organization, hence the relation between ""Joseph Britt"" and ""Kennesaw"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> Joseph Britt </e1> for <e2> Kennesaw </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""that have poor"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""Companies"" can be deconstructed into the several primary properties: form: profit organization, usage: hire employee, purpose: make money; ""employee"" can be deconstructed into the several primary properties: form: human, usage: work for organization, purpose: earn a living.
+Pair the properties between ""Companies"" and ""employee"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: hire employee"" property of ""Companies"" and the ""purpose: earn a living"" property of ""employee"", ""Companies"" can hire ""employee"" to work for earning a living, hence we can reconstruct the scenario: employment purpose: Companies hire the employee.
+Reconstruct the second scenario: based on the ""form: profit organization"" property of ""Companies"" and the ""usage: work for organization"" property of ""employee"", ""Companies"" as a profit organization, can have ""employee"" working for them, hence we can reconstruct the scenario: work purpose: employee work for Companies.
+Reconstruct the third scenario: based on the ""purpose: make money"" property of ""Companies"" and the ""form: human"" property of ""employee"", ""Companies"" can exploit ""employee"" to make money, hence we can reconstruct the scenario: exploitation purpose: Companies exploit the employee.
+Identify decisive scenario: the scenario ""employment purpose: Companies hire the employee"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""exploitation purpose: Companies exploit the employee"", in the scenario, ""Companies"" is organization, ""employee"" is person, hence the relation between ""Companies"" and ""employee"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> Companies </e1> from the <e2> employee </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""enthusiastic about"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""investors"" can be deconstructed into the several primary properties: form: individuals, usage: invest money, purpose: gain profit; ""Martha Stewart Living"" can be deconstructed into the several primary properties: form: media company, usage: provide lifestyle content, purpose: entertain and inform.
+Pair the properties between ""investors"" and ""Martha Stewart Living"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: invest money"" property of ""investors"" and the ""purpose: entertain and inform"" property of ""Martha Stewart Living"", ""investors"" can invest money in ""Martha Stewart Living"" to support its purpose, hence we can reconstruct the scenario: investment purpose: investors invest in Martha Stewart Living.
+Reconstruct the second scenario: based on the ""form: individuals"" property of ""investors"" and the ""usage: provide lifestyle content"" property of ""Martha Stewart Living"", ""investors"" as individuals can consume the lifestyle content provided by ""Martha Stewart Living"", hence we can reconstruct the scenario: consumption purpose: investors consume Martha Stewart Living.
+Reconstruct the third scenario: based on the ""purpose: gain profit"" property of ""investors"" and the ""form: media company"" property of ""Martha Stewart Living"", ""investors"" can acquire ""Martha Stewart Living"" for profit-making purposes, hence we can reconstruct the scenario: acquisition purpose: investors acquire Martha Stewart Living.
+Identify decisive scenario: the scenario ""investment purpose: investors invest in Martha Stewart Living"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""consumption purpose: investors consume Martha Stewart Living"", in the scenario, ""investors"" is person, ""Martha Stewart Living"" is artifact, hence the relation between ""investors"" and ""Martha Stewart Living"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> investors </e1> use <e2> Martha Stewart Living </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""attended at"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""group"" can be deconstructed into the several primary properties: form: social unit, usage: gather, purpose: enjoy; ""Floyd 's Music Store"" can be deconstructed into the several primary properties: form: retail store, usage: sell music instruments, purpose: provide musical products.
+Pair the properties between ""group"" and ""Floyd 's Music Store"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: gather"" property of ""group"" and the ""purpose: provide musical products"" property of ""Floyd 's Music Store"", the group can gather at Floyd's Music Store to enjoy the musical products, hence we can reconstruct the scenario: gathering purpose: group gather at Floyd's Music Store.
+Reconstruct the second scenario: based on the ""form: social unit"" property of ""group"" and the ""usage: sell music instruments"" property of ""Floyd 's Music Store"", the group as a social unit can visit Floyd's Music Store to purchase music instruments, hence we can reconstruct the scenario: shopping purpose: group visit Floyd's Music Store.
+Reconstruct the third scenario: based on the ""purpose: enjoy"" property of ""group"" and the ""form: retail store"" property of ""Floyd 's Music Store"", the group can go to Floyd's Music Store to enjoy the retail store experience, hence we can reconstruct the scenario: experience purpose: group go to Floyd's Music Store.
+Identify decisive scenario: the scenario ""gathering purpose: group gather at Floyd's Music Store"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""shopping purpose: group visit Floyd's Music Store"", in the scenario, ""group"" is person, ""Floyd's Music Store"" is organization, hence the relation between ""group"" and ""Floyd's Music Store"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> group </e1> for the <e2> Floyd 's Music Store </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""to"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""speakers"" can be deconstructed into the several primary properties: form: audio equipment, usage: produce sound, purpose: convey information; ""campus"" can be deconstructed into the several primary properties: form: educational institution, usage: provide education, purpose: facilitate learning.
+Pair the properties between ""speakers"" and ""campus"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: produce sound"" property of ""speakers"" and the ""purpose: facilitate learning"" property of ""campus"", ""speakers"" can be used in the campus to produce sound for facilitating learning, hence we can reconstruct the scenario: education purpose: speakers are used in the campus.
+Reconstruct the second scenario: based on the ""form: audio equipment"" property of ""speakers"" and the ""usage: provide education"" property of ""campus"", ""speakers"" as audio equipment can be provided by the campus for education purposes, hence we can reconstruct the scenario: provision purpose: speakers are provided by the campus.
+Reconstruct the third scenario: based on the ""purpose: convey information"" property of ""speakers"" and the ""form: educational institution"" property of ""campus"", ""speakers"" can be used in the campus to convey information, hence we can reconstruct the scenario: communication purpose: speakers are used in the campus.
+Identify decisive scenario: the scenario ""education purpose: speakers are used in the campus"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""provision purpose: speakers are provided by the campus"", in the scenario, ""speakers"" is person, ""campus"" is organization, hence the relation between ""speakers"" and ""campus"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> speakers </e1> for the <e2> campus </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""own"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""his"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: indicate ownership, purpose: indicate possession; ""company"" can be deconstructed into the several primary properties: form: profit organization, usage: hire employee, purpose: make money.
+Pair the properties between ""his"" and ""company"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: indicate ownership"" property of ""his"" and the ""purpose: make money"" property of ""company"", ""his"" can indicate ownership of ""company"", hence we can reconstruct the scenario: ownership purpose: his own the company.
+Reconstruct the second scenario: based on the ""form: possessive pronoun"" property of ""his"" and the ""usage: hire employee"" property of ""company"", ""his"" as a possessive pronoun, can indicate ownership of ""company"", hence we can reconstruct the scenario: ownership purpose: his own the company.
+Reconstruct the third scenario: based on the ""purpose: indicate possession"" property of ""his"" and the ""form: profit organization"" property of ""company"", ""his"" can indicate possession of ""company"", hence we can reconstruct the scenario: possession purpose: his possess the company.
+Identify decisive scenario: the scenario ""ownership purpose: his own the company"" contribute the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""possession purpose: his possess the company"", in the scenario, ""his"" is person, ""company"" is artifact, hence the relation between ""his"" and ""company"" is ""ART: person use artifact""
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> his </e1> use the <e2> company </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""home"" and ""state"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""his"" can be deconstructed into the primary property: possession, and ""state"" can be deconstructed into the primary property: geographical location.
+Pair the properties between ""his"" and ""state"" to reconstruct the following scenario:
+Reconstruct the scenario: based on the ""possession"" property of ""his"" and the ""geographical location"" property of ""state"", ""his"" can be associated with the region where his home is located, hence we can reconstruct the scenario: ownership purpose: his home is from the state.
+Identify decisive scenario: the scenario ""ownership purpose: his home is from the state"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""residence purpose: his home is in the state"", in the scenario, ""his"" is person, ""state"" is location, hence the relation between ""his"" and ""state"" is ""PHYS: person near location"".
+Replace causal words: to change the original relation to the potential one ""PHYS: person near location"", the identified causal words can be replaced with ""near"".
+Output: <e1> his </e1> near the <e2> state </e2>
+New relation: PHYS: person near location"
+
+"Identify causal words: the context words ""of"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""governor"" can be deconstructed into the several primary properties: form: political position, usage: govern, purpose: lead; ""Syria"" can be deconstructed into the several primary properties: form: country, usage: govern, purpose: provide governance.
+Pair the properties between ""governor"" and ""Syria"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: govern"" property of ""governor"" and the ""purpose: provide governance"" property of ""Syria"", ""governor"" can govern ""Syria"" to provide governance, hence we can reconstruct the scenario: governance purpose: governor governs Syria.
+Reconstruct the second scenario: based on the ""form: political position"" property of ""governor"" and the ""usage: govern"" property of ""Syria"", ""governor"" as a political position, can be held by someone to govern ""Syria"", hence we can reconstruct the scenario: position purpose: governor holds the position of governor of Syria.
+Reconstruct the third scenario: based on the ""purpose: lead"" property of ""governor"" and the ""form: country"" property of ""Syria"", ""governor"" can lead ""Syria"" as a country, hence we can reconstruct the scenario: leadership purpose: governor leads Syria.
+Identify decisive scenario: the scenario ""position purpose: governor holds the position of governor of Syria"" contribute the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""leadership purpose: governor leads Syria"", in the scenario, ""governor"" is person, ""Syria"" is region, hence the relation between ""governor"" and ""Syria"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> governor </e1> from <e2> Syria </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""buys into"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""outsider"" can be deconstructed into the several primary properties: form: non-member, usage: invest, purpose: profit; ""business"" can be deconstructed into the several primary properties: form: profit organization, usage: attract investment, purpose: make money.
+Pair the properties between ""outsider"" and ""business"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: invest"" property of ""outsider"" and the ""purpose: make money"" property of ""business"", ""outsider"" can buy into ""business"" for the purpose of making money, hence we can reconstruct the scenario: investment purpose: outsider buys into the business.
+Reconstruct the second scenario: based on the ""form: non-member"" property of ""outsider"" and the ""usage: attract investment"" property of ""business"", ""business"" can attract investment from ""outsider"", hence we can reconstruct the scenario: attraction purpose: business attracts outsider's investment.
+Reconstruct the third scenario: based on the ""purpose: profit"" property of ""outsider"" and the ""form: profit organization"" property of ""business"", ""outsider"" can buy profit-making ""business"" to profit, hence we can reconstruct the scenario: acquisition purpose: outsider acquires the business.
+Identify decisive scenario: the scenario ""investment purpose: outsider buys into the business"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""acquisition purpose: outsider acquires the business"", in the scenario, ""outsider"" is person, ""business"" is artifact, hence the relation between ""outsider"" and ""business"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> outsider </e1> use the <e2> business </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""job at"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""her"" can be deconstructed into the several primary properties: form: female, usage: work, purpose: earn a living; ""factory"" can be deconstructed into the several primary properties: form: manufacturing facility, usage: produce goods, purpose: generate profit.
+Pair the properties between ""her"" and ""factory"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: work"" property of ""her"" and the ""purpose: generate profit"" property of ""factory"", ""her"" can work at ""factory"" to generate profit, hence we can reconstruct the scenario: work purpose: her works at the factory.
+Reconstruct the second scenario: based on the ""form: female"" property of ""her"" and the ""usage: produce goods"" property of ""factory"", ""her"" as a female, can produce goods at ""factory"", hence we can reconstruct the scenario: production purpose: her produces goods at the factory.
+Reconstruct the third scenario: based on the ""purpose: earn a living"" property of ""her"" and the ""form: manufacturing facility"" property of ""factory"", ""her"" can be employed by ""factory"" to earn a living, hence we can reconstruct the scenario: employment purpose: her is employed by the factory.
+Identify decisive scenario: the scenario ""work purpose: her works at the factory"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""production purpose: her produces goods at the factory"", in the scenario, ""her"" is person, ""factory"" is artifact, hence the relation between ""her"" and ""factory"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> her </e1> use the <e2> factory </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""opened fire with"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""lunatic"" can be deconstructed into the several primary properties: form: individual, usage: commit violent act, purpose: cause harm; ""courthouse"" can be deconstructed into the several primary properties: form: government building, usage: administer justice, purpose: maintain law and order.
+Pair the properties between ""lunatic"" and ""courthouse"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: commit violent act"" property of ""lunatic"" and the ""purpose: maintain law and order"" property of ""courthouse"", the lunatic can open fire with an AK-47 outside the courthouse to cause harm, hence we can reconstruct the scenario: violence purpose: lunatic opened fire with an AK-47 outside a Texas courthouse.
+Reconstruct the second scenario: based on the ""form: individual"" property of ""lunatic"" and the ""usage: administer justice"" property of ""courthouse"", the lunatic can be a defendant in a court case held in the courthouse, hence we can reconstruct the scenario: legal purpose: lunatic is involved in a court case at the Texas courthouse.
+Reconstruct the third scenario: based on the ""purpose: cause harm"" property of ""lunatic"" and the ""form: government building"" property of ""courthouse"", the lunatic can target the courthouse to cause harm and disrupt the functioning of the government, hence we can reconstruct the scenario: attack purpose: lunatic opened fire with an AK-47 outside a Texas courthouse to cause harm.
+Identify decisive scenario: the scenario ""violence purpose: lunatic opened fire with an AK-47 outside a Texas courthouse"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""legal purpose: lunatic is involved in a court case at the Texas courthouse"", in the scenario, ""lunatic"" is person, ""courthouse"" is organization, hence the relation between ""lunatic"" and ""courthouse"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> lunatic </e1> for the <e2> courthouse </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""of"" are causally related to the relation ""GEN-AFF: object from region"".
+Deconstruct entities: based on the attributes of the entities, ""guard"" can be deconstructed into the several primary properties: form: security personnel, usage: protect, purpose: maintain safety; ""Palestinians"" can be deconstructed into the several primary properties: form: ethnic group, usage: live, purpose: preserve culture.
+Pair the properties between ""guard"" and ""Palestinians"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: protect"" property of ""guard"" and the ""purpose: preserve culture"" property of ""Palestinians"", ""guard"" can protect the cultural heritage of ""Palestinians"", hence we can reconstruct the scenario: cultural preservation purpose: guard protects the Palestinians.
+Reconstruct the second scenario: based on the ""form: security personnel"" property of ""guard"" and the ""usage: live"" property of ""Palestinians"", ""guard"" as a security personnel, can provide security for the living of ""Palestinians"", hence we can reconstruct the scenario: security purpose: guard provides security for the Palestinians.
+Reconstruct the third scenario: based on the ""purpose: maintain safety"" property of ""guard"" and the ""form: ethnic group"" property of ""Palestinians"", ""guard"" can ensure the safety of the ethnic group ""Palestinians"", hence we can reconstruct the scenario: safety purpose: guard ensures the safety of the Palestinians.
+Identify decisive scenario: the scenario ""cultural preservation purpose: guard protects the Palestinians"" contributes the most to the relation ""GEN-AFF: object from region"".
+Uncover potential relation: if we focus on another scenario ""security purpose: guard provides security for the Palestinians"", in the scenario, ""guard"" is person, ""Palestinians"" is region, hence the relation between ""guard"" and ""Palestinians"" is ""PHYS: person near location"".
+Replace causal words: to change the original relation to the potential one ""PHYS: person near location"", the identified causal words can be replaced with ""near"".
+Output: <e1> guard </e1> near <e2> Palestinians </e2>
+New relation: PHYS: person near location"
+
+"Identify causal words: the context words ""hiring and subsequent firing of"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""their"" can be deconstructed into the several primary properties: form: possessive pronoun, usage: employ, purpose: manage; ""Harricks"" can be deconstructed into the several primary properties: form: family name, usage: work, purpose: contribute.
+Pair the properties between ""their"" and ""Harricks"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: employ"" property of ""their"" and the ""purpose: contribute"" property of ""Harricks"", ""their"" can employ ""Harricks"" to contribute, hence we can reconstruct the scenario: employment purpose: their employ Harricks.
+Reconstruct the second scenario: based on the ""form: possessive pronoun"" property of ""their"" and the ""usage: work"" property of ""Harricks"", ""their"" can possess and work with ""Harricks"", hence we can reconstruct the scenario: possession purpose: their possess Harricks.
+Reconstruct the third scenario: based on the ""purpose: manage"" property of ""their"" and the ""form: family name"" property of ""Harricks"", ""their"" can manage the family name ""Harricks"", hence we can reconstruct the scenario: management purpose: their manage Harricks.
+Identify decisive scenario: the scenario ""employment purpose: their employ Harricks"" contribute the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""possession purpose: their possess Harricks"", in the scenario, ""their"" is person, ""Harricks"" is artifact, hence the relation between ""their"" and ""Harricks"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> their </e1> use the <e2> Harricks </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""representing"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""groups"" can be deconstructed into the several primary properties: form: collective, usage: advocate for interests, purpose: support law enforcement; ""chiefs"" can be deconstructed into the several primary properties: form: individual, usage: lead organization, purpose: enforce law.
+Pair the properties between ""groups"" and ""chiefs"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: advocate for interests"" property of ""groups"" and the ""purpose: enforce law"" property of ""chiefs"", ""groups"" can represent ""chiefs"" to advocate for their interests in enforcing the law, hence we can reconstruct the scenario: representation purpose: groups represent chiefs.
+Reconstruct the second scenario: based on the ""form: collective"" property of ""groups"" and the ""usage: lead organization"" property of ""chiefs"", ""groups"" as a collective can lead ""chiefs"" in their respective organizations, hence we can reconstruct the scenario: leadership purpose: groups lead chiefs.
+Reconstruct the third scenario: based on the ""purpose: support law enforcement"" property of ""groups"" and the ""form: individual"" property of ""chiefs"", ""groups"" can support individual ""chiefs"" in their efforts to enforce the law, hence we can reconstruct the scenario: support purpose: groups support chiefs.
+Identify decisive scenario: the scenario ""representation purpose: groups represent chiefs"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""leadership purpose: groups lead chiefs"", in the scenario, ""groups"" is organization, ""chiefs"" is person, hence the relation between ""groups"" and ""chiefs"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> groups </e1> from Florida sheriffs , police <e2> chiefs </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""came to"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""Nazis"" can be deconstructed into the several primary properties: form: political group, usage: invade, purpose: gain power; ""hospital"" can be deconstructed into the several primary properties: form: medical facility, usage: provide healthcare, purpose: treat patients.
+Pair the properties between ""Nazis"" and ""hospital"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: invade"" property of ""Nazis"" and the ""purpose: treat patients"" property of ""hospital"", ""Nazis"" can invade the ""hospital"" to disrupt the healthcare services, hence we can reconstruct the scenario: invasion purpose: Nazis invade the hospital.
+Reconstruct the second scenario: based on the ""form: political group"" property of ""Nazis"" and the ""usage: provide healthcare"" property of ""hospital"", ""Nazis"" as a political group, can utilize the ""hospital"" to provide healthcare services to their members, hence we can reconstruct the scenario: utilization purpose: Nazis utilize the hospital.
+Reconstruct the third scenario: based on the ""purpose: gain power"" property of ""Nazis"" and the ""form: medical facility"" property of ""hospital"", ""Nazis"" can take control of the ""hospital"" to consolidate their power, hence we can reconstruct the scenario: control purpose: Nazis control the hospital.
+Identify decisive scenario: the scenario ""invasion purpose: Nazis invade the hospital"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""utilization purpose: Nazis utilize the hospital"", in the scenario, ""Nazis"" is person, ""hospital"" is organization, hence the relation between ""Nazis"" and ""hospital"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> Nazis </e1> for the <e2> hospital </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""of the young guard and the old"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""coalition"" can be deconstructed into the several primary properties: form: group, purpose: achieve common goals; ""guard"" can be deconstructed into the several primary properties: form: group, purpose: protect and defend.
+Pair the properties between ""coalition"" and ""guard"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""form: group"" property of ""coalition"" and the ""purpose: protect and defend"" property of ""guard"", the ""coalition"" can be formed by the ""guard"" to protect and defend, hence we can reconstruct the scenario: protection purpose: coalition formed by the guard.
+Reconstruct the second scenario: based on the ""purpose: achieve common goals"" property of ""coalition"" and the ""form: group"" property of ""guard"", the ""coalition"" can be formed by a group of individuals, including the ""guard"", to achieve common goals, hence we can reconstruct the scenario: organization purpose: coalition formed by the guard.
+Reconstruct the third scenario: based on the ""form: group"" property of ""coalition"" and the ""purpose: protect and defend"" property of ""guard"", the ""coalition"" can be formed by the ""guard"" to protect and defend, hence we can reconstruct the scenario: defense purpose: coalition formed by the guard.
+Identify decisive scenario: the scenario ""organization purpose: coalition formed by the guard"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""defense purpose: coalition formed by the guard"", in the scenario, ""coalition"" is person, ""guard"" is organization, hence the relation between ""coalition"" and ""guard"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> coalition </e1> from the young guard and the old <e2> guard </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""opened fire with"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""gunman"" can be deconstructed into the several primary properties: form: criminal, usage: commit crime, purpose: cause harm; ""mall"" can be deconstructed into the several primary properties: form: commercial establishment, usage: provide goods and services, purpose: generate profit.
+Pair the properties between ""gunman"" and ""mall"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: commit crime"" property of ""gunman"" and the ""purpose: generate profit"" property of ""mall"", the gunman can commit a crime inside the mall to disrupt its operations and cause harm, hence we can reconstruct the scenario: crime purpose: gunman opens fire with an assault rifle inside the mall.
+Reconstruct the second scenario: based on the ""form: criminal"" property of ""gunman"" and the ""usage: provide goods and services"" property of ""mall"", the gunman can target the mall as a criminal act to disrupt its operations and cause harm, hence we can reconstruct the scenario: criminal act purpose: gunman targets the mall.
+Reconstruct the third scenario: based on the ""purpose: cause harm"" property of ""gunman"" and the ""form: commercial establishment"" property of ""mall"", the gunman can cause harm inside the mall to disrupt its operations, hence we can reconstruct the scenario: harm purpose: gunman causes harm inside the mall.
+Identify decisive scenario: the scenario ""crime purpose: gunman opens fire with an assault rifle inside the mall"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""criminal act purpose: gunman targets the mall"", in the scenario, ""gunman"" is person, ""mall"" is organization, hence the relation between ""gunman"" and ""mall"" is ""ORG-AFF: person for organization"".
+Replace causal words: to change the original relation to the potential one ""ORG-AFF: person for organization"", the identified causal words can be replaced with ""for"".
+Output: <e1> gunman </e1> for the <e2> mall </e2>
+New relation: ORG-AFF: person for organization"
+
+"Identify causal words: the context words ""30 years of work in"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""her"" can be deconstructed into the several primary properties: form: female, usage: work, purpose: gain experience; ""Iraq"" can be deconstructed into the several primary properties: form: country, usage: provide opportunities, purpose: develop economy.
+Pair the properties between ""her"" and ""Iraq"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: work"" property of ""her"" and the ""purpose: develop economy"" property of ""Iraq"", ""her"" can work in ""Iraq"" to contribute to the development of the economy, hence we can reconstruct the scenario: work purpose: her works in Iraq.
+Reconstruct the second scenario: based on the ""form: female"" property of ""her"" and the ""usage: provide opportunities"" property of ""Iraq"", ""her"" as a female, can benefit from the opportunities provided by ""Iraq"", hence we can reconstruct the scenario: opportunity purpose: her benefits from Iraq.
+Reconstruct the third scenario: based on the ""purpose: gain experience"" property of ""her"" and the ""form: country"" property of ""Iraq"", ""her"" can travel to ""Iraq"" to gain experience, hence we can reconstruct the scenario: travel purpose: her travels to Iraq.
+Identify decisive scenario: the scenario ""work purpose: her works in Iraq"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""opportunity purpose: her benefits from Iraq"", in the scenario, ""her"" is person, ""Iraq"" is region, hence the relation between ""her"" and ""Iraq"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> her </e1> from <e2> Iraq </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""of a district"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""leader"" can be deconstructed into the several primary properties: form: individual, usage: lead, purpose: manage; ""organization"" can be deconstructed into the several primary properties: form: group, usage: operate, purpose: achieve goals.
+Pair the properties between ""leader"" and ""organization"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: lead"" property of ""leader"" and the ""purpose: achieve goals"" property of ""organization"", ""leader"" can lead the ""organization"" to achieve goals, hence we can reconstruct the scenario: leadership purpose: leader leads the organization.
+Reconstruct the second scenario: based on the ""form: individual"" property of ""leader"" and the ""usage: operate"" property of ""organization"", ""leader"" as an individual, can operate the ""organization"", hence we can reconstruct the scenario: operation purpose: leader operates the organization.
+Reconstruct the third scenario: based on the ""purpose: manage"" property of ""leader"" and the ""form: group"" property of ""organization"", ""leader"" can manage the ""organization"" as a group, hence we can reconstruct the scenario: management purpose: leader manages the organization.
+Identify decisive scenario: the scenario ""leadership purpose: leader leads the organization"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""operation purpose: leader operates the organization"", in the scenario, ""leader"" is person, ""organization"" is artifact, hence the relation between ""leader"" and ""organization"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> leader </e1> use a district <e2> organization </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""the right to shoot"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""people"" can be deconstructed into the several primary properties: form: human beings, usage: exercise rights, purpose: self-defense; ""place"" can be deconstructed into the several primary properties: form: physical location, usage: accommodate people, purpose: provide space.
+Pair the properties between ""people"" and ""place"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: exercise rights"" property of ""people"" and the ""purpose: provide space"" property of ""place"", ""people"" can exercise their rights in the ""place"" to ensure self-defense, hence we can reconstruct the scenario: self-defense purpose: people exercise their rights in the place.
+Reconstruct the second scenario: based on the ""form: human beings"" property of ""people"" and the ""usage: accommodate people"" property of ""place"", ""people"" as human beings can be accommodated in the ""place"", hence we can reconstruct the scenario: accommodation purpose: people are accommodated in the place.
+Reconstruct the third scenario: based on the ""purpose: self-defense"" property of ""people"" and the ""form: physical location"" property of ""place"", ""people"" can use the ""place"" for self-defense, hence we can reconstruct the scenario: self-defense purpose: people use the place.
+Identify decisive scenario: the scenario ""self-defense purpose: people exercise their rights in the place"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""self-defense purpose: people use the place"", in the scenario, ""people"" is person, ""place"" is artifact, hence the relation between ""people"" and ""place"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> people </e1> use the right to shoot an attacker in a public <e2> place </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""south of"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""anyone"" can be deconstructed into the several primary properties: form: human, usage: live, purpose: survive; ""Boston"" can be deconstructed into the several primary properties: form: city, usage: attract tourists, purpose: thrive economically.
+Pair the properties between ""anyone"" and ""Boston"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live"" property of ""anyone"" and the ""purpose: thrive economically"" property of ""Boston"", ""anyone"" can live in ""Boston"" to thrive economically, hence we can reconstruct the scenario: residence purpose: anyone lives south of Boston.
+Reconstruct the second scenario: based on the ""form: human"" property of ""anyone"" and the ""usage: attract tourists"" property of ""Boston"", ""anyone"" as a human, can attract tourists to ""Boston"", hence we can reconstruct the scenario: tourism purpose: anyone attracts tourists to Boston.
+Reconstruct the third scenario: based on the ""purpose: survive"" property of ""anyone"" and the ""form: city"" property of ""Boston"", ""anyone"" can seek refuge in ""Boston"" to survive, hence we can reconstruct the scenario: refuge purpose: anyone seeks refuge south of Boston.
+Identify decisive scenario: the scenario ""residence purpose: anyone lives south of Boston"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""tourism purpose: anyone attracts tourists to Boston"", in the scenario, ""anyone"" is person, ""Boston"" is region, hence the relation between ""anyone"" and ""Boston"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> anyone </e1> from the <e2> Boston </e2>
+New relation: GEN-AFF: object from region"
+
+"Identify causal words: the context words ""had decided to stay"" are causally related to the relation ""PHYS: person near location"".
+Deconstruct entities: based on the attributes of the entities, ""girls"" can be deconstructed into the several primary properties: form: human, usage: live, purpose: safety; ""home"" can be deconstructed into the several primary properties: form: building, usage: provide shelter, purpose: comfort.
+Pair the properties between ""girls"" and ""home"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: live"" property of ""girls"" and the ""purpose: comfort"" property of ""home"", ""girls"" can stay at ""home"" for comfort, hence we can reconstruct the scenario: comfort purpose: girls stay at home.
+Reconstruct the second scenario: based on the ""form: human"" property of ""girls"" and the ""usage: provide shelter"" property of ""home"", ""girls"" as humans, can seek shelter in ""home"", hence we can reconstruct the scenario: shelter purpose: girls seek shelter in the home.
+Reconstruct the third scenario: based on the ""purpose: safety"" property of ""girls"" and the ""form: building"" property of ""home"", ""girls"" can stay at ""home"" for safety, hence we can reconstruct the scenario: safety purpose: girls stay at home.
+Identify decisive scenario: the scenario ""safety purpose: girls stay at home"" contributes the most to the relation ""PHYS: person near location"".
+Uncover potential relation: if we focus on another scenario ""comfort purpose: girls stay at home"", in the scenario, ""girls"" is person, ""home"" is artifact, hence the relation between ""girls"" and ""home"" is ""ART: person use artifact"".
+Replace causal words: to change the original relation to the potential one ""ART: person use artifact"", the identified causal words can be replaced with ""use"".
+Output: <e1> girls </e1> use the <e2> home </e2>
+New relation: ART: person use artifact"
+
+"Identify causal words: the context words ""owned heavily by"" are causally related to the relation ""ORG-AFF: person for organization"".
+Deconstruct entities: based on the attributes of the entities, ""it"" can be deconstructed into the several primary properties: form: object, usage: owned, purpose: provide value; ""everyone"" can be deconstructed into the several primary properties: form: group of people, usage: own, purpose: benefit.
+Pair the properties between ""it"" and ""everyone"" to reconstruct the following three scenarios:
+Reconstruct the first scenario: based on the ""usage: owned"" property of ""it"" and the ""purpose: benefit"" property of ""everyone"", ""it"" can be heavily owned by ""everyone"" for their benefit, hence we can reconstruct the scenario: ownership purpose: it is heavily owned by everyone.
+Reconstruct the second scenario: based on the ""form: object"" property of ""it"" and the ""usage: own"" property of ""everyone"", ""it"" can be an object that is owned by ""everyone"", hence we can reconstruct the scenario: possession purpose: it is owned by everyone.
+Reconstruct the third scenario: based on the ""purpose: provide value"" property of ""it"" and the ""form: group of people"" property of ""everyone"", ""it"" can be an entity that is owned heavily by a group of people to provide value, hence we can reconstruct the scenario: collective ownership purpose: it is owned heavily by everyone.
+Identify decisive scenario: the scenario ""ownership purpose: it is heavily owned by everyone"" contributes the most to the relation ""ORG-AFF: person for organization"".
+Uncover potential relation: if we focus on another scenario ""possession purpose: it is owned by everyone"", in the scenario, ""it"" is object, ""everyone"" is person, hence the relation between ""it"" and ""everyone"" is ""GEN-AFF: object from region"".
+Replace causal words: to change the original relation to the potential one ""GEN-AFF: object from region"", the identified causal words can be replaced with ""from"".
+Output: <e1> it </e1> 's owned heavily from <e2> everyone </e2>
+New relation: GEN-AFF: object from region"
+

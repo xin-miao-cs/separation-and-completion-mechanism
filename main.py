@@ -10,10 +10,10 @@ from data import Dataset, Saver
 
 
 TASK_DATASET_MAPPING = {
+    "episodic_semeval": "semeval",
+    "ace2005": "ace2005",
     "tacred_per": "tacred",
     "tacred_org": "tacred",
-    "re-tacred_per": "re-tacred",
-    "re-tacred_org": "re-tacred"
 }
 
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     parser.add_argument("--tolerance", default=3, type=int)
 
     parser.add_argument("--folder", default="data", type=str)
-    parser.add_argument("--task", default="re-tacred_org", type=str)
-    parser.add_argument("--setting", default="0.1", type=str)
-    parser.add_argument("--dataset", default="train-0.1.json", type=str)
+    parser.add_argument("--task", default="episodic_semeval", type=str)
+    parser.add_argument("--setting", default="0.03", type=str)
+    parser.add_argument("--dataset", default="train-0.03.json", type=str)
     main(parser.parse_args())
