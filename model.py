@@ -7,7 +7,7 @@ class GPT(object):
                  model,
                  max_tokens,
                  temperature,
-                 api_key="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"):
+                 api_key="xxx"):
         self.model = model
         self.max_tokens = max_tokens
         self.temperature = temperature
